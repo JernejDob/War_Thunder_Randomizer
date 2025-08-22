@@ -5,103 +5,528 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>War Thunder Lineup Generator</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-      margin: 0; padding: 0; height: 100vh; display: flex; flex-direction: row;
-      background: #1e1e1e; color: #f0f0f0; font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 50%, #0f0f0f 100%);
+      color: #f0f0f0;
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.5;
     }
+
+    .container {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+
+    .main-content {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+    }
+
     .result {
-      flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center;
-      text-align: center; padding: 20px; overflow-y: auto;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      text-align: center;
+      padding: 20px;
+      overflow-y: auto;
+      background: rgba(255, 255, 255, 0.02);
+      backdrop-filter: blur(10px);
+      border-radius: 12px;
+      margin: 10px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
     }
-    .result h2 { margin: 0 0 12px; font-size: 2rem; }
-    #vehicleIcon { display: none; margin-top: 12px; max-width: 220px; max-height: 220px; }
 
-    .lineup { margin-top: 14px; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 10px; width: 100%; max-width: 1000px; }
-    .lineup-item { background: #171717; border: 1px solid #2a2a2a; border-radius: 10px; padding: 10px; text-align: left; }
-    .lineup-item img { height: 36px; vertical-align: middle; margin-right: 8px; display: inline-block; }
-    .lineup-item .title { font-weight: 600; }
-    .muted { color: #bdbdbd; font-size: 0.95rem; }
-
-    /* Sidebar for lineup */
-    .lineup-sidebar {
-      width: 280px; background: #0e0e0e; border-left: 2px solid #333; padding: 20px;
-      display: flex; flex-direction: column; justify-content: flex-start; gap: 12px;
+    .result h2 {
+      margin: 0 0 20px;
+      font-size: clamp(1.5rem, 4vw, 2.5rem);
+      font-weight: 700;
+      background: linear-gradient(45deg, #4fc3f7, #29b6f6, #0288d1);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      text-shadow: 0 0 30px rgba(79, 195, 247, 0.5);
     }
-    .lineup-sidebar h3 { margin-top: 0; }
 
-    /* Bottom filters */
+    #vehicleIcon {
+      display: none;
+      margin: 20px 0;
+      max-width: min(220px, 80vw);
+      max-height: 220px;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+      transition: transform 0.3s ease;
+    }
+
+    #vehicleIcon:hover {
+      transform: scale(1.05);
+    }
+
+    .lineup {
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+      width: 100%;
+      max-width: 1200px;
+    }
+
+    .lineup-item {
+      background: linear-gradient(135deg, rgba(23, 23, 23, 0.9) 0%, rgba(45, 45, 45, 0.9) 100%);
+      border: 1px solid rgba(79, 195, 247, 0.3);
+      border-radius: 16px;
+      padding: 20px;
+      text-align: left;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      backdrop-filter: blur(10px);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .lineup-item::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, #4fc3f7, #29b6f6, #0288d1);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .lineup-item:hover {
+      transform: translateY(-4px);
+      border-color: rgba(79, 195, 247, 0.6);
+      box-shadow: 0 12px 32px rgba(79, 195, 247, 0.2);
+    }
+
+    .lineup-item:hover::before {
+      opacity: 1;
+    }
+
+    .lineup-item img {
+      height: 48px;
+      width: 48px;
+      object-fit: cover;
+      vertical-align: middle;
+      margin-right: 12px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .lineup-item .title {
+      font-weight: 600;
+      font-size: 1.1rem;
+      color: #fff;
+    }
+
+    .muted {
+      color: #b0b0b0;
+      font-size: 0.9rem;
+      margin-top: 4px;
+    }
+
+    .sidebar {
+      background: linear-gradient(180deg, rgba(14, 14, 14, 0.95) 0%, rgba(20, 20, 20, 0.95) 100%);
+      backdrop-filter: blur(20px);
+      padding: 24px;
+      border-radius: 16px;
+      margin: 10px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+      border: 1px solid rgba(79, 195, 247, 0.2);
+    }
+
+    .sidebar h3 {
+      margin: 0 0 16px;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #4fc3f7;
+    }
+
+    .sidebar label {
+      display: block;
+      margin: 8px 0;
+      cursor: pointer;
+      transition: color 0.2s ease;
+      user-select: none;
+    }
+
+    .sidebar label:hover {
+      color: #4fc3f7;
+    }
+
+    .sidebar input[type="checkbox"] {
+      margin-right: 8px;
+      accent-color: #4fc3f7;
+      transform: scale(1.1);
+    }
+
+    .sidebar input[type="range"] {
+      width: 100%;
+      margin: 8px 0;
+      accent-color: #4fc3f7;
+      background: rgba(79, 195, 247, 0.1);
+      border-radius: 4px;
+    }
+
     .filters {
-      position: fixed; bottom: 0; left: 0; right: 280px;  /* leave room for sidebar */
-      padding: 20px; background: #111; border-top: 2px solid #333; text-align: center;
+      background: linear-gradient(180deg, rgba(17, 17, 17, 0.95) 0%, rgba(25, 25, 25, 0.95) 100%);
+      backdrop-filter: blur(20px);
+      padding: 20px;
+      border-radius: 16px 16px 0 0;
+      border: 1px solid rgba(79, 195, 247, 0.2);
+      border-bottom: none;
+      text-align: center;
     }
-    .filters h3 { margin: 10px 0 8px; font-weight: 600; }
-    .filters label { margin: 4px 8px; display: inline-block; }
-    button {
-      padding: 10px 16px; font-size: 1rem; cursor: pointer; border-radius: 8px; border: none;
-      background: #0078d7; color: white;
-    }
-    button:hover { background: #005a9e; }
 
-    .slider-row { display: flex; align-items: center; justify-content: center; gap: 10px; margin: 8px 0; }
-    .slider-row input[type=range] { width: 380px; }
-    .slider-value { min-width: 48px; text-align: left; }
+    .filters h3 {
+      margin: 16px 0 12px;
+      font-weight: 600;
+      color: #4fc3f7;
+      font-size: 1.1rem;
+    }
+
+    .filter-group {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      margin: 12px 0;
+    }
+
+    .filter-group label {
+      display: inline-flex;
+      align-items: center;
+      padding: 8px 12px;
+      background: rgba(79, 195, 247, 0.1);
+      border: 1px solid rgba(79, 195, 247, 0.3);
+      border-radius: 20px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      user-select: none;
+      font-size: 0.9rem;
+    }
+
+    .filter-group label:hover {
+      background: rgba(79, 195, 247, 0.2);
+      border-color: rgba(79, 195, 247, 0.5);
+    }
+
+    .filter-group input[type="checkbox"] {
+      margin-right: 6px;
+      accent-color: #4fc3f7;
+    }
+
+    button {
+      padding: 12px 24px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      border-radius: 12px;
+      border: none;
+      background: linear-gradient(45deg, #4fc3f7, #29b6f6);
+      color: white;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      box-shadow: 0 4px 16px rgba(79, 195, 247, 0.3);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin: 8px 4px;
+      min-width: 140px;
+    }
+
+    button:hover {
+      background: linear-gradient(45deg, #29b6f6, #0288d1);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(79, 195, 247, 0.4);
+    }
+
+    button:active {
+      transform: translateY(0);
+    }
+
+    .slider-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 12px 0;
+      flex-wrap: wrap;
+    }
+
+    .slider-row span {
+      font-weight: 500;
+      color: #b0b0b0;
+      min-width: 60px;
+    }
+
+    .slider-row input[type="range"] {
+      flex: 1;
+      min-width: 120px;
+    }
+
+    .slider-value {
+      min-width: 40px;
+      text-align: center;
+      font-weight: 600;
+      color: #4fc3f7;
+      background: rgba(79, 195, 247, 0.1);
+      padding: 4px 8px;
+      border-radius: 6px;
+    }
+
+    .size-control {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 16px 0;
+    }
+
+    .size-control span {
+      font-weight: 500;
+      color: #b0b0b0;
+    }
+
+    .size-value {
+      font-weight: 600;
+      color: #4fc3f7;
+      background: rgba(79, 195, 247, 0.1);
+      padding: 4px 12px;
+      border-radius: 20px;
+      min-width: 32px;
+      text-align: center;
+    }
+
+    /* Mobile Styles */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .main-content {
+        flex-direction: column;
+      }
+
+      .result {
+        order: 1;
+        margin: 5px;
+        padding: 16px;
+      }
+
+      .sidebar {
+        order: 2;
+        margin: 5px;
+        padding: 16px;
+      }
+
+      .filters {
+        order: 3;
+        margin: 5px;
+        padding: 16px;
+        border-radius: 16px;
+        border: 1px solid rgba(79, 195, 247, 0.2);
+      }
+
+      .lineup {
+        grid-template-columns: 1fr;
+        gap: 12px;
+      }
+
+      .lineup-item {
+        padding: 16px;
+      }
+
+      .filter-group {
+        gap: 8px;
+      }
+
+      .filter-group label {
+        font-size: 0.8rem;
+        padding: 6px 10px;
+      }
+
+      .slider-row {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .slider-row input[type="range"] {
+        width: 100%;
+      }
+
+      button {
+        width: 100%;
+        margin: 4px 0;
+      }
+
+      .result h2 {
+        font-size: 1.5rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .result {
+        padding: 12px;
+      }
+
+      .sidebar, .filters {
+        padding: 12px;
+      }
+
+      .lineup-item {
+        padding: 12px;
+      }
+
+      .lineup-item img {
+        height: 40px;
+        width: 40px;
+      }
+
+      .filter-group label {
+        font-size: 0.75rem;
+        padding: 4px 8px;
+      }
+    }
+
+    /* Desktop Styles */
+    @media (min-width: 769px) {
+      .container {
+        flex-direction: row;
+        height: 100vh;
+      }
+
+      .main-content {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+      }
+
+      .result {
+        flex: 1;
+        margin: 10px 0 10px 10px;
+      }
+
+      .sidebar {
+        width: 300px;
+        margin: 10px;
+        height: fit-content;
+        max-height: calc(100vh - 20px);
+        overflow-y: auto;
+        order: 2;
+      }
+
+      .filters {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 320px;
+        margin: 0;
+        border-radius: 0;
+        border-top: 1px solid rgba(79, 195, 247, 0.2);
+      }
+    }
+
+    /* Loading animation */
+    @keyframes pulse {
+      0%, 100% { opacity: 0.6; }
+      50% { opacity: 1; }
+    }
+
+    .loading {
+      animation: pulse 2s infinite;
+    }
+
+    /* Scrollbar styling */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: rgba(0, 0, 0, 0.2);
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: rgba(79, 195, 247, 0.5);
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgba(79, 195, 247, 0.7);
+    }
   </style>
 </head>
 <body>
+  <div class="container">
+    <div class="main-content">
+      <div class="result" id="resultArea">
+        <h2 id="vehicleName">Your vehicle will appear here</h2>
+        <img id="vehicleIcon" alt="Vehicle image/icon">
+        <div id="lineupContainer" class="lineup"></div>
+      </div>
 
-  <div class="result" id="resultArea">
-    <h2 id="vehicleName">Your vehicle will appear here</h2>
-    <img id="vehicleIcon" alt="Vehicle image/icon">
-    <div id="lineupContainer" class="lineup"></div>
-  </div>
+      <div class="sidebar">
+        <h3>Lineup Options</h3>
+        <div class="size-control">
+          <span>Lineup size:</span>
+          <input type="range" id="lineupSize" min="3" max="10" value="5">
+          <span class="size-value" id="lineupSizeVal">5</span>
+        </div>
 
-  <div class="lineup-sidebar">
-    <h3>Lineup Options</h3>
-    <label>Lineup size: <span id="lineupSizeVal">5</span></label>
-    <input type="range" id="lineupSize" min="3" max="10" value="5">
+        <h3>Allow in lineup</h3>
+        <label><input type="checkbox" id="allowPlanes" checked> Planes</label>
+        <label><input type="checkbox" id="allowHelis" checked> Helicopters</label>
 
-    <h3>Allow in lineup</h3>
-    <label><input type="checkbox" id="allowPlanes" checked> Planes</label>
-    <label><input type="checkbox" id="allowHelis" checked> Helicopters</label>
-
-    <button id="lineupGo">Generate Lineup</button>
-    <hr>
-    <button id="pickBtn">Pick Random Vehicle</button>
-  </div>
-
-  <div class="filters">
-    <h3>Filter Nations</h3>
-    <div>
-      <label><input type="checkbox" value="usa" checked> USA</label>
-      <label><input type="checkbox" value="germany" checked> Germany</label>
-      <label><input type="checkbox" value="ussr" checked> USSR</label>
-      <label><input type="checkbox" value="japan" checked> Japan</label>
-      <label><input type="checkbox" value="britain" checked> Britain</label>
-      <label><input type="checkbox" value="italy" checked> Italy</label>
-      <label><input type="checkbox" value="france" checked> France</label>
-      <label><input type="checkbox" value="china" checked> China</label>
-      <label><input type="checkbox" value="sweden" checked> Sweden</label>
-      <label><input type="checkbox" value="israel" checked> Israel</label>
-    </div>
-    <h3>Filter Types</h3>
-    <div>
-    <label><input type="checkbox" id="chkTanks" value="Tank" checked> Tanks</label>
-    <label><input type="checkbox" id="chkPlanes" value="Plane" checked> Planes</label>
-    <label><input type="checkbox" id="chkHelis" value="Helicopter" checked> Helicopters</label>
-    <label><input type="checkbox" id="chkCoastal" value="Coastal Fleet" checked> Coastal Fleet</label>
-    <label><input type="checkbox" id="chkBluewater" value="Bluewater Fleet" checked> Bluewater Fleet</label>
+        <button id="lineupGo">Generate Lineup</button>
+        <hr style="border: 1px solid rgba(79, 195, 247, 0.2); margin: 20px 0;">
+        <button id="pickBtn">Pick Random Vehicle</button>
+      </div>
     </div>
 
-    <h3>Battle Rating Range</h3>
-    <div class="slider-row">
-      <span>Min BR:</span>
-      <input type="range" id="brMin" min="1.0" max="14.0" step="0.1" value="1.0">
-      <span class="slider-value" id="brMinVal">1.0</span>
-    </div>
-    <div class="slider-row">
-      <span>Max BR:</span>
-      <input type="range" id="brMax" min="1.0" max="14.0" step="0.1" value="14.0">
-      <span class="slider-value" id="brMaxVal">14.0</span>
+    <div class="filters">
+      <h3>Filter Nations</h3>
+      <div class="filter-group">
+        <label><input type="checkbox" value="usa" checked> USA</label>
+        <label><input type="checkbox" value="germany" checked> Germany</label>
+        <label><input type="checkbox" value="ussr" checked> USSR</label>
+        <label><input type="checkbox" value="japan" checked> Japan</label>
+        <label><input type="checkbox" value="britain" checked> Britain</label>
+        <label><input type="checkbox" value="italy" checked> Italy</label>
+        <label><input type="checkbox" value="france" checked> France</label>
+        <label><input type="checkbox" value="china" checked> China</label>
+        <label><input type="checkbox" value="sweden" checked> Sweden</label>
+        <label><input type="checkbox" value="israel" checked> Israel</label>
+      </div>
+      
+      <h3>Filter Types</h3>
+      <div class="filter-group">
+        <label><input type="checkbox" id="chkTanks" value="Tank" checked> Tanks</label>
+        <label><input type="checkbox" id="chkPlanes" value="Plane" checked> Planes</label>
+        <label><input type="checkbox" id="chkHelis" value="Helicopter" checked> Helicopters</label>
+        <label><input type="checkbox" id="chkCoastal" value="Coastal Fleet" checked> Coastal Fleet</label>
+        <label><input type="checkbox" id="chkBluewater" value="Bluewater Fleet" checked> Bluewater Fleet</label>
+      </div>
+
+      <h3>Battle Rating Range</h3>
+      <div class="slider-row">
+        <span>Min BR:</span>
+        <input type="range" id="brMin" min="1.0" max="14.0" step="0.1" value="1.0">
+        <span class="slider-value" id="brMinVal">1.0</span>
+      </div>
+      <div class="slider-row">
+        <span>Max BR:</span>
+        <input type="range" id="brMax" min="1.0" max="14.0" step="0.1" value="14.0">
+        <span class="slider-value" id="brMaxVal">14.0</span>
+      </div>
     </div>
   </div>
 
@@ -135,6 +560,15 @@
       .concat(helis.filter(ok).map(v=>normalizeType(v,"helicopters")))
       .concat(coastal.filter(ok).map(v=>normalizeType(v,"coastal")))
       .concat(bluewater.filter(ok).map(v=>normalizeType(v,"bluewater")));
+  })
+  .catch(err => {
+    console.log('Loading demo data...');
+    // Demo data for testing
+    vehicles = [
+      {name: "M1 Abrams", nation: "usa", br: 10.3, type: "Tank", icon: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' fill='%23333'/%3E%3Ctext x='24' y='28' text-anchor='middle' fill='white' font-size='12'%3ETank%3C/text%3E%3C/svg%3E"},
+      {name: "F-16C", nation: "usa", br: 12.0, type: "Plane", icon: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' fill='%23666'/%3E%3Ctext x='24' y='28' text-anchor='middle' fill='white' font-size='10'%3EPlane%3C/text%3E%3C/svg%3E"},
+      {name: "AH-64D", nation: "usa", br: 11.0, type: "Helicopter", icon: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' fill='%23999'/%3E%3Ctext x='24' y='28' text-anchor='middle' fill='white' font-size='10'%3EHeli%3C/text%3E%3C/svg%3E"}
+    ];
   });
 
   const brSteps=[1.0,1.3,1.7,2.0,2.3,2.7,3.0,3.3,3.7,4.0,4.3,4.7,5.0,5.3,5.7,6.0,6.3,6.7,7.0,7.3,7.7,8.0,8.3,8.7,9.0,9.3,9.7,10.0,10.3,10.7,11.0,11.3,11.7,12.0,12.3,12.7,13.0,13.3,13.7,14.0];
@@ -157,113 +591,106 @@
     if (document.getElementById('chkCoastal').checked) selectedTypes.push('Coastal Fleet');
     if (document.getElementById('chkBluewater').checked) selectedTypes.push('Bluewater Fleet');
 
-
     const pool=vehicles.filter(v => selectedTypes.includes(v.type));
     if(pool.length===0){document.getElementById('vehicleName').textContent='No vehicles available';return;}
     const v=pool[Math.floor(Math.random()*pool.length)];
     showSingle(v);
-    }
+  }
 
   function showSingle(v){
-document.getElementById('vehicleName').textContent=`${v.name} (${v.type}, Nation: ${v.nation}, BR ${formatBR(v.br)})`;
-const imgEl=document.getElementById('vehicleIcon');
-imgEl.src=v.icon; imgEl.style.display="block";
-document.getElementById('lineupContainer').innerHTML="";
-}
-
-function generateLineup(){
-  const size = parseInt(document.getElementById('lineupSize').value);
-  const allowPlanes = document.getElementById('allowPlanes').checked;
-  const allowHelis = document.getElementById('allowHelis').checked;
-  const lineupBox = document.getElementById('lineupContainer');
-  const nameEl = document.getElementById('vehicleName');
-  document.getElementById('vehicleIcon').style.display = "none";
-
-  const minBR = parseFloat(brMin.value);
-  const maxBR = parseFloat(brMax.value);
-
-  // Get selected nations
-  const selectedNations = Array.from(document.querySelectorAll('.filters input[type=checkbox]'))
-    .filter(c => c.checked && !['Plane','Tank','Helicopter','Coastal Fleet','Bluewater Fleet'].includes(c.value))
-    .map(c => c.value);
-
-  if (vehicles.length === 0) {
-    nameEl.textContent = "Loading vehicle data...";
-    return;
+    document.getElementById('vehicleName').innerHTML=`<strong>${v.name}</strong><br><span style="font-size: 1.2rem; font-weight: 400; color: #b0b0b0;">${v.type} • ${v.nation.toUpperCase()} • BR ${formatBR(v.br)}</span>`;
+    const imgEl=document.getElementById('vehicleIcon');
+    imgEl.src=v.icon; imgEl.style.display="block";
+    document.getElementById('lineupContainer').innerHTML="";
   }
 
-  // Step 1: pick random nation from checked nations
-  const nation = selectedNations[Math.floor(Math.random() * selectedNations.length)];
+  function generateLineup(){
+    const size = parseInt(document.getElementById('lineupSize').value);
+    const allowPlanes = document.getElementById('allowPlanes').checked;
+    const allowHelis = document.getElementById('allowHelis').checked;
+    const lineupBox = document.getElementById('lineupContainer');
+    const nameEl = document.getElementById('vehicleName');
+    document.getElementById('vehicleIcon').style.display = "none";
 
-  // Step 2: pick a random BR within the chosen nation’s available BRs
-  const brs = [...new Set(vehicles
-    .filter(v => v.nation === nation && v.br >= minBR && v.br <= maxBR && ["Tank","Plane","Helicopter"].includes(v.type))
-    .map(v => v.br)
-  )];
+    const minBR = parseFloat(brMin.value);
+    const maxBR = parseFloat(brMax.value);
 
-  if (brs.length === 0) {
-    nameEl.textContent = `No vehicles available for ${nation} in this BR range.`;
-    return;
-  }
+    const selectedNations = Array.from(document.querySelectorAll('.filters input[type=checkbox]'))
+      .filter(c => c.checked && !['Plane','Tank','Helicopter','Coastal Fleet','Bluewater Fleet'].includes(c.value))
+      .map(c => c.value);
 
-  const chosenBR = brs[Math.floor(Math.random() * brs.length)];
-
-  // Step 3: collect all vehicles for that nation & BR window (±0.3)
-  const pool = vehicles.filter(v =>
-    v.nation === nation &&
-    v.br >= chosenBR - 0.3 &&
-    v.br <= chosenBR + 0.3 &&
-    ["Tank","Plane","Helicopter"].includes(v.type)
-  );
-
-  if (pool.length === 0) {
-    nameEl.textContent = "No vehicles found for that selection.";
-    return;
-  }
-
-  let lineup = [];
-
-  // Step 4: always add 1 plane if allowed
-  if (allowPlanes) {
-    const planes = pool.filter(v => v.type === "Plane");
-    if (planes.length > 0) {
-      lineup.push(planes[Math.floor(Math.random() * planes.length)]);
+    if (vehicles.length === 0) {
+      nameEl.innerHTML = '<span class="loading">Loading vehicle data...</span>';
+      return;
     }
-  }
 
-  // Step 5: always add 1 heli if BR ≥ 8 and allowed
-  if (allowHelis && chosenBR >= 8) {
-    const helis = pool.filter(v => v.type === "Helicopter");
-    if (helis.length > 0) {
-      lineup.push(helis[Math.floor(Math.random() * helis.length)]);
+    const nation = selectedNations[Math.floor(Math.random() * selectedNations.length)];
+
+    const brs = [...new Set(vehicles
+      .filter(v => v.nation === nation && v.br >= minBR && v.br <= maxBR && ["Tank","Plane","Helicopter"].includes(v.type))
+      .map(v => v.br)
+    )];
+
+    if (brs.length === 0) {
+      nameEl.innerHTML = `<span style="color: #ff6b6b;">No vehicles available for ${nation.toUpperCase()} in this BR range.</span>`;
+      return;
     }
+
+    const chosenBR = brs[Math.floor(Math.random() * brs.length)];
+
+    const pool = vehicles.filter(v =>
+      v.nation === nation &&
+      v.br >= chosenBR - 0.3 &&
+      v.br <= chosenBR + 0.3 &&
+      ["Tank","Plane","Helicopter"].includes(v.type)
+    );
+
+    if (pool.length === 0) {
+      nameEl.innerHTML = '<span style="color: #ff6b6b;">No vehicles found for that selection.</span>';
+      return;
+    }
+
+    let lineup = [];
+
+    if (allowPlanes) {
+      const planes = pool.filter(v => v.type === "Plane");
+      if (planes.length > 0) {
+        lineup.push(planes[Math.floor(Math.random() * planes.length)]);
+      }
+    }
+
+    if (allowHelis && chosenBR >= 8) {
+      const helis = pool.filter(v => v.type === "Helicopter");
+      if (helis.length > 0) {
+        lineup.push(helis[Math.floor(Math.random() * helis.length)]);
+      }
+    }
+
+    const tanks = pool.filter(v => v.type === "Tank");
+    while (lineup.length < size && tanks.length > 0) {
+      const t = tanks[Math.floor(Math.random() * tanks.length)];
+      if (!lineup.includes(t)) lineup.push(t);
+      if (tanks.length <= lineup.length) break;
+    }
+
+    lineup = lineup.slice(0, size);
+
+    nameEl.innerHTML = `Lineup for <strong style="color: #4fc3f7;">${nation.toUpperCase()}</strong> at BR <strong style="color: #4fc3f7;">${formatBR(chosenBR)}</strong>`;
+    lineupBox.innerHTML = "";
+    lineup.forEach((v, index) => {
+      const div = document.createElement('div');
+      div.className = 'lineup-item';
+      div.style.animationDelay = `${index * 100}ms`;
+      div.innerHTML = `
+        <img src="${v.icon}" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\\'http://www.w3.org/2000/svg\\' width=\\'48\\' height=\\'48\\' viewBox=\\'0 0 48 48\\'%3E%3Crect width=\\'48\\' height=\\'48\\' fill=\\'%23444\\'/%3E%3Ctext x=\\'24\\' y=\\'28\\' text-anchor=\\'middle\\' fill=\\'white\\' font-size=\\'10\\'%3E${v.type}%3C/text%3E%3C/svg%3E'">
+        <div>
+          <div class="title">${v.name}</div>
+          <div class="muted">${v.type} • BR ${formatBR(v.br)}</div>
+        </div>
+      `;
+      lineupBox.appendChild(div);
+    });
   }
-
-  // Step 6: fill the rest with tanks
-  const tanks = pool.filter(v => v.type === "Tank");
-  while (lineup.length < size && tanks.length > 0) {
-    const t = tanks[Math.floor(Math.random() * tanks.length)];
-    if (!lineup.includes(t)) lineup.push(t);
-    if (tanks.length <= lineup.length) break; // safeguard against infinite loop
-  }
-
-  lineup = lineup.slice(0, size);
-
-  // Step 7: display result
-  nameEl.innerHTML = `Lineup for <strong>${nation.toUpperCase()}</strong> at BR <strong>${formatBR(chosenBR)}</strong>`;
-  lineupBox.innerHTML = "";
-  lineup.forEach(v => {
-    const div = document.createElement('div');
-    div.className = 'lineup-item';
-    div.innerHTML = `
-      <img src="${v.icon}">
-      <span class="title">${v.name}</span><br>
-      <span class="muted">${v.type} • BR ${formatBR(v.br)}</span>
-    `;
-    lineupBox.appendChild(div);
-  });
-}
-
 
   document.getElementById('pickBtn').onclick=pickVehicle;
   document.getElementById('lineupGo').onclick=generateLineup;
@@ -273,7 +700,3 @@ function generateLineup(){
 </script>
 </body>
 </html>
-
-
-
-
