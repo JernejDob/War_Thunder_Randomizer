@@ -1,0 +1,2250 @@
+[
+  {
+    "name": "Bourrasque",
+    "nation": "france",
+    "type": "Destroyer",
+    "br": 3.7,
+    "url": "https://wiki.warthunder.com/unit/fr_destroyer_bourrasque_class_bourrasque",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_destroyer_bourrasque_class_bourrasque_ico.svg"
+  },
+  {
+    "name": "La Combattante",
+    "nation": "france",
+    "type": "Destroyer",
+    "br": 4.0,
+    "url": "https://wiki.warthunder.com/unit/fr_destroyer_hunt_3series",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_destroyer_hunt_3series_ico.svg"
+  },
+  {
+    "name": "Vautour",
+    "nation": "france",
+    "type": "Destroyer",
+    "br": 4.3,
+    "url": "https://wiki.warthunder.com/unit/fr_destroyer_aigle_class_vautour",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_destroyer_aigle_class_vautour_ico.svg"
+  },
+  {
+    "name": "Vauquelin",
+    "nation": "france",
+    "type": "Destroyer",
+    "br": 4.3,
+    "url": "https://wiki.warthunder.com/unit/fr_destroyer_vauquelin_class_vauquelin",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_destroyer_vauquelin_class_vauquelin_ico.svg"
+  },
+  {
+    "name": "Guichen",
+    "nation": "france",
+    "type": "Destroyer",
+    "br": 4.3,
+    "url": "https://wiki.warthunder.com/unit/fr_cruiser_chateaurenault_class_guichen",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_cruiser_chateaurenault_class_guichen_ico.svg"
+  },
+  {
+    "name": "Le Malin",
+    "nation": "france",
+    "type": "Destroyer",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/fr_destroyer_le_fantasque_class_le_malin",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_destroyer_le_fantasque_class_le_malin_ico.svg"
+  },
+  {
+    "name": "Primauguet",
+    "nation": "france",
+    "type": "Light cruiser",
+    "br": 5.0,
+    "url": "https://wiki.warthunder.com/unit/fr_cruiser_dugauy_class_primaguet",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_cruiser_dugauy_class_primaguet_ico.svg"
+  },
+  {
+    "name": "Colbert",
+    "nation": "france",
+    "type": "Heavy cruiser",
+    "br": 5.3,
+    "url": "https://wiki.warthunder.com/unit/fr_cruiser_suffren_class_colbert",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_cruiser_suffren_class_colbert_ico.svg"
+  },
+  {
+    "name": "Paris",
+    "nation": "france",
+    "type": "Battleship",
+    "br": 6.0,
+    "url": "https://wiki.warthunder.com/unit/fr_battleship_courbet_class_paris",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_battleship_courbet_class_paris_ico.svg"
+  },
+  {
+    "name": "Lorraine",
+    "nation": "france",
+    "type": "Battleship",
+    "br": 6.3,
+    "url": "https://wiki.warthunder.com/unit/fr_battleship_bretagne_class_lorraine",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_battleship_bretagne_class_lorraine_ico.svg"
+  },
+  {
+    "name": "Leopard",
+    "nation": "france",
+    "type": "Destroyer",
+    "br": 3.7,
+    "url": "https://wiki.warthunder.com/unit/fr_destroyer_jaguar_class_leopard",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_destroyer_jaguar_class_leopard_ico.svg"
+  },
+  {
+    "name": "Chacal",
+    "nation": "france",
+    "type": "Destroyer",
+    "br": 4.0,
+    "url": "https://wiki.warthunder.com/unit/fr_destroyer_jaguar_class_chacal",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_destroyer_jaguar_class_chacal_ico.svg"
+  },
+  {
+    "name": "Kleber",
+    "nation": "france",
+    "type": "Destroyer",
+    "br": 4.0,
+    "url": "https://wiki.warthunder.com/unit/fr_destroyer_desaix_class_kleber",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_destroyer_desaix_class_kleber_ico.svg"
+  },
+  {
+    "name": "Milan",
+    "nation": "france",
+    "type": "Destroyer",
+    "br": 4.3,
+    "url": "https://wiki.warthunder.com/unit/fr_destroyer_aigle_class_milan",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_destroyer_aigle_class_milan_ico.svg"
+  },
+  {
+    "name": "Marceau",
+    "nation": "france",
+    "type": "Destroyer",
+    "br": 4.3,
+    "url": "https://wiki.warthunder.com/unit/fr_destroyer_marceau_class_marceau",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_destroyer_marceau_class_marceau_ico.svg"
+  },
+  {
+    "name": "Jeanne d'Arc",
+    "nation": "france",
+    "type": "Light cruiser",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/fr_cruiser_jeanne_darc",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_cruiser_jeanne_darc_ico.svg"
+  },
+  {
+    "name": "Emile Bertin",
+    "nation": "france",
+    "type": "Light cruiser",
+    "br": 5.3,
+    "url": "https://wiki.warthunder.com/unit/fr_cruiser_emile_bertin",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_cruiser_emile_bertin_ico.svg"
+  },
+  {
+    "name": "Bretagne",
+    "nation": "france",
+    "type": "Battleship",
+    "br": 6.7,
+    "url": "https://wiki.warthunder.com/unit/fr_battleship_bretagne_class_bretagne",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_battleship_bretagne_class_bretagne_ico.svg"
+  },
+  {
+    "name": "Panthere",
+    "nation": "france",
+    "type": "Destroyer",
+    "br": 3.7,
+    "url": "https://wiki.warthunder.com/unit/fr_destroyer_jaguar_class_panthere",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_destroyer_jaguar_class_panthere_ico.svg"
+  },
+  {
+    "name": "Tornade",
+    "nation": "france",
+    "type": "Destroyer",
+    "br": 3.7,
+    "url": "https://wiki.warthunder.com/unit/fr_destroyer_bourrasque_class_tornade",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_destroyer_bourrasque_class_tornade_ico.svg"
+  },
+  {
+    "name": "Aigle",
+    "nation": "france",
+    "type": "Destroyer",
+    "br": 4.3,
+    "url": "https://wiki.warthunder.com/unit/fr_destroyer_aigle_class_aigle",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_destroyer_aigle_class_aigle_ico.svg"
+  },
+  {
+    "name": "Le Triomphant",
+    "nation": "france",
+    "type": "Destroyer",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/fr_destroyer_le_fantasque_class_le_triomphant",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_destroyer_le_fantasque_class_le_triomphant_ico.svg"
+  },
+  {
+    "name": "Duguay-Trouin",
+    "nation": "france",
+    "type": "Light cruiser",
+    "br": 5.0,
+    "url": "https://wiki.warthunder.com/unit/fr_cruiser_dugauy_class_dugauy_trouin",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_cruiser_dugauy_class_dugauy_trouin_ico.svg"
+  },
+  {
+    "name": "Dupleix",
+    "nation": "france",
+    "type": "Heavy cruiser",
+    "br": 5.7,
+    "url": "https://wiki.warthunder.com/unit/fr_cruiser_suffren_class_dupleix",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_cruiser_suffren_class_dupleix_ico.svg"
+  },
+  {
+    "name": "Courbet",
+    "nation": "france",
+    "type": "Battleship",
+    "br": 6.0,
+    "url": "https://wiki.warthunder.com/unit/fr_battleship_courbet_class_courbet",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_battleship_courbet_class_courbet_ico.svg"
+  },
+  {
+    "name": "Admiral Hipper",
+    "nation": "germany",
+    "type": "Heavy cruiser",
+    "br": 6.0,
+    "url": "https://wiki.warthunder.com/unit/germ_cruiser_admiral_hipper",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_cruiser_admiral_hipper_ico.svg"
+  },
+  {
+    "name": "SMS Westfalen",
+    "nation": "germany",
+    "type": "Battleship",
+    "br": 6.0,
+    "url": "https://wiki.warthunder.com/unit/germ_battleship_westfalen",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_battleship_westfalen_ico.svg"
+  },
+  {
+    "name": "SMS Helgoland",
+    "nation": "germany",
+    "type": "Battleship",
+    "br": 6.7,
+    "url": "https://wiki.warthunder.com/unit/germ_battleship_helgoland",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_battleship_helgoland_ico.svg"
+  },
+  {
+    "name": "SMS Kaiser",
+    "nation": "germany",
+    "type": "Battleship",
+    "br": 6.7,
+    "url": "https://wiki.warthunder.com/unit/germ_battleship_kaiser",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_battleship_kaiser_ico.svg"
+  },
+  {
+    "name": "SMS Bayern",
+    "nation": "germany",
+    "type": "Battleship",
+    "br": 7.0,
+    "url": "https://wiki.warthunder.com/unit/germ_battleship_bayern",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_battleship_bayern_ico.svg"
+  },
+  {
+    "name": "SMS Sachsen",
+    "nation": "germany",
+    "type": "Battleship",
+    "br": 7.0,
+    "url": "https://wiki.warthunder.com/unit/germ_battleship_sachsen",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_battleship_sachsen_ico.svg"
+  },
+  {
+    "name": "SMS Elbing",
+    "nation": "germany",
+    "type": "Light cruiser",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/germ_cruiser_elbing",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_cruiser_elbing_ico.svg"
+  },
+  {
+    "name": "Emden",
+    "nation": "germany",
+    "type": "Light cruiser",
+    "br": 5.0,
+    "url": "https://wiki.warthunder.com/unit/germ_cruiser_emden_1944",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_cruiser_emden_1944_ico.svg"
+  },
+  {
+    "name": "Köln",
+    "nation": "germany",
+    "type": "Light cruiser",
+    "br": 5.3,
+    "url": "https://wiki.warthunder.com/unit/germ_cruiser_koln",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_cruiser_koln_ico.svg"
+  },
+  {
+    "name": "Admiral Graf Spee",
+    "nation": "germany",
+    "type": "Heavy cruiser",
+    "br": 6.0,
+    "url": "https://wiki.warthunder.com/unit/germ_cruiser_admiral_graf_spee",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_cruiser_admiral_graf_spee_ico.svg"
+  },
+  {
+    "name": "SMS Von der Tann",
+    "nation": "germany",
+    "type": "Battlecruiser",
+    "br": 6.0,
+    "url": "https://wiki.warthunder.com/unit/germ_battlecruiser_von_der_tann",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_battlecruiser_von_der_tann_ico.svg"
+  },
+  {
+    "name": "Scharnhorst",
+    "nation": "germany",
+    "type": "Battlecruiser",
+    "br": 7.3,
+    "url": "https://wiki.warthunder.com/unit/germ_battleship_scharnhorst",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_battleship_scharnhorst_ico.svg"
+  },
+  {
+    "name": "Karlsruhe",
+    "nation": "germany",
+    "type": "Light cruiser",
+    "br": 5.7,
+    "url": "https://wiki.warthunder.com/unit/germ_cruiser_karlsruhe",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_cruiser_karlsruhe_ico.svg"
+  },
+  {
+    "name": "SMS Nassau",
+    "nation": "germany",
+    "type": "Battleship",
+    "br": 6.0,
+    "url": "https://wiki.warthunder.com/unit/germ_battleship_nassau",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_battleship_nassau_ico.svg"
+  },
+  {
+    "name": "SMS Ostfriesland",
+    "nation": "germany",
+    "type": "Battleship",
+    "br": 6.3,
+    "url": "https://wiki.warthunder.com/unit/germ_battleship_ostfriesland",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_battleship_ostfriesland_ico.svg"
+  },
+  {
+    "name": "SMS Baden",
+    "nation": "germany",
+    "type": "Battleship",
+    "br": 7.0,
+    "url": "https://wiki.warthunder.com/unit/germ_battleship_baden",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_battleship_baden_ico.svg"
+  },
+  {
+    "name": "Mogador",
+    "nation": "france",
+    "type": "Destroyer",
+    "br": 5.0,
+    "url": "https://wiki.warthunder.com/unit/fr_destroyer_mogador_class_mogador",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_destroyer_mogador_class_mogador_ico.svg"
+  },
+  {
+    "name": "SMS Derfflinger",
+    "nation": "germany",
+    "type": "Battlecruiser",
+    "br": 6.7,
+    "url": "https://wiki.warthunder.com/unit/germ_battlecruiser_derfflinger",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_battlecruiser_derfflinger_ico.svg"
+  },
+  {
+    "name": "Dunkerque",
+    "nation": "france",
+    "type": "Battleship",
+    "br": 7.0,
+    "url": "https://wiki.warthunder.com/unit/fr_battleship_dunkerque",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_battleship_dunkerque_ico.svg"
+  },
+  {
+    "name": "La Galissonnière",
+    "nation": "france",
+    "type": "Light cruiser",
+    "br": 5.7,
+    "url": "https://wiki.warthunder.com/unit/fr_cruiser_la_galissoniere_class_la_galissoniere",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_cruiser_la_galissoniere_class_la_galissoniere_ico.svg"
+  },
+  {
+    "name": "Ersatz Yorck",
+    "nation": "germany",
+    "type": "Battlecruiser",
+    "br": 7.0,
+    "url": "https://wiki.warthunder.com/unit/germ_battlecruiser_ersatz_yorck",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_battlecruiser_ersatz_yorck_ico.svg"
+  },
+  {
+    "name": "Strasbourg",
+    "nation": "france",
+    "type": "Battleship",
+    "br": 7.3,
+    "url": "https://wiki.warthunder.com/unit/fr_battleship_strasbourg",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_battleship_strasbourg_ico.svg"
+  },
+  {
+    "name": "Richelieu",
+    "nation": "france",
+    "type": "Battleship",
+    "br": 8.3,
+    "url": "https://wiki.warthunder.com/unit/fr_battleship_richelieu_class_richelieu",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_battleship_richelieu_class_richelieu_ico.svg"
+  },
+  {
+    "name": "Bismarck",
+    "nation": "germany",
+    "type": "Battleship",
+    "br": 8.3,
+    "url": "https://wiki.warthunder.com/unit/germ_battleship_bismarck",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_battleship_bismarck_ico.svg"
+  },
+  {
+    "name": "Gneisenau",
+    "nation": "germany",
+    "type": "Battlecruiser",
+    "br": 7.7,
+    "url": "https://wiki.warthunder.com/unit/germ_battleship_gneisenau_380mm",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_battleship_gneisenau_380mm_ico.svg"
+  },
+  {
+    "name": "Leopard",
+    "nation": "germany",
+    "type": "Destroyer",
+    "br": 3.7,
+    "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1924_leopard1932",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_destroyer_class1924_leopard1932_ico.svg"
+  },
+  {
+    "name": "Z15 Erich Steinbrinck",
+    "nation": "germany",
+    "type": "Destroyer",
+    "br": 4.0,
+    "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1934a_1944",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_destroyer_class1934a_1944_ico.svg"
+  },
+  {
+    "name": "Z12 Erich Giese",
+    "nation": "germany",
+    "type": "Destroyer",
+    "br": 4.3,
+    "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1934a_1940",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_destroyer_class1934a_1940_ico.svg"
+  },
+  {
+    "name": "Z32",
+    "nation": "germany",
+    "type": "Destroyer",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1936a_mob_z32",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_destroyer_class1936a_mob_z32_ico.svg"
+  },
+  {
+    "name": "Z46",
+    "nation": "germany",
+    "type": "Destroyer",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1936c_z46",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_destroyer_class1936c_z46_ico.svg"
+  },
+  {
+    "name": "Leipzig",
+    "nation": "germany",
+    "type": "Light cruiser",
+    "br": 5.3,
+    "url": "https://wiki.warthunder.com/unit/germ_cruiser_leipzig",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_cruiser_leipzig_ico.svg"
+  },
+  {
+    "name": "Nürnberg",
+    "nation": "germany",
+    "type": "Light cruiser",
+    "br": 5.7,
+    "url": "https://wiki.warthunder.com/unit/germ_cruiser_nurnberg",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_cruiser_nurnberg_ico.svg"
+  },
+  {
+    "name": "T22",
+    "nation": "germany",
+    "type": "Destroyer",
+    "br": 3.7,
+    "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1939_t22",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_destroyer_class1939_t22_ico.svg"
+  },
+  {
+    "name": "K2",
+    "nation": "germany",
+    "type": "Destroyer",
+    "br": 4.3,
+    "url": "https://wiki.warthunder.com/unit/germ_kanonenboot_k2",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_kanonenboot_k2_ico.svg"
+  },
+  {
+    "name": "Z22 Anton Schmitt",
+    "nation": "germany",
+    "type": "Destroyer",
+    "br": 4.3,
+    "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1936_z20",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_destroyer_class1936_z20_ico.svg"
+  },
+  {
+    "name": "Z43",
+    "nation": "germany",
+    "type": "Destroyer",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1936b",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_destroyer_class1936b_ico.svg"
+  },
+  {
+    "name": "Luchs",
+    "nation": "germany",
+    "type": "Destroyer",
+    "br": 3.7,
+    "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1924_iltis",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_destroyer_class1924_iltis_ico.svg"
+  },
+  {
+    "name": "Jaguar",
+    "nation": "germany",
+    "type": "Destroyer",
+    "br": 3.7,
+    "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1924_jaguar1941",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_destroyer_class1924_jaguar1941_ico.svg"
+  },
+  {
+    "name": "Z47",
+    "nation": "germany",
+    "type": "Destroyer",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1936c_z47",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_destroyer_class1936c_z47_ico.svg"
+  },
+  {
+    "name": "Z20 Karl Galster",
+    "nation": "germany",
+    "type": "Destroyer",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1936_z20_karlgalster",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_destroyer_class1936_z20_karlgalster_ico.svg"
+  },
+  {
+    "name": "Prinz Eugen",
+    "nation": "germany",
+    "type": "Heavy cruiser",
+    "br": 6.0,
+    "url": "https://wiki.warthunder.com/unit/germ_cruiser_prinz_eugen",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_cruiser_prinz_eugen_ico.svg"
+  },
+  {
+    "name": "T31",
+    "nation": "germany",
+    "type": "Destroyer",
+    "br": 4.0,
+    "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1939_t31",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_destroyer_class1939_t31_ico.svg"
+  },
+  {
+    "name": "Z25",
+    "nation": "germany",
+    "type": "Destroyer",
+    "br": 4.3,
+    "url": "https://wiki.warthunder.com/unit/germ_destroyer_class1936a_z25",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_destroyer_class1936a_z25_ico.svg"
+  },
+  {
+    "name": "RN Turbine",
+    "nation": "italy",
+    "type": "Destroyer",
+    "br": 3.3,
+    "url": "https://wiki.warthunder.com/unit/it_destroyer_turbine",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_destroyer_turbine_ico.svg"
+  },
+  {
+    "name": "RN Dardo",
+    "nation": "italy",
+    "type": "Destroyer",
+    "br": 3.7,
+    "url": "https://wiki.warthunder.com/unit/it_destroyer_dardo",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_destroyer_dardo_ico.svg"
+  },
+  {
+    "name": "RN Leone",
+    "nation": "italy",
+    "type": "Destroyer",
+    "br": 4.0,
+    "url": "https://wiki.warthunder.com/unit/it_destroyer_leone_class",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_destroyer_leone_class_ico.svg"
+  },
+  {
+    "name": "RN Corazziere",
+    "nation": "italy",
+    "type": "Destroyer",
+    "br": 4.3,
+    "url": "https://wiki.warthunder.com/unit/it_destroyer_soldati_serie1_camicianera",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_destroyer_soldati_serie1_camicianera_ico.svg"
+  },
+  {
+    "name": "RN Da Verazzano",
+    "nation": "italy",
+    "type": "Destroyer",
+    "br": 4.3,
+    "url": "https://wiki.warthunder.com/unit/it_destroyer_navigatori_class_verazzano",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_destroyer_navigatori_class_verazzano_ico.svg"
+  },
+  {
+    "name": "RN Bartolomeo Colleoni",
+    "nation": "italy",
+    "type": "Light cruiser",
+    "br": 5.0,
+    "url": "https://wiki.warthunder.com/unit/it_cruiser_bartolomeocolleoni_1940",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_cruiser_bartolomeocolleoni_1940_ico.svg"
+  },
+  {
+    "name": "RN Raimondo Montecuccoli",
+    "nation": "italy",
+    "type": "Light cruiser",
+    "br": 5.3,
+    "url": "https://wiki.warthunder.com/unit/it_cruiser_montecuccoli",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_cruiser_montecuccoli_ico.svg"
+  },
+  {
+    "name": "RN Eugenio di Savoia",
+    "nation": "italy",
+    "type": "Light cruiser",
+    "br": 5.3,
+    "url": "https://wiki.warthunder.com/unit/it_cruiser_eugenio_di_savoia",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_cruiser_eugenio_di_savoia_ico.svg"
+  },
+  {
+    "name": "RN Duca degli Abruzzi",
+    "nation": "italy",
+    "type": "Light cruiser",
+    "br": 5.7,
+    "url": "https://wiki.warthunder.com/unit/it_cruiser_garibaldi_class_abruzzi",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_cruiser_garibaldi_class_abruzzi_ico.svg"
+  },
+  {
+    "name": "RN Dante Alighieri",
+    "nation": "italy",
+    "type": "Battleship",
+    "br": 6.3,
+    "url": "https://wiki.warthunder.com/unit/it_battleship_dante_alighieri",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_battleship_dante_alighieri_ico.svg"
+  },
+  {
+    "name": "RN Conte di Cavour",
+    "nation": "italy",
+    "type": "Battleship",
+    "br": 7.3,
+    "url": "https://wiki.warthunder.com/unit/it_battleship_conte_di_cavour",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_battleship_conte_di_cavour_ico.svg"
+  },
+  {
+    "name": "RN Aquila",
+    "nation": "italy",
+    "type": "Destroyer",
+    "br": 3.3,
+    "url": "https://wiki.warthunder.com/unit/it_destroyer_vifor_class_aquila",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_destroyer_vifor_class_aquila_ico.svg"
+  },
+  {
+    "name": "RN Comandante Margottini",
+    "nation": "italy",
+    "type": "Destroyer",
+    "br": 4.0,
+    "url": "https://wiki.warthunder.com/unit/it_destroyer_comandanti_medaglie_doro",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_destroyer_comandanti_medaglie_doro_ico.svg"
+  },
+  {
+    "name": "Impetuoso",
+    "nation": "italy",
+    "type": "Destroyer",
+    "br": 4.3,
+    "url": "https://wiki.warthunder.com/unit/it_destroyer_impetuoso_class_impetuoso",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_destroyer_impetuoso_class_impetuoso_ico.svg"
+  },
+  {
+    "name": "RN Etna",
+    "nation": "italy",
+    "type": "Light cruiser",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/it_cruiser_etna_class",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_cruiser_etna_class_ico.svg"
+  },
+  {
+    "name": "RN Attilio Regolo",
+    "nation": "italy",
+    "type": "Light cruiser",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/it_cruiser_capitani_romani_class_attilio_regolo",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_cruiser_capitani_romani_class_attilio_regolo_ico.svg"
+  },
+  {
+    "name": "RN Trento",
+    "nation": "italy",
+    "type": "Heavy cruiser",
+    "br": 5.3,
+    "url": "https://wiki.warthunder.com/unit/it_cruiser_trento",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_cruiser_trento_ico.svg"
+  },
+  {
+    "name": "RN Bolzano",
+    "nation": "italy",
+    "type": "Heavy cruiser",
+    "br": 5.3,
+    "url": "https://wiki.warthunder.com/unit/it_cruiser_bolzano",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_cruiser_bolzano_ico.svg"
+  },
+  {
+    "name": "RN Zara",
+    "nation": "italy",
+    "type": "Heavy cruiser",
+    "br": 6.0,
+    "url": "https://wiki.warthunder.com/unit/it_cruiser_zara_class",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_cruiser_zara_class_ico.svg"
+  },
+  {
+    "name": "RN Andrea Doria",
+    "nation": "italy",
+    "type": "Battleship",
+    "br": 6.3,
+    "url": "https://wiki.warthunder.com/unit/it_battleship_andrea_doria",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_battleship_andrea_doria_ico.svg"
+  },
+  {
+    "name": "RN Duilio",
+    "nation": "italy",
+    "type": "Battleship",
+    "br": 7.3,
+    "url": "https://wiki.warthunder.com/unit/it_battleship_caio_duilio",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_battleship_caio_duilio_ico.svg"
+  },
+  {
+    "name": "RN Aquilone",
+    "nation": "italy",
+    "type": "Destroyer",
+    "br": 3.3,
+    "url": "https://wiki.warthunder.com/unit/it_destroyer_aquilone",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_destroyer_aquilone_ico.svg"
+  },
+  {
+    "name": "Geniere",
+    "nation": "italy",
+    "type": "Destroyer",
+    "br": 4.3,
+    "url": "https://wiki.warthunder.com/unit/it_destroyer_fletcher_geniere",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_destroyer_fletcher_geniere_ico.svg"
+  },
+  {
+    "name": "RN Tigre",
+    "nation": "italy",
+    "type": "Destroyer",
+    "br": 4.0,
+    "url": "https://wiki.warthunder.com/unit/it_destroyer_leone_class_tigre",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_destroyer_leone_class_tigre_ico.svg"
+  },
+  {
+    "name": "RN Geniere",
+    "nation": "italy",
+    "type": "Destroyer",
+    "br": 4.3,
+    "url": "https://wiki.warthunder.com/unit/it_destroyer_soldati_serie1_geniere",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_destroyer_soldati_serie1_geniere_ico.svg"
+  },
+  {
+    "name": "RN Pola",
+    "nation": "italy",
+    "type": "Heavy cruiser",
+    "br": 6.0,
+    "url": "https://wiki.warthunder.com/unit/it_cruiser_zara_class_pola",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_cruiser_zara_class_pola_ico.svg"
+  },
+  {
+    "name": "RN Leonardo da Vinci",
+    "nation": "italy",
+    "type": "Battleship",
+    "br": 6.3,
+    "url": "https://wiki.warthunder.com/unit/it_battleship_leonardo_da_vinci",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_battleship_leonardo_da_vinci_ico.svg"
+  },
+  {
+    "name": "RN Aviere",
+    "nation": "italy",
+    "type": "Destroyer",
+    "br": 4.0,
+    "url": "https://wiki.warthunder.com/unit/it_destroyer_soldati_serie1",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_destroyer_soldati_serie1_ico.svg"
+  },
+  {
+    "name": "RN Francesco Caracciolo",
+    "nation": "italy",
+    "type": "Battleship",
+    "br": 6.7,
+    "url": "https://wiki.warthunder.com/unit/it_battleship_francesco_caracciolo",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_battleship_francesco_caracciolo_ico.svg"
+  },
+  {
+    "name": "Z4 Zerstörer",
+    "nation": "germany",
+    "type": "Destroyer",
+    "br": 4.3,
+    "url": "https://wiki.warthunder.com/unit/germ_destroyer_fletcher_zerstorer4",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_destroyer_fletcher_zerstorer4_ico.svg"
+  },
+  {
+    "name": "Grecale",
+    "nation": "italy",
+    "type": "Destroyer",
+    "br": 3.7,
+    "url": "https://wiki.warthunder.com/unit/it_destroyer_maestrale_class_grecale",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_destroyer_maestrale_class_grecale_ico.svg"
+  },
+  {
+    "name": "RN Roma",
+    "nation": "italy",
+    "type": "Battleship",
+    "br": 8.3,
+    "url": "https://wiki.warthunder.com/unit/it_battleship_littorio_class_roma",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_battleship_littorio_class_roma_ico.svg"
+  },
+  {
+    "name": "IJN Ikoma",
+    "nation": "japan",
+    "type": "Battlecruiser",
+    "br": 5.7,
+    "url": "https://wiki.warthunder.com/unit/jp_armoredcruiser_ikoma",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_armoredcruiser_ikoma_ico.svg"
+  },
+  {
+    "name": "IJN Kongo",
+    "nation": "japan",
+    "type": "Battleship",
+    "br": 7.3,
+    "url": "https://wiki.warthunder.com/unit/jp_battlecruiser_kongo",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_battlecruiser_kongo_ico.svg"
+  },
+  {
+    "name": "IJN Settsu",
+    "nation": "japan",
+    "type": "Battleship",
+    "br": 6.3,
+    "url": "https://wiki.warthunder.com/unit/jp_battleship_settsu",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_battleship_settsu_ico.svg"
+  },
+  {
+    "name": "HMS Glorious",
+    "nation": "britain",
+    "type": "Battlecruiser",
+    "br": 5.7,
+    "url": "https://wiki.warthunder.com/unit/uk_battlecruiser_glorious",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_battlecruiser_glorious_ico.svg"
+  },
+  {
+    "name": "HMS Invincible",
+    "nation": "britain",
+    "type": "Battlecruiser",
+    "br": 5.7,
+    "url": "https://wiki.warthunder.com/unit/uk_battlecruiser_invincible",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_battlecruiser_invincible_ico.svg"
+  },
+  {
+    "name": "HMS Queen Mary",
+    "nation": "britain",
+    "type": "Battlecruiser",
+    "br": 6.3,
+    "url": "https://wiki.warthunder.com/unit/uk_battlecruiser_queen_mary",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_battlecruiser_queen_mary_ico.svg"
+  },
+  {
+    "name": "HMS Hood",
+    "nation": "britain",
+    "type": "Battlecruiser",
+    "br": 7.7,
+    "url": "https://wiki.warthunder.com/unit/uk_battlecruiser_hood",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_battlecruiser_hood_ico.svg"
+  },
+  {
+    "name": "HMS Renown",
+    "nation": "britain",
+    "type": "Battlecruiser",
+    "br": 7.0,
+    "url": "https://wiki.warthunder.com/unit/uk_battlecruiser_renown",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_battlecruiser_renown_ico.svg"
+  },
+  {
+    "name": "IJN Momi",
+    "nation": "japan",
+    "type": "Destroyer",
+    "br": 3.3,
+    "url": "https://wiki.warthunder.com/unit/jp_destroyer_momi",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_destroyer_momi_ico.svg"
+  },
+  {
+    "name": "JDS Harukaze (DD-101)",
+    "nation": "japan",
+    "type": "Destroyer",
+    "br": 4.0,
+    "url": "https://wiki.warthunder.com/unit/jp_destroyer_harukaze",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_destroyer_harukaze_ico.svg"
+  },
+  {
+    "name": "IJN Akizuki",
+    "nation": "japan",
+    "type": "Destroyer",
+    "br": 5.0,
+    "url": "https://wiki.warthunder.com/unit/jp_destroyer_akizuki",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_destroyer_akizuki_ico.svg"
+  },
+  {
+    "name": "IJN Kako",
+    "nation": "japan",
+    "type": "Heavy cruiser",
+    "br": 5.0,
+    "url": "https://wiki.warthunder.com/unit/jp_cruiser_kako",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_cruiser_kako_ico.svg"
+  },
+  {
+    "name": "IJN Furutaka",
+    "nation": "japan",
+    "type": "Heavy cruiser",
+    "br": 5.3,
+    "url": "https://wiki.warthunder.com/unit/jp_cruiser_furutaka",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_cruiser_furutaka_ico.svg"
+  },
+  {
+    "name": "IJN Aoba",
+    "nation": "japan",
+    "type": "Heavy cruiser",
+    "br": 5.3,
+    "url": "https://wiki.warthunder.com/unit/jp_cruiser_aoba",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_cruiser_aoba_ico.svg"
+  },
+  {
+    "name": "IJN Haguro",
+    "nation": "japan",
+    "type": "Heavy cruiser",
+    "br": 5.7,
+    "url": "https://wiki.warthunder.com/unit/jp_cruiser_haguro",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_cruiser_haguro_ico.svg"
+  },
+  {
+    "name": "IJN Tone",
+    "nation": "japan",
+    "type": "Heavy cruiser",
+    "br": 5.7,
+    "url": "https://wiki.warthunder.com/unit/jp_cruiser_tone",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_cruiser_tone_ico.svg"
+  },
+  {
+    "name": "IJN Fuso",
+    "nation": "japan",
+    "type": "Battleship",
+    "br": 7.7,
+    "url": "https://wiki.warthunder.com/unit/jp_battleship_fuso",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_battleship_fuso_ico.svg"
+  },
+  {
+    "name": "IJN Mutsuki",
+    "nation": "japan",
+    "type": "Destroyer",
+    "br": 3.3,
+    "url": "https://wiki.warthunder.com/unit/jp_destroyer_mutsuki",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_destroyer_mutsuki_ico.svg"
+  },
+  {
+    "name": "IJN Ayanami",
+    "nation": "japan",
+    "type": "Destroyer",
+    "br": 4.3,
+    "url": "https://wiki.warthunder.com/unit/jp_destroyer_fubuki",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_destroyer_fubuki_ico.svg"
+  },
+  {
+    "name": "IJN Yugumo",
+    "nation": "japan",
+    "type": "Destroyer",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/jp_destroyer_yugumo",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_destroyer_yugumo_ico.svg"
+  },
+  {
+    "name": "IJN Hatsuharu",
+    "nation": "japan",
+    "type": "Destroyer",
+    "br": 4.3,
+    "url": "https://wiki.warthunder.com/unit/jp_destroyer_hatsuharu",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_destroyer_hatsuharu_ico.svg"
+  },
+  {
+    "name": "IJN Isuzu",
+    "nation": "japan",
+    "type": "Light cruiser",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/jp_cruiser_isuzu",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_cruiser_isuzu_ico.svg"
+  },
+  {
+    "name": "IJN Tama",
+    "nation": "japan",
+    "type": "Light cruiser",
+    "br": 5.0,
+    "url": "https://wiki.warthunder.com/unit/jp_cruiser_kuma",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_cruiser_kuma_ico.svg"
+  },
+  {
+    "name": "IJN Sendai",
+    "nation": "japan",
+    "type": "Light cruiser",
+    "br": 5.0,
+    "url": "https://wiki.warthunder.com/unit/jp_cruiser_sendai",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_cruiser_sendai_ico.svg"
+  },
+  {
+    "name": "IJN Agano",
+    "nation": "japan",
+    "type": "Light cruiser",
+    "br": 5.3,
+    "url": "https://wiki.warthunder.com/unit/jp_cruiser_agano",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_cruiser_agano_ico.svg"
+  },
+  {
+    "name": "IJN Suzuya",
+    "nation": "japan",
+    "type": "Light cruiser",
+    "br": 6.0,
+    "url": "https://wiki.warthunder.com/unit/jp_cruiser_mogami_suzuya",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_cruiser_mogami_suzuya_ico.svg"
+  },
+  {
+    "name": "IJN Mogami",
+    "nation": "japan",
+    "type": "Heavy cruiser",
+    "br": 6.0,
+    "url": "https://wiki.warthunder.com/unit/jp_cruiser_mogami",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_cruiser_mogami_ico.svg"
+  },
+  {
+    "name": "IJN Hyuga",
+    "nation": "japan",
+    "type": "Battleship",
+    "br": 7.0,
+    "url": "https://wiki.warthunder.com/unit/jp_battleship_hyuga",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_battleship_hyuga_ico.svg"
+  },
+  {
+    "name": "IJN Ise",
+    "nation": "japan",
+    "type": "Battleship",
+    "br": 7.7,
+    "url": "https://wiki.warthunder.com/unit/jp_battleship_ise",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_battleship_ise_ico.svg"
+  },
+  {
+    "name": "IJN Mutsu",
+    "nation": "japan",
+    "type": "Battleship",
+    "br": 8.0,
+    "url": "https://wiki.warthunder.com/unit/jp_battleship_mutsu",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_battleship_mutsu_ico.svg"
+  },
+  {
+    "name": "IJN Satsuki",
+    "nation": "japan",
+    "type": "Destroyer",
+    "br": 3.3,
+    "url": "https://wiki.warthunder.com/unit/jp_destroyer_satsuki",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_destroyer_satsuki_ico.svg"
+  },
+  {
+    "name": "IJN Nenohi",
+    "nation": "japan",
+    "type": "Destroyer",
+    "br": 4.3,
+    "url": "https://wiki.warthunder.com/unit/jp_destroyer_nenohi",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_destroyer_nenohi_ico.svg"
+  },
+  {
+    "name": "JDS Yūgure (DD-184)",
+    "nation": "japan",
+    "type": "Destroyer",
+    "br": 4.3,
+    "url": "https://wiki.warthunder.com/unit/jp_destroyer_yugure",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_destroyer_yugure_ico.svg"
+  },
+  {
+    "name": "IJN Kiyoshimo",
+    "nation": "japan",
+    "type": "Destroyer",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/jp_destroyer_kiyoshimo",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_destroyer_kiyoshimo_ico.svg"
+  },
+  {
+    "name": "IJN Yubari",
+    "nation": "japan",
+    "type": "Light cruiser",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/jp_cruiser_yubari",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_cruiser_yubari_ico.svg"
+  },
+  {
+    "name": "IJN Shimakaze",
+    "nation": "japan",
+    "type": "Destroyer",
+    "br": 5.0,
+    "url": "https://wiki.warthunder.com/unit/jp_destroyer_shimakaze",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_destroyer_shimakaze_ico.svg"
+  },
+  {
+    "name": "IJN Myoko",
+    "nation": "japan",
+    "type": "Heavy cruiser",
+    "br": 5.7,
+    "url": "https://wiki.warthunder.com/unit/jp_cruiser_myoko",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_cruiser_myoko_ico.svg"
+  },
+  {
+    "name": "IJN Mikuma",
+    "nation": "japan",
+    "type": "Light cruiser",
+    "br": 6.0,
+    "url": "https://wiki.warthunder.com/unit/jp_cruiser_mogami_mikuma",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_cruiser_mogami_mikuma_ico.svg"
+  },
+  {
+    "name": "IJN Yamashiro",
+    "nation": "japan",
+    "type": "Battleship",
+    "br": 7.0,
+    "url": "https://wiki.warthunder.com/unit/jp_battleship_yamashiro",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_battleship_yamashiro_ico.svg"
+  },
+  {
+    "name": "IJN Hayanami",
+    "nation": "japan",
+    "type": "Destroyer",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/jp_destroyer_hayanami",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_destroyer_hayanami_ico.svg"
+  },
+  {
+    "name": "IJN Hatsuzuki",
+    "nation": "japan",
+    "type": "Destroyer",
+    "br": 5.0,
+    "url": "https://wiki.warthunder.com/unit/jp_destroyer_hatsuzuki",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_destroyer_hatsuzuki_ico.svg"
+  },
+  {
+    "name": "IJN Yuudachi",
+    "nation": "japan",
+    "type": "Destroyer",
+    "br": 4.3,
+    "url": "https://wiki.warthunder.com/unit/jp_destroyer_yuudachi",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_destroyer_yuudachi_ico.svg"
+  },
+  {
+    "name": "IJN Kurama",
+    "nation": "japan",
+    "type": "Battlecruiser",
+    "br": 5.7,
+    "url": "https://wiki.warthunder.com/unit/jp_armoredcruiser_kurama",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_armoredcruiser_kurama_ico.svg"
+  },
+  {
+    "name": "IJN Haruna",
+    "nation": "japan",
+    "type": "Battleship",
+    "br": 7.3,
+    "url": "https://wiki.warthunder.com/unit/jp_battlecruiser_haruna",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_battlecruiser_haruna_ico.svg"
+  },
+  {
+    "name": "IJN Amagi",
+    "nation": "japan",
+    "type": "Battlecruiser",
+    "br": 8.0,
+    "url": "https://wiki.warthunder.com/unit/jp_battlecruiser_amagi",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_battlecruiser_amagi_ico.svg"
+  },
+  {
+    "name": "JDS Murasame (DD-107)",
+    "nation": "japan",
+    "type": "Destroyer",
+    "br": 4.3,
+    "url": "https://wiki.warthunder.com/unit/jp_destroyer_murasame",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_destroyer_murasame_ico.svg"
+  },
+  {
+    "name": "IJN Kirishima",
+    "nation": "japan",
+    "type": "Battleship",
+    "br": 7.3,
+    "url": "https://wiki.warthunder.com/unit/jp_battlecruiser_kirishima",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_battlecruiser_kirishima_ico.svg"
+  },
+  {
+    "name": "IJN Matsu",
+    "nation": "japan",
+    "type": "Destroyer",
+    "br": 3.7,
+    "url": "https://wiki.warthunder.com/unit/jp_destroyer_matsu",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_destroyer_matsu_ico.svg"
+  },
+  {
+    "name": "IJN Yamato",
+    "nation": "japan",
+    "type": "Battleship",
+    "br": 8.7,
+    "url": "https://wiki.warthunder.com/unit/jp_battleship_yamato",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_battleship_yamato_ico.svg"
+  },
+  {
+    "name": "IJN Yukikaze",
+    "nation": "japan",
+    "type": "Destroyer",
+    "br": 4.0,
+    "url": "https://wiki.warthunder.com/unit/jp_destroyer_yukikaze",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_destroyer_yukikaze_ico.svg"
+  },
+  {
+    "name": "HMS Warspite",
+    "nation": "britain",
+    "type": "Battleship",
+    "br": 7.7,
+    "url": "https://wiki.warthunder.com/unit/uk_battleship_q_elizabet_class_warspite",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_battleship_q_elizabet_class_warspite_ico.svg"
+  },
+  {
+    "name": "HMS Rodney",
+    "nation": "britain",
+    "type": "Battleship",
+    "br": 7.7,
+    "url": "https://wiki.warthunder.com/unit/uk_battleship_rodney",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_battleship_rodney_ico.svg"
+  },
+  {
+    "name": "HMS Vanguard",
+    "nation": "britain",
+    "type": "Battleship",
+    "br": 8.0,
+    "url": "https://wiki.warthunder.com/unit/uk_battleship_vanguard",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_battleship_vanguard_ico.svg"
+  },
+  {
+    "name": "HMS Vega",
+    "nation": "britain",
+    "type": "Destroyer",
+    "br": 3.7,
+    "url": "https://wiki.warthunder.com/unit/uk_destroyer_v_class_vega",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_destroyer_v_class_vega_ico.svg"
+  },
+  {
+    "name": "HMS Calpe",
+    "nation": "britain",
+    "type": "Destroyer",
+    "br": 4.3,
+    "url": "https://wiki.warthunder.com/unit/uk_destroyer_hunt_2series",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_destroyer_hunt_2series_ico.svg"
+  },
+  {
+    "name": "HMS Eskimo",
+    "nation": "britain",
+    "type": "Destroyer",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/uk_destroyer_tribal",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_destroyer_tribal_ico.svg"
+  },
+  {
+    "name": "HMAS Nepal",
+    "nation": "britain",
+    "type": "Destroyer",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/uk_destroyer_n_class",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_destroyer_n_class_ico.svg"
+  },
+  {
+    "name": "HMS Armada",
+    "nation": "britain",
+    "type": "Destroyer",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/uk_destroyer_battle_2series",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_destroyer_battle_2series_ico.svg"
+  },
+  {
+    "name": "HMAS Tobruk",
+    "nation": "britain",
+    "type": "Destroyer",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/uk_destroyer_battle_tobruk",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_destroyer_battle_tobruk_ico.svg"
+  },
+  {
+    "name": "HMS Arethusa",
+    "nation": "britain",
+    "type": "Light cruiser",
+    "br": 5.3,
+    "url": "https://wiki.warthunder.com/unit/uk_cruiser_arethusa",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_cruiser_arethusa_ico.svg"
+  },
+  {
+    "name": "HMNZS Leander",
+    "nation": "britain",
+    "type": "Light cruiser",
+    "br": 5.3,
+    "url": "https://wiki.warthunder.com/unit/uk_cruiser_leander",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_cruiser_leander_ico.svg"
+  },
+  {
+    "name": "HMS Southampton",
+    "nation": "britain",
+    "type": "Light cruiser",
+    "br": 6.0,
+    "url": "https://wiki.warthunder.com/unit/uk_cruiser_southampton",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_cruiser_southampton_ico.svg"
+  },
+  {
+    "name": "HMS Dreadnought",
+    "nation": "britain",
+    "type": "Battleship",
+    "br": 6.0,
+    "url": "https://wiki.warthunder.com/unit/uk_battleship_dreadnought",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_battleship_dreadnought_ico.svg"
+  },
+  {
+    "name": "HMS Orion",
+    "nation": "britain",
+    "type": "Battleship",
+    "br": 6.7,
+    "url": "https://wiki.warthunder.com/unit/uk_battleship_orion",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_battleship_orion_ico.svg"
+  },
+  {
+    "name": "HMS Marlborough",
+    "nation": "britain",
+    "type": "Battleship",
+    "br": 7.0,
+    "url": "https://wiki.warthunder.com/unit/uk_battleship_marlborough",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_battleship_marlborough_ico.svg"
+  },
+  {
+    "name": "HMS Grafton",
+    "nation": "britain",
+    "type": "Destroyer",
+    "br": 3.7,
+    "url": "https://wiki.warthunder.com/unit/uk_destroyer_g_grafton",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_destroyer_g_grafton_ico.svg"
+  },
+  {
+    "name": "HMS Brissenden",
+    "nation": "britain",
+    "type": "Destroyer",
+    "br": 4.3,
+    "url": "https://wiki.warthunder.com/unit/uk_destroyer_hunt_4series",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_destroyer_hunt_4series_ico.svg"
+  },
+  {
+    "name": "HMS Kelvin",
+    "nation": "britain",
+    "type": "Destroyer",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/uk_destroyer_k_class",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_destroyer_k_class_ico.svg"
+  },
+  {
+    "name": "HMS Diana",
+    "nation": "britain",
+    "type": "Destroyer",
+    "br": 5.0,
+    "url": "https://wiki.warthunder.com/unit/uk_destroyer_daring_class_diana",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_destroyer_daring_class_diana_ico.svg"
+  },
+  {
+    "name": "HMS Daring",
+    "nation": "britain",
+    "type": "Destroyer",
+    "br": 5.0,
+    "url": "https://wiki.warthunder.com/unit/uk_destroyer_daring_class_daring",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_destroyer_daring_class_daring_ico.svg"
+  },
+  {
+    "name": "HMS Dido",
+    "nation": "britain",
+    "type": "Light cruiser",
+    "br": 5.3,
+    "url": "https://wiki.warthunder.com/unit/uk_cruiser_dido",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_cruiser_dido_ico.svg"
+  },
+  {
+    "name": "HMS York",
+    "nation": "britain",
+    "type": "Heavy cruiser",
+    "br": 5.3,
+    "url": "https://wiki.warthunder.com/unit/uk_cruiser_york",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_cruiser_york_ico.svg"
+  },
+  {
+    "name": "HMS Colossus",
+    "nation": "britain",
+    "type": "Battleship",
+    "br": 6.3,
+    "url": "https://wiki.warthunder.com/unit/uk_battleship_colossus",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_battleship_colossus_ico.svg"
+  },
+  {
+    "name": "HMS Churchill",
+    "nation": "britain",
+    "type": "Destroyer",
+    "br": 3.3,
+    "url": "https://wiki.warthunder.com/unit/uk_destroyer_clemson_churchill",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_destroyer_clemson_churchill_ico.svg"
+  },
+  {
+    "name": "HMS Abdiel",
+    "nation": "britain",
+    "type": "Light cruiser",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/uk_minelayer_abdiel_class_abdiel",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_minelayer_abdiel_class_abdiel_ico.svg"
+  },
+  {
+    "name": "HMS Enterprise",
+    "nation": "britain",
+    "type": "Light cruiser",
+    "br": 5.0,
+    "url": "https://wiki.warthunder.com/unit/uk_cruiser_enterprise_d52",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_cruiser_enterprise_d52_ico.svg"
+  },
+  {
+    "name": "HMS Hawkins",
+    "nation": "britain",
+    "type": "Heavy cruiser",
+    "br": 5.3,
+    "url": "https://wiki.warthunder.com/unit/uk_cruiser_hawkins",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_cruiser_hawkins_ico.svg"
+  },
+  {
+    "name": "HMS Kent",
+    "nation": "britain",
+    "type": "Heavy cruiser",
+    "br": 5.7,
+    "url": "https://wiki.warthunder.com/unit/uk_cruiser_kent",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_cruiser_kent_ico.svg"
+  },
+  {
+    "name": "HMS Norfolk",
+    "nation": "britain",
+    "type": "Heavy cruiser",
+    "br": 5.7,
+    "url": "https://wiki.warthunder.com/unit/uk_cruiser_norfolk",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_cruiser_norfolk_ico.svg"
+  },
+  {
+    "name": "HMS London",
+    "nation": "britain",
+    "type": "Heavy cruiser",
+    "br": 5.7,
+    "url": "https://wiki.warthunder.com/unit/uk_cruiser_london",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_cruiser_london_ico.svg"
+  },
+  {
+    "name": "HMS Verdun",
+    "nation": "britain",
+    "type": "Destroyer",
+    "br": 3.7,
+    "url": "https://wiki.warthunder.com/unit/uk_destroyer_v_class_verdun",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_destroyer_v_class_verdun_ico.svg"
+  },
+  {
+    "name": "HMS Valhalla",
+    "nation": "britain",
+    "type": "Destroyer",
+    "br": 3.3,
+    "url": "https://wiki.warthunder.com/unit/uk_destroyer_v_class_valhalla",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_destroyer_v_class_valhalla_ico.svg"
+  },
+  {
+    "name": "HMS Jervis",
+    "nation": "britain",
+    "type": "Destroyer",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/uk_destroyer_j_class",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_destroyer_j_class_ico.svg"
+  },
+  {
+    "name": "HMS Mohawk",
+    "nation": "britain",
+    "type": "Destroyer",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/uk_destroyer_tribal_mohawk",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_destroyer_tribal_mohawk_ico.svg"
+  },
+  {
+    "name": "HMCS Haida",
+    "nation": "britain",
+    "type": "Destroyer",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/uk_destroyer_haida",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_destroyer_haida_ico.svg"
+  },
+  {
+    "name": "HMS Diamond",
+    "nation": "britain",
+    "type": "Destroyer",
+    "br": 5.0,
+    "url": "https://wiki.warthunder.com/unit/uk_destroyer_daring_class_diamond",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_destroyer_daring_class_diamond_ico.svg"
+  },
+  {
+    "name": "HMS Liverpool",
+    "nation": "britain",
+    "type": "Light cruiser",
+    "br": 5.7,
+    "url": "https://wiki.warthunder.com/unit/uk_cruiser_liverpool",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_cruiser_liverpool_ico.svg"
+  },
+  {
+    "name": "HMS Belfast",
+    "nation": "britain",
+    "type": "Light cruiser",
+    "br": 6.0,
+    "url": "https://wiki.warthunder.com/unit/uk_cruiser_belfast",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_cruiser_belfast_ico.svg"
+  },
+  {
+    "name": "HMS Iron Duke",
+    "nation": "britain",
+    "type": "Battleship",
+    "br": 7.0,
+    "url": "https://wiki.warthunder.com/unit/uk_battleship_iron_duke",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_battleship_iron_duke_ico.svg"
+  },
+  {
+    "name": "HMS Montgomery",
+    "nation": "britain",
+    "type": "Destroyer",
+    "br": 3.3,
+    "url": "https://wiki.warthunder.com/unit/uk_destroyer_clemson_montgomery_g95",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_destroyer_clemson_montgomery_g95_ico.svg"
+  },
+  {
+    "name": "ORP Garland",
+    "nation": "britain",
+    "type": "Destroyer",
+    "br": 3.7,
+    "url": "https://wiki.warthunder.com/unit/uk_destroyer_g_garland",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_destroyer_g_garland_ico.svg"
+  },
+  {
+    "name": "HMS Cadiz",
+    "nation": "britain",
+    "type": "Destroyer",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/uk_destroyer_battle_cadiz",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_destroyer_battle_cadiz_ico.svg"
+  },
+  {
+    "name": "HMS Tiger",
+    "nation": "britain",
+    "type": "Light cruiser",
+    "br": 5.7,
+    "url": "https://wiki.warthunder.com/unit/uk_cruiser_tiger",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_cruiser_tiger_ico.svg"
+  },
+  {
+    "name": "Imperatritsa Mariya",
+    "nation": "ussr",
+    "type": "Battleship",
+    "br": 6.7,
+    "url": "https://wiki.warthunder.com/unit/ussr_battleship_imperatritsa_mariya",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_battleship_imperatritsa_mariya_ico.svg"
+  },
+  {
+    "name": "Kronshtadt",
+    "nation": "ussr",
+    "type": "Battlecruiser",
+    "br": 7.3,
+    "url": "https://wiki.warthunder.com/unit/ussr_battlecruiser_kronshtadt",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_battlecruiser_kronshtadt_ico.svg"
+  },
+  {
+    "name": "HMS Barham",
+    "nation": "britain",
+    "type": "Battleship",
+    "br": 7.3,
+    "url": "https://wiki.warthunder.com/unit/uk_battleship_q_elizabet_class_barham",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_battleship_q_elizabet_class_barham_ico.svg"
+  },
+  {
+    "name": "Izmail",
+    "nation": "ussr",
+    "type": "Battlecruiser",
+    "br": 7.0,
+    "url": "https://wiki.warthunder.com/unit/ussr_battlecruiser_izmail",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_battlecruiser_izmail_ico.svg"
+  },
+  {
+    "name": "HMS Repulse",
+    "nation": "britain",
+    "type": "Battlecruiser",
+    "br": 7.0,
+    "url": "https://wiki.warthunder.com/unit/uk_battlecruiser_repulse",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_battlecruiser_repulse_ico.svg"
+  },
+  {
+    "name": "Arkhangelsk",
+    "nation": "ussr",
+    "type": "Battleship",
+    "br": 7.7,
+    "url": "https://wiki.warthunder.com/unit/ussr_battleship_arhangelsk",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_battleship_arhangelsk_ico.svg"
+  },
+  {
+    "name": "Sevastopol",
+    "nation": "ussr",
+    "type": "Battlecruiser",
+    "br": 7.3,
+    "url": "https://wiki.warthunder.com/unit/ussr_battlecruiser_sevastopol",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_battlecruiser_sevastopol_ico.svg"
+  },
+  {
+    "name": "USS Atlanta",
+    "nation": "usa",
+    "type": "Light cruiser",
+    "br": 5.7,
+    "url": "https://wiki.warthunder.com/unit/us_cruiser_atlanta_class_atlanta",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_cruiser_atlanta_class_atlanta_ico.svg"
+  },
+  {
+    "name": "USS Brooklyn",
+    "nation": "usa",
+    "type": "Light cruiser",
+    "br": 6.3,
+    "url": "https://wiki.warthunder.com/unit/us_cruiser_brooklyn_class_brooklyn",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_cruiser_brooklyn_class_brooklyn_ico.svg"
+  },
+  {
+    "name": "USS Texas",
+    "nation": "usa",
+    "type": "Battleship",
+    "br": 7.0,
+    "url": "https://wiki.warthunder.com/unit/us_battleship_texas",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_battleship_texas_ico.svg"
+  },
+  {
+    "name": "USS Arizona",
+    "nation": "usa",
+    "type": "Battleship",
+    "br": 7.3,
+    "url": "https://wiki.warthunder.com/unit/us_battleship_arizona_1931",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_battleship_arizona_1931_ico.svg"
+  },
+  {
+    "name": "USS North Dakota",
+    "nation": "usa",
+    "type": "Battleship",
+    "br": 6.3,
+    "url": "https://wiki.warthunder.com/unit/us_battleship_north_dakota",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_battleship_north_dakota_ico.svg"
+  },
+  {
+    "name": "USS Wyoming",
+    "nation": "usa",
+    "type": "Battleship",
+    "br": 6.7,
+    "url": "https://wiki.warthunder.com/unit/us_battleship_wyoming_class",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_battleship_wyoming_class_ico.svg"
+  },
+  {
+    "name": "USS Nevada",
+    "nation": "usa",
+    "type": "Battleship",
+    "br": 7.3,
+    "url": "https://wiki.warthunder.com/unit/us_battleship_nevada",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_battleship_nevada_ico.svg"
+  },
+  {
+    "name": "USS Pittsburgh",
+    "nation": "usa",
+    "type": "Heavy cruiser",
+    "br": 6.3,
+    "url": "https://wiki.warthunder.com/unit/us_cruiser_baltimore_class_pittsburgh",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_cruiser_baltimore_class_pittsburgh_ico.svg"
+  },
+  {
+    "name": "USS Alaska",
+    "nation": "usa",
+    "type": "Battlecruiser",
+    "br": 7.3,
+    "url": "https://wiki.warthunder.com/unit/us_battlecruiser_alaska_class",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_battlecruiser_alaska_class_ico.svg"
+  },
+  {
+    "name": "USS Baltimore",
+    "nation": "usa",
+    "type": "Heavy cruiser",
+    "br": 6.3,
+    "url": "https://wiki.warthunder.com/unit/us_cruiser_baltimore_class",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_cruiser_baltimore_class_ico.svg"
+  },
+  {
+    "name": "USS Arkansas",
+    "nation": "usa",
+    "type": "Battleship",
+    "br": 6.7,
+    "url": "https://wiki.warthunder.com/unit/us_battleship_arkansas",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_battleship_arkansas_ico.svg"
+  },
+  {
+    "name": "USS Mississippi",
+    "nation": "usa",
+    "type": "Battleship",
+    "br": 7.7,
+    "url": "https://wiki.warthunder.com/unit/us_battleship_mississippi",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_battleship_mississippi_ico.svg"
+  },
+  {
+    "name": "Frunze",
+    "nation": "ussr",
+    "type": "Destroyer",
+    "br": 3.3,
+    "url": "https://wiki.warthunder.com/unit/ussr_destroyer_frunze",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_destroyer_frunze_ico.svg"
+  },
+  {
+    "name": "Opytny",
+    "nation": "ussr",
+    "type": "Destroyer",
+    "br": 3.7,
+    "url": "https://wiki.warthunder.com/unit/ussr_destroyer_pr45",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_destroyer_pr45_ico.svg"
+  },
+  {
+    "name": "Besposhchadny",
+    "nation": "ussr",
+    "type": "Destroyer",
+    "br": 4.0,
+    "url": "https://wiki.warthunder.com/unit/ussr_destroyer_7_besposhchadny",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_destroyer_7_besposhchadny_ico.svg"
+  },
+  {
+    "name": "Moskva",
+    "nation": "ussr",
+    "type": "Destroyer",
+    "br": 4.3,
+    "url": "https://wiki.warthunder.com/unit/ussr_destroyer_moskva",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_destroyer_moskva_ico.svg"
+  },
+  {
+    "name": "Soobrazitelny",
+    "nation": "ussr",
+    "type": "Destroyer",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/ussr_destroyer_7y",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_destroyer_7y_ico.svg"
+  },
+  {
+    "name": "Krasny Kavkaz",
+    "nation": "ussr",
+    "type": "Light cruiser",
+    "br": 5.0,
+    "url": "https://wiki.warthunder.com/unit/ussr_cruiser_krasnyi_kavkaz",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_cruiser_krasnyi_kavkaz_ico.svg"
+  },
+  {
+    "name": "Krasny Krym",
+    "nation": "ussr",
+    "type": "Light cruiser",
+    "br": 5.3,
+    "url": "https://wiki.warthunder.com/unit/ussr_cruiser_krasnyi_krim",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_cruiser_krasnyi_krim_ico.svg"
+  },
+  {
+    "name": "Kirov",
+    "nation": "ussr",
+    "type": "Light cruiser",
+    "br": 5.7,
+    "url": "https://wiki.warthunder.com/unit/ussr_cruiser_kirov",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_cruiser_kirov_ico.svg"
+  },
+  {
+    "name": "Chapayev",
+    "nation": "ussr",
+    "type": "Light cruiser",
+    "br": 6.0,
+    "url": "https://wiki.warthunder.com/unit/ussr_cruiser_chapayev",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_cruiser_chapayev_ico.svg"
+  },
+  {
+    "name": "Sverdlov",
+    "nation": "ussr",
+    "type": "Light cruiser",
+    "br": 6.0,
+    "url": "https://wiki.warthunder.com/unit/ussr_cruiser_sverdlov",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_cruiser_sverdlov_ico.svg"
+  },
+  {
+    "name": "Poltava",
+    "nation": "ussr",
+    "type": "Battleship",
+    "br": 6.3,
+    "url": "https://wiki.warthunder.com/unit/ussr_battleship_poltava",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_battleship_poltava_ico.svg"
+  },
+  {
+    "name": "Parizhskaya Kommuna",
+    "nation": "ussr",
+    "type": "Battleship",
+    "br": 6.7,
+    "url": "https://wiki.warthunder.com/unit/ussr_battleship_parizhskaya_kommuna",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_battleship_parizhskaya_kommuna_ico.svg"
+  },
+  {
+    "name": "Novorossiysk",
+    "nation": "ussr",
+    "type": "Battleship",
+    "br": 7.3,
+    "url": "https://wiki.warthunder.com/unit/ussr_battleship_novorossiysk",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_battleship_novorossiysk_ico.svg"
+  },
+  {
+    "name": "Letuchiy",
+    "nation": "ussr",
+    "type": "Destroyer",
+    "br": 4.0,
+    "url": "https://wiki.warthunder.com/unit/ussr_destroyer_regele_ferdinand_class_letuchiy",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_destroyer_regele_ferdinand_class_letuchiy_ico.svg"
+  },
+  {
+    "name": "Ognevoy",
+    "nation": "ussr",
+    "type": "Destroyer",
+    "br": 4.3,
+    "url": "https://wiki.warthunder.com/unit/ussr_destroyer_pr30_ognevoy",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_destroyer_pr30_ognevoy_ico.svg"
+  },
+  {
+    "name": "Bezuprechny",
+    "nation": "ussr",
+    "type": "Destroyer",
+    "br": 4.3,
+    "url": "https://wiki.warthunder.com/unit/ussr_destroyer_pr30bis_bezuprechnyi",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_destroyer_pr30bis_bezuprechnyi_ico.svg"
+  },
+  {
+    "name": "Tashkent",
+    "nation": "ussr",
+    "type": "Destroyer",
+    "br": 5.0,
+    "url": "https://wiki.warthunder.com/unit/ussr_destroyer_pr20_tashkent",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_destroyer_pr20_tashkent_ico.svg"
+  },
+  {
+    "name": "Spokoinyy",
+    "nation": "ussr",
+    "type": "Destroyer",
+    "br": 5.3,
+    "url": "https://wiki.warthunder.com/unit/ussr_destroyer_pr56_spokoinyy",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_destroyer_pr56_spokoinyy_ico.svg"
+  },
+  {
+    "name": "Bravy",
+    "nation": "ussr",
+    "type": "Destroyer",
+    "br": 5.3,
+    "url": "https://wiki.warthunder.com/unit/ussr_destroyer_pr56_bravy",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_destroyer_pr56_bravy_ico.svg"
+  },
+  {
+    "name": "Mikhail Kutuzov",
+    "nation": "ussr",
+    "type": "Light cruiser",
+    "br": 6.0,
+    "url": "https://wiki.warthunder.com/unit/ussr_cruiser_mikhail_kutuzov",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_cruiser_mikhail_kutuzov_ico.svg"
+  },
+  {
+    "name": "Kerch",
+    "nation": "ussr",
+    "type": "Destroyer",
+    "br": 3.3,
+    "url": "https://wiki.warthunder.com/unit/ussr_destroyer_kerch",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_destroyer_kerch_ico.svg"
+  },
+  {
+    "name": "Ryany",
+    "nation": "ussr",
+    "type": "Destroyer",
+    "br": 4.3,
+    "url": "https://wiki.warthunder.com/unit/ussr_destroyer_7_ryany",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_destroyer_7_ryany_ico.svg"
+  },
+  {
+    "name": "Smelyi",
+    "nation": "ussr",
+    "type": "Destroyer",
+    "br": 4.3,
+    "url": "https://wiki.warthunder.com/unit/ussr_destroyer_pr30bis_smelyi",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_destroyer_pr30bis_smelyi_ico.svg"
+  },
+  {
+    "name": "Leningrad",
+    "nation": "ussr",
+    "type": "Destroyer",
+    "br": 4.3,
+    "url": "https://wiki.warthunder.com/unit/ussr_destroyer_leningrad",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_destroyer_leningrad_ico.svg"
+  },
+  {
+    "name": "Blagorodnyy",
+    "nation": "ussr",
+    "type": "Destroyer",
+    "br": 5.3,
+    "url": "https://wiki.warthunder.com/unit/ussr_destroyer_pr56_blagorodny",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_destroyer_pr56_blagorodny_ico.svg"
+  },
+  {
+    "name": "Kerch",
+    "nation": "ussr",
+    "type": "Light cruiser",
+    "br": 5.3,
+    "url": "https://wiki.warthunder.com/unit/ussr_cruiser_kerch",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_cruiser_kerch_ico.svg"
+  },
+  {
+    "name": "Zheleznyakov",
+    "nation": "ussr",
+    "type": "Light cruiser",
+    "br": 6.0,
+    "url": "https://wiki.warthunder.com/unit/ussr_cruiser_zheleznyakov",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_cruiser_zheleznyakov_ico.svg"
+  },
+  {
+    "name": "Shcherbakov",
+    "nation": "ussr",
+    "type": "Light cruiser",
+    "br": 6.0,
+    "url": "https://wiki.warthunder.com/unit/ussr_cruiser_shcherbakov",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_cruiser_shcherbakov_ico.svg"
+  },
+  {
+    "name": "Marat",
+    "nation": "ussr",
+    "type": "Battleship",
+    "br": 6.7,
+    "url": "https://wiki.warthunder.com/unit/ussr_battleship_marat",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_battleship_marat_ico.svg"
+  },
+  {
+    "name": "Stroyny",
+    "nation": "ussr",
+    "type": "Destroyer",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/ussr_destroyer_7y_stroyny",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_destroyer_7y_stroyny_ico.svg"
+  },
+  {
+    "name": "Neustrashimy",
+    "nation": "ussr",
+    "type": "Destroyer",
+    "br": 5.3,
+    "url": "https://wiki.warthunder.com/unit/ussr_destroyer_pr41_neustrashimy",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_destroyer_pr41_neustrashimy_ico.svg"
+  },
+  {
+    "name": "Voroshilov",
+    "nation": "ussr",
+    "type": "Light cruiser",
+    "br": 5.7,
+    "url": "https://wiki.warthunder.com/unit/ussr_cruiser_voroshilov",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_cruiser_voroshilov_ico.svg"
+  },
+  {
+    "name": "Maxim Gorky",
+    "nation": "ussr",
+    "type": "Light cruiser",
+    "br": 5.7,
+    "url": "https://wiki.warthunder.com/unit/ussr_cruiser_maxim_gorky",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_cruiser_maxim_gorky_ico.svg"
+  },
+  {
+    "name": "USS Tennessee",
+    "nation": "usa",
+    "type": "Battleship",
+    "br": 7.7,
+    "url": "https://wiki.warthunder.com/unit/us_battleship_tennessee",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_battleship_tennessee_ico.svg"
+  },
+  {
+    "name": "Murmansk",
+    "nation": "ussr",
+    "type": "Light cruiser",
+    "br": 5.0,
+    "url": "https://wiki.warthunder.com/unit/ussr_cruiser_omaha_class_murmansk",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_cruiser_omaha_class_murmansk_ico.svg"
+  },
+  {
+    "name": "USS Colorado",
+    "nation": "usa",
+    "type": "Battleship",
+    "br": 7.7,
+    "url": "https://wiki.warthunder.com/unit/us_battleship_colorado_class_colorado",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_battleship_colorado_class_colorado_ico.svg"
+  },
+  {
+    "name": "USS Iowa",
+    "nation": "usa",
+    "type": "Battleship",
+    "br": 8.7,
+    "url": "https://wiki.warthunder.com/unit/us_battleship_iowa_class_iowa",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_battleship_iowa_class_iowa_ico.svg"
+  },
+  {
+    "name": "Sovetsky Soyuz",
+    "nation": "ussr",
+    "type": "Battleship",
+    "br": 8.7,
+    "url": "https://wiki.warthunder.com/unit/ussr_battleship_pr23_sovetskij_soyuz",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_battleship_pr23_sovetskij_soyuz_ico.svg"
+  },
+  {
+    "name": "USS Litchfield",
+    "nation": "usa",
+    "type": "Destroyer",
+    "br": 3.3,
+    "url": "https://wiki.warthunder.com/unit/us_destroyer_clemson_litchfield",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_destroyer_clemson_litchfield_ico.svg"
+  },
+  {
+    "name": "USS Aylwin",
+    "nation": "usa",
+    "type": "Destroyer",
+    "br": 3.7,
+    "url": "https://wiki.warthunder.com/unit/us_destroyer_farragut_1942",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_destroyer_farragut_1942_ico.svg"
+  },
+  {
+    "name": "USS Sumner",
+    "nation": "usa",
+    "type": "Destroyer",
+    "br": 5.0,
+    "url": "https://wiki.warthunder.com/unit/us_destroyer_sumner",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_destroyer_sumner_ico.svg"
+  },
+  {
+    "name": "USS Gearing",
+    "nation": "usa",
+    "type": "Destroyer",
+    "br": 5.0,
+    "url": "https://wiki.warthunder.com/unit/us_destroyer_gearing",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_destroyer_gearing_ico.svg"
+  },
+  {
+    "name": "USS Porter",
+    "nation": "usa",
+    "type": "Destroyer",
+    "br": 5.3,
+    "url": "https://wiki.warthunder.com/unit/us_destroyer_porter_1941",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_destroyer_porter_1941_ico.svg"
+  },
+  {
+    "name": "USS Somers",
+    "nation": "usa",
+    "type": "Destroyer",
+    "br": 5.3,
+    "url": "https://wiki.warthunder.com/unit/us_destroyer_somers",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_destroyer_somers_ico.svg"
+  },
+  {
+    "name": "USS Fargo",
+    "nation": "usa",
+    "type": "Light cruiser",
+    "br": 6.0,
+    "url": "https://wiki.warthunder.com/unit/us_cruiser_fargo_class",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_cruiser_fargo_class_ico.svg"
+  },
+  {
+    "name": "USS Roanoke",
+    "nation": "usa",
+    "type": "Light cruiser",
+    "br": 6.3,
+    "url": "https://wiki.warthunder.com/unit/us_cruiser_worcester_class_roanoke",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_cruiser_worcester_class_roanoke_ico.svg"
+  },
+  {
+    "name": "USS Barker",
+    "nation": "usa",
+    "type": "Destroyer",
+    "br": 3.3,
+    "url": "https://wiki.warthunder.com/unit/us_destroyer_clemson_barker",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_destroyer_clemson_barker_ico.svg"
+  },
+  {
+    "name": "USS Fletcher",
+    "nation": "usa",
+    "type": "Destroyer",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/us_destroyer_fletcher",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_destroyer_fletcher_ico.svg"
+  },
+  {
+    "name": "USS Mitscher",
+    "nation": "usa",
+    "type": "Destroyer",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/us_destroyer_mitscher",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_destroyer_mitscher_ico.svg"
+  },
+  {
+    "name": "USS Trenton",
+    "nation": "usa",
+    "type": "Light cruiser",
+    "br": 5.0,
+    "url": "https://wiki.warthunder.com/unit/us_cruiser_omaha_class_trenton",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_cruiser_omaha_class_trenton_ico.svg"
+  },
+  {
+    "name": "USS Raleigh",
+    "nation": "usa",
+    "type": "Light cruiser",
+    "br": 5.0,
+    "url": "https://wiki.warthunder.com/unit/us_cruiser_omaha_class_raleigh",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_cruiser_omaha_class_raleigh_ico.svg"
+  },
+  {
+    "name": "USS Portland",
+    "nation": "usa",
+    "type": "Heavy cruiser",
+    "br": 5.7,
+    "url": "https://wiki.warthunder.com/unit/us_cruiser_portland_class",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_cruiser_portland_class_ico.svg"
+  },
+  {
+    "name": "USS Pensacola",
+    "nation": "usa",
+    "type": "Heavy cruiser",
+    "br": 5.7,
+    "url": "https://wiki.warthunder.com/unit/us_cruiser_pensacola_class",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_cruiser_pensacola_class_ico.svg"
+  },
+  {
+    "name": "USS Cleveland",
+    "nation": "usa",
+    "type": "Light cruiser",
+    "br": 6.0,
+    "url": "https://wiki.warthunder.com/unit/us_cruiser_cleveland_class_cleveland",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_cruiser_cleveland_class_cleveland_ico.svg"
+  },
+  {
+    "name": "USS Northampton",
+    "nation": "usa",
+    "type": "Heavy cruiser",
+    "br": 5.7,
+    "url": "https://wiki.warthunder.com/unit/us_cruiser_northampton_class",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_cruiser_northampton_class_ico.svg"
+  },
+  {
+    "name": "USS New Orleans",
+    "nation": "usa",
+    "type": "Heavy cruiser",
+    "br": 6.0,
+    "url": "https://wiki.warthunder.com/unit/us_cruiser_new_orleans_class",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_cruiser_new_orleans_class_ico.svg"
+  },
+  {
+    "name": "USS Welborn C. Wood",
+    "nation": "usa",
+    "type": "Destroyer",
+    "br": 3.3,
+    "url": "https://wiki.warthunder.com/unit/us_destroyer_clemson_welborn_c_wood",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_destroyer_clemson_welborn_c_wood_ico.svg"
+  },
+  {
+    "name": "USS Wilkinson",
+    "nation": "usa",
+    "type": "Destroyer",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/us_destroyer_mitscher_wilkinson",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_destroyer_mitscher_wilkinson_ico.svg"
+  },
+  {
+    "name": "USS Frank Knox",
+    "nation": "usa",
+    "type": "Destroyer",
+    "br": 5.0,
+    "url": "https://wiki.warthunder.com/unit/us_destroyer_gearing_frank_knox",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_destroyer_gearing_frank_knox_ico.svg"
+  },
+  {
+    "name": "USS Cowell",
+    "nation": "usa",
+    "type": "Destroyer",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/us_destroyer_fletcher_cowell",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_destroyer_fletcher_cowell_ico.svg"
+  },
+  {
+    "name": "USS Moffett",
+    "nation": "usa",
+    "type": "Destroyer",
+    "br": 5.3,
+    "url": "https://wiki.warthunder.com/unit/us_destroyer_porter_1942",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_destroyer_porter_1942_ico.svg"
+  },
+  {
+    "name": "USS Bennion",
+    "nation": "usa",
+    "type": "Destroyer",
+    "br": 4.7,
+    "url": "https://wiki.warthunder.com/unit/us_destroyer_fletcher_bennion",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_destroyer_fletcher_bennion_ico.svg"
+  },
+  {
+    "name": "USS Helena",
+    "nation": "usa",
+    "type": "Light cruiser",
+    "br": 6.3,
+    "url": "https://wiki.warthunder.com/unit/us_cruiser_brooklyn_class_helena",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_cruiser_brooklyn_class_helena_ico.svg"
+  },
+  {
+    "name": "USS Davis",
+    "nation": "usa",
+    "type": "Destroyer",
+    "br": 5.3,
+    "url": "https://wiki.warthunder.com/unit/us_destroyer_somers_davis",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_destroyer_somers_davis_ico.svg"
+  },
+  {
+    "name": "USS Phelps",
+    "nation": "usa",
+    "type": "Destroyer",
+    "br": 5.0,
+    "url": "https://wiki.warthunder.com/unit/us_destroyer_porter_1944",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_destroyer_porter_1944_ico.svg"
+  },
+  {
+    "name": "USS Detroit",
+    "nation": "usa",
+    "type": "Light cruiser",
+    "br": 5.0,
+    "url": "https://wiki.warthunder.com/unit/us_cruiser_omaha_class_detroit",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_cruiser_omaha_class_detroit_ico.svg"
+  },
+  {
+    "name": "USS Newport News",
+    "nation": "usa",
+    "type": "Heavy cruiser",
+    "br": 6.7,
+    "url": "https://wiki.warthunder.com/unit/us_cruiser_des_moines_class_newport_news",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_cruiser_des_moines_class_newport_news_ico.svg"
+  },
+  {
+    "name": "USS Des Moines",
+    "nation": "usa",
+    "type": "Heavy cruiser",
+    "br": 6.7,
+    "url": "https://wiki.warthunder.com/unit/us_cruiser_des_moines_class",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_cruiser_des_moines_class_ico.svg"
+  },
+  {
+    "name": "USS Bagley",
+    "nation": "usa",
+    "type": "Destroyer",
+    "br": 4.0,
+    "url": "https://wiki.warthunder.com/unit/us_destroyer_bagley_class_bagley",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_destroyer_bagley_class_bagley_ico.svg"
+  }
+]

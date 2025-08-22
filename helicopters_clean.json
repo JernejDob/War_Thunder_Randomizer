@@ -1,0 +1,802 @@
+[
+  {
+    "name": "AH-1W",
+    "nation": "usa",
+    "type": "Attack helicopter",
+    "br": 11.0,
+    "url": "https://wiki.warthunder.com/unit/ah_1w",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ah_1w_ico.svg"
+  },
+  {
+    "name": "AH-1Z",
+    "nation": "usa",
+    "type": "Attack helicopter",
+    "br": 12.0,
+    "url": "https://wiki.warthunder.com/unit/ah_1z",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ah_1z_ico.svg"
+  },
+  {
+    "name": "MH-60L DAP",
+    "nation": "usa",
+    "type": "Attack helicopter",
+    "br": 11.3,
+    "url": "https://wiki.warthunder.com/unit/mh_60l_dap",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/mh_60l_dap_ico.svg"
+  },
+  {
+    "name": "Lynx AH.Mk.1",
+    "nation": "britain",
+    "type": "Utility helicopter",
+    "br": 10.7,
+    "url": "https://wiki.warthunder.com/unit/lynx_ah_mk1",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/lynx_ah_mk1_ico.svg"
+  },
+  {
+    "name": "AH Mk.1 Apache",
+    "nation": "britain",
+    "type": "Attack helicopter",
+    "br": 12.0,
+    "url": "https://wiki.warthunder.com/unit/ah_mk1",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ah_mk1_ico.svg"
+  },
+  {
+    "name": "G-LYNX",
+    "nation": "britain",
+    "type": "Utility helicopter",
+    "br": 10.7,
+    "url": "https://wiki.warthunder.com/unit/g_lynx",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/g_lynx_ico.svg"
+  },
+  {
+    "name": "Rooivalk Mk1F CSH",
+    "nation": "britain",
+    "type": "Attack helicopter",
+    "br": 11.7,
+    "url": "https://wiki.warthunder.com/unit/ah_2_rooivalk",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ah_2_rooivalk_ico.svg"
+  },
+  {
+    "name": "␗AH-1W",
+    "nation": "china",
+    "type": "Attack helicopter",
+    "br": 11.0,
+    "url": "https://wiki.warthunder.com/unit/ah_1w_china",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ah_1w_china_ico.svg"
+  },
+  {
+    "name": "▄H-34",
+    "nation": "france",
+    "type": "Attack helicopter",
+    "br": 8.0,
+    "url": "https://wiki.warthunder.com/unit/h_34_france",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/h_34_france_ico.svg"
+  },
+  {
+    "name": "IAR 316B",
+    "nation": "france",
+    "type": "Utility helicopter",
+    "br": 8.3,
+    "url": "https://wiki.warthunder.com/unit/iar_316b",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/iar_316b_ico.svg"
+  },
+  {
+    "name": "BO 105 PAH-1",
+    "nation": "germany",
+    "type": "Utility helicopter",
+    "br": 9.3,
+    "url": "https://wiki.warthunder.com/unit/bo_105pah1",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/bo_105pah1_ico.svg"
+  },
+  {
+    "name": "BO 105 PAH-1A1",
+    "nation": "germany",
+    "type": "Utility helicopter",
+    "br": 9.3,
+    "url": "https://wiki.warthunder.com/unit/bo_105pah1_a1",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/bo_105pah1_a1_ico.svg"
+  },
+  {
+    "name": "BO 105 CB-2",
+    "nation": "germany",
+    "type": "Utility helicopter",
+    "br": 9.3,
+    "url": "https://wiki.warthunder.com/unit/bo_105cb2",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/bo_105cb2_ico.svg"
+  },
+  {
+    "name": "Tzefa A",
+    "nation": "israel",
+    "type": "Attack helicopter",
+    "br": 8.0,
+    "url": "https://wiki.warthunder.com/unit/ah_1g_iaf",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ah_1g_iaf_ico.svg"
+  },
+  {
+    "name": "Tzefa B",
+    "nation": "israel",
+    "type": "Attack helicopter",
+    "br": 9.0,
+    "url": "https://wiki.warthunder.com/unit/ah_1q_iaf",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ah_1q_iaf_ico.svg"
+  },
+  {
+    "name": "Tzefa D/E",
+    "nation": "israel",
+    "type": "Attack helicopter",
+    "br": 9.7,
+    "url": "https://wiki.warthunder.com/unit/ah_1f_iaf",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ah_1f_iaf_ico.svg"
+  },
+  {
+    "name": "Peten",
+    "nation": "israel",
+    "type": "Attack helicopter",
+    "br": 11.7,
+    "url": "https://wiki.warthunder.com/unit/ah_64a_iaf",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ah_64a_iaf_ico.svg"
+  },
+  {
+    "name": "Saraph",
+    "nation": "israel",
+    "type": "Attack helicopter",
+    "br": 12.0,
+    "url": "https://wiki.warthunder.com/unit/ah_64d_i_saraph",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ah_64d_i_saraph_ico.svg"
+  },
+  {
+    "name": "Lahatut",
+    "nation": "israel",
+    "type": "Attack helicopter",
+    "br": 9.0,
+    "url": "https://wiki.warthunder.com/unit/md_500_tow_late",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/md_500_tow_late_ico.svg"
+  },
+  {
+    "name": "AH-60",
+    "nation": "israel",
+    "type": "Attack helicopter",
+    "br": 12.3,
+    "url": "https://wiki.warthunder.com/unit/ah_60_iaf",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ah_60_iaf_ico.svg"
+  },
+  {
+    "name": "AH-64A Peten",
+    "nation": "israel",
+    "type": "Attack helicopter",
+    "br": 11.7,
+    "url": "https://wiki.warthunder.com/unit/ah_64a_peten_iaf",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ah_64a_peten_iaf_ico.svg"
+  },
+  {
+    "name": "AB 205 A-1",
+    "nation": "italy",
+    "type": "Utility helicopter",
+    "br": 7.7,
+    "url": "https://wiki.warthunder.com/unit/ab_205a_1",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ab_205a_1_ico.svg"
+  },
+  {
+    "name": "◔Mi-24D",
+    "nation": "italy",
+    "type": "Attack helicopter",
+    "br": 8.7,
+    "url": "https://wiki.warthunder.com/unit/mi_24d_hungary",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/mi_24d_hungary_ico.svg"
+  },
+  {
+    "name": "A.109EOA-2",
+    "nation": "italy",
+    "type": "Utility helicopter",
+    "br": 8.7,
+    "url": "https://wiki.warthunder.com/unit/a_109_eoa2",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/a_109_eoa2_ico.svg"
+  },
+  {
+    "name": "A129CBT",
+    "nation": "italy",
+    "type": "Attack helicopter",
+    "br": 11.0,
+    "url": "https://wiki.warthunder.com/unit/a_129_cbt",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/a_129_cbt_ico.svg"
+  },
+  {
+    "name": "AH-129D",
+    "nation": "italy",
+    "type": "Attack helicopter",
+    "br": 12.3,
+    "url": "https://wiki.warthunder.com/unit/a_129_d",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/a_129_d_ico.svg"
+  },
+  {
+    "name": "A-129 International (p)",
+    "nation": "italy",
+    "type": "Attack helicopter",
+    "br": 11.0,
+    "url": "https://wiki.warthunder.com/unit/a_129_a",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/a_129_a_ico.svg"
+  },
+  {
+    "name": "▅AH-1E",
+    "nation": "japan",
+    "type": "Attack helicopter",
+    "br": 9.3,
+    "url": "https://wiki.warthunder.com/unit/ah_1s_early",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ah_1s_early_ico.svg"
+  },
+  {
+    "name": "AH-1S",
+    "nation": "japan",
+    "type": "Attack helicopter",
+    "br": 9.7,
+    "url": "https://wiki.warthunder.com/unit/ah_1s_late",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ah_1s_late_ico.svg"
+  },
+  {
+    "name": "AH-64DJP",
+    "nation": "japan",
+    "type": "Attack helicopter",
+    "br": 11.7,
+    "url": "https://wiki.warthunder.com/unit/ah_64d_japan",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ah_64d_japan_ico.svg"
+  },
+  {
+    "name": "AH-1S Kisarazu",
+    "nation": "japan",
+    "type": "Attack helicopter",
+    "br": 9.7,
+    "url": "https://wiki.warthunder.com/unit/ah_1s",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ah_1s_ico.svg"
+  },
+  {
+    "name": "HKP3C",
+    "nation": "sweden",
+    "type": "Utility helicopter",
+    "br": 7.7,
+    "url": "https://wiki.warthunder.com/unit/hkp3c",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/hkp3c_ico.svg"
+  },
+  {
+    "name": "HKP2",
+    "nation": "sweden",
+    "type": "Utility helicopter",
+    "br": 8.3,
+    "url": "https://wiki.warthunder.com/unit/hkp2",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/hkp2_ico.svg"
+  },
+  {
+    "name": "HKP9A",
+    "nation": "sweden",
+    "type": "Utility helicopter",
+    "br": 9.3,
+    "url": "https://wiki.warthunder.com/unit/hkp9a_cb2",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/hkp9a_cb2_ico.svg"
+  },
+  {
+    "name": "HKP9A (FC)",
+    "nation": "sweden",
+    "type": "Utility helicopter",
+    "br": 9.7,
+    "url": "https://wiki.warthunder.com/unit/hkp9a_cb3_fc",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/hkp9a_cb3_fc_ico.svg"
+  },
+  {
+    "name": "AHS",
+    "nation": "sweden",
+    "type": "Attack helicopter",
+    "br": 11.7,
+    "url": "https://wiki.warthunder.com/unit/ahs",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ahs_ico.svg"
+  },
+  {
+    "name": "AH-1G",
+    "nation": "usa",
+    "type": "Attack helicopter",
+    "br": 8.0,
+    "url": "https://wiki.warthunder.com/unit/ah_1g",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ah_1g_ico.svg"
+  },
+  {
+    "name": "AH-1F",
+    "nation": "usa",
+    "type": "Attack helicopter",
+    "br": 9.7,
+    "url": "https://wiki.warthunder.com/unit/ah_1f",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ah_1f_ico.svg"
+  },
+  {
+    "name": "AH-6M",
+    "nation": "usa",
+    "type": "Attack helicopter",
+    "br": 10.3,
+    "url": "https://wiki.warthunder.com/unit/ah_6m",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ah_6m_ico.svg"
+  },
+  {
+    "name": "AH-64A",
+    "nation": "usa",
+    "type": "Attack helicopter",
+    "br": 11.7,
+    "url": "https://wiki.warthunder.com/unit/ah_64a",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ah_64a_ico.svg"
+  },
+  {
+    "name": "AH-64D",
+    "nation": "usa",
+    "type": "Attack helicopter",
+    "br": 12.0,
+    "url": "https://wiki.warthunder.com/unit/ah_64d",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ah_64d_ico.svg"
+  },
+  {
+    "name": "H-34",
+    "nation": "usa",
+    "type": "Attack helicopter",
+    "br": 7.7,
+    "url": "https://wiki.warthunder.com/unit/h_34",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/h_34_ico.svg"
+  },
+  {
+    "name": "AH-64A (GR)",
+    "nation": "usa",
+    "type": "Attack helicopter",
+    "br": 11.7,
+    "url": "https://wiki.warthunder.com/unit/ah_64a_greece_usa",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ah_64a_greece_usa_ico.svg"
+  },
+  {
+    "name": "▃AH-64A Peten",
+    "nation": "usa",
+    "type": "Attack helicopter",
+    "br": 11.7,
+    "url": "https://wiki.warthunder.com/unit/ah_64a_peten",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ah_64a_peten_ico.svg"
+  },
+  {
+    "name": "Mi-24A",
+    "nation": "ussr",
+    "type": "Attack helicopter",
+    "br": 8.7,
+    "url": "https://wiki.warthunder.com/unit/mi_24a",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/mi_24a_ico.svg"
+  },
+  {
+    "name": "Ka-29",
+    "nation": "ussr",
+    "type": "Attack helicopter",
+    "br": 9.7,
+    "url": "https://wiki.warthunder.com/unit/ka_29",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ka_29_ico.svg"
+  },
+  {
+    "name": "Ka-52",
+    "nation": "ussr",
+    "type": "Attack helicopter",
+    "br": 12.0,
+    "url": "https://wiki.warthunder.com/unit/ka_52",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ka_52_ico.svg"
+  },
+  {
+    "name": "▂Mi-24D",
+    "nation": "ussr",
+    "type": "Attack helicopter",
+    "br": 8.7,
+    "url": "https://wiki.warthunder.com/unit/mi_24d",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/mi_24d_ico.svg"
+  },
+  {
+    "name": "Ka-50",
+    "nation": "ussr",
+    "type": "Attack helicopter",
+    "br": 11.3,
+    "url": "https://wiki.warthunder.com/unit/ka_50",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ka_50_ico.svg"
+  },
+  {
+    "name": "◘AH-64D",
+    "nation": "france",
+    "type": "Attack helicopter",
+    "br": 11.7,
+    "url": "https://wiki.warthunder.com/unit/ah_64d_netherlands",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ah_64d_netherlands_ico.svg"
+  },
+  {
+    "name": "◄Mi-24P HFS 80",
+    "nation": "germany",
+    "type": "Attack helicopter",
+    "br": 9.7,
+    "url": "https://wiki.warthunder.com/unit/mi_24p_german_hfs80",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/mi_24p_german_hfs80_ico.svg"
+  },
+  {
+    "name": "OH-58D",
+    "nation": "usa",
+    "type": "Attack helicopter",
+    "br": 10.3,
+    "url": "https://wiki.warthunder.com/unit/oh_58d",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/oh_58d_ico.svg"
+  },
+  {
+    "name": "Scout AH.Mk.1",
+    "nation": "britain",
+    "type": "Utility helicopter",
+    "br": 8.3,
+    "url": "https://wiki.warthunder.com/unit/scout_ah_mk1",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/scout_ah_mk1_ico.svg"
+  },
+  {
+    "name": "Wasp HAS.Mk.1",
+    "nation": "britain",
+    "type": "Utility helicopter",
+    "br": 9.0,
+    "url": "https://wiki.warthunder.com/unit/wasp_has_mk1",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/wasp_has_mk1_ico.svg"
+  },
+  {
+    "name": "Wessex HU Mk.5",
+    "nation": "britain",
+    "type": "Utility helicopter",
+    "br": 9.0,
+    "url": "https://wiki.warthunder.com/unit/wessex_mk5",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/wessex_mk5_ico.svg"
+  },
+  {
+    "name": "Z-11WA",
+    "nation": "china",
+    "type": "Attack helicopter",
+    "br": 8.7,
+    "url": "https://wiki.warthunder.com/unit/z_11wa",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/z_11wa_ico.svg"
+  },
+  {
+    "name": "Z-9W",
+    "nation": "china",
+    "type": "Attack helicopter",
+    "br": 10.3,
+    "url": "https://wiki.warthunder.com/unit/z_9w",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/z_9w_ico.svg"
+  },
+  {
+    "name": "Z-9WA",
+    "nation": "china",
+    "type": "Attack helicopter",
+    "br": 11.0,
+    "url": "https://wiki.warthunder.com/unit/z_9wa",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/z_9wa_ico.svg"
+  },
+  {
+    "name": "Z-19",
+    "nation": "china",
+    "type": "Attack helicopter",
+    "br": 11.3,
+    "url": "https://wiki.warthunder.com/unit/z_19",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/z_19_ico.svg"
+  },
+  {
+    "name": "Z-10",
+    "nation": "china",
+    "type": "Attack helicopter",
+    "br": 11.7,
+    "url": "https://wiki.warthunder.com/unit/z_10",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/z_10_ico.svg"
+  },
+  {
+    "name": "SA.342L Gazelle",
+    "nation": "china",
+    "type": "Utility helicopter",
+    "br": 8.7,
+    "url": "https://wiki.warthunder.com/unit/sa_342l_china",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/sa_342l_china_ico.svg"
+  },
+  {
+    "name": "␗OH-58D",
+    "nation": "china",
+    "type": "Attack helicopter",
+    "br": 10.3,
+    "url": "https://wiki.warthunder.com/unit/oh_58d_china",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/oh_58d_china_ico.svg"
+  },
+  {
+    "name": "Z-19E",
+    "nation": "china",
+    "type": "Attack helicopter",
+    "br": 11.3,
+    "url": "https://wiki.warthunder.com/unit/z_19e",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/z_19e_ico.svg"
+  },
+  {
+    "name": "SA 316B Alouette III",
+    "nation": "france",
+    "type": "Utility helicopter",
+    "br": 8.3,
+    "url": "https://wiki.warthunder.com/unit/sa_316b",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/sa_316b_ico.svg"
+  },
+  {
+    "name": "SA.341F Gazelle",
+    "nation": "france",
+    "type": "Utility helicopter",
+    "br": 9.0,
+    "url": "https://wiki.warthunder.com/unit/sa_341f",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/sa_341f_ico.svg"
+  },
+  {
+    "name": "SA.342M Gazelle",
+    "nation": "france",
+    "type": "Utility helicopter",
+    "br": 9.7,
+    "url": "https://wiki.warthunder.com/unit/sa_342m",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/sa_342m_ico.svg"
+  },
+  {
+    "name": "EC-665 Tiger HAD",
+    "nation": "france",
+    "type": "Attack helicopter",
+    "br": 11.0,
+    "url": "https://wiki.warthunder.com/unit/tiger_had_france",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/tiger_had_france_ico.svg"
+  },
+  {
+    "name": "Tiger HAD Block 2",
+    "nation": "france",
+    "type": "Attack helicopter",
+    "br": 12.3,
+    "url": "https://wiki.warthunder.com/unit/tiger_had_block2_france",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/tiger_had_block2_france_ico.svg"
+  },
+  {
+    "name": "SA 313B Alouette II",
+    "nation": "france",
+    "type": "Utility helicopter",
+    "br": 8.3,
+    "url": "https://wiki.warthunder.com/unit/sa_313b_france",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/sa_313b_france_ico.svg"
+  },
+  {
+    "name": "EC-665 Tiger HAP",
+    "nation": "france",
+    "type": "Attack helicopter",
+    "br": 10.0,
+    "url": "https://wiki.warthunder.com/unit/tiger_hap_france",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/tiger_hap_france_ico.svg"
+  },
+  {
+    "name": "◄SA 313B Alouette II",
+    "nation": "germany",
+    "type": "Utility helicopter",
+    "br": 8.3,
+    "url": "https://wiki.warthunder.com/unit/sa_313b",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/sa_313b_ico.svg"
+  },
+  {
+    "name": "◄UH-1D",
+    "nation": "germany",
+    "type": "Utility helicopter",
+    "br": 8.3,
+    "url": "https://wiki.warthunder.com/unit/uh_1d",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uh_1d_ico.svg"
+  },
+  {
+    "name": "EC-665 Tiger UHT",
+    "nation": "germany",
+    "type": "Attack helicopter",
+    "br": 12.3,
+    "url": "https://wiki.warthunder.com/unit/tiger_uht",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/tiger_uht_ico.svg"
+  },
+  {
+    "name": "◊Mi-8TB",
+    "nation": "germany",
+    "type": "Attack helicopter",
+    "br": 8.3,
+    "url": "https://wiki.warthunder.com/unit/mi_8tb",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/mi_8tb_ico.svg"
+  },
+  {
+    "name": "◊Mi-24P",
+    "nation": "germany",
+    "type": "Attack helicopter",
+    "br": 9.7,
+    "url": "https://wiki.warthunder.com/unit/mi_24p_german",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/mi_24p_german_ico.svg"
+  },
+  {
+    "name": "◔Mi-24V",
+    "nation": "italy",
+    "type": "Attack helicopter",
+    "br": 9.7,
+    "url": "https://wiki.warthunder.com/unit/mi_24v_hungary",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/mi_24v_hungary_ico.svg"
+  },
+  {
+    "name": "T129",
+    "nation": "italy",
+    "type": "Attack helicopter",
+    "br": 10.7,
+    "url": "https://wiki.warthunder.com/unit/t_129_atak",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/t_129_atak_ico.svg"
+  },
+  {
+    "name": "◔Mi-24P",
+    "nation": "italy",
+    "type": "Attack helicopter",
+    "br": 9.7,
+    "url": "https://wiki.warthunder.com/unit/mi_24p_hungary",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/mi_24p_hungary_ico.svg"
+  },
+  {
+    "name": "▅UH-1B",
+    "nation": "japan",
+    "type": "Utility helicopter",
+    "br": 7.7,
+    "url": "https://wiki.warthunder.com/unit/uh_1b_japan",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uh_1b_japan_ico.svg"
+  },
+  {
+    "name": "Mi-28A",
+    "nation": "sweden",
+    "type": "Attack helicopter",
+    "br": 10.7,
+    "url": "https://wiki.warthunder.com/unit/mi_28a_sweden",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/mi_28a_sweden_ico.svg"
+  },
+  {
+    "name": "UH-1B",
+    "nation": "usa",
+    "type": "Utility helicopter",
+    "br": 8.3,
+    "url": "https://wiki.warthunder.com/unit/uh_1b",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uh_1b_ico.svg"
+  },
+  {
+    "name": "UH-1C",
+    "nation": "usa",
+    "type": "Utility helicopter",
+    "br": 8.7,
+    "url": "https://wiki.warthunder.com/unit/uh_1c",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uh_1c_ico.svg"
+  },
+  {
+    "name": "UH-1C XM-30",
+    "nation": "usa",
+    "type": "Utility helicopter",
+    "br": 8.7,
+    "url": "https://wiki.warthunder.com/unit/uh_1c_xm_30",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uh_1c_xm_30_ico.svg"
+  },
+  {
+    "name": "YAH-64",
+    "nation": "usa",
+    "type": "Attack helicopter",
+    "br": 11.3,
+    "url": "https://wiki.warthunder.com/unit/yah_64",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/yah_64_ico.svg"
+  },
+  {
+    "name": "Mi-4AV",
+    "nation": "ussr",
+    "type": "Attack helicopter",
+    "br": 8.0,
+    "url": "https://wiki.warthunder.com/unit/mi_4av",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/mi_4av_ico.svg"
+  },
+  {
+    "name": "Mi-24V",
+    "nation": "ussr",
+    "type": "Attack helicopter",
+    "br": 9.7,
+    "url": "https://wiki.warthunder.com/unit/mi_24v",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/mi_24v_ico.svg"
+  },
+  {
+    "name": "Mi-24P",
+    "nation": "ussr",
+    "type": "Attack helicopter",
+    "br": 9.7,
+    "url": "https://wiki.warthunder.com/unit/mi_24p",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/mi_24p_ico.svg"
+  },
+  {
+    "name": "Mi-35M",
+    "nation": "ussr",
+    "type": "Attack helicopter",
+    "br": 10.7,
+    "url": "https://wiki.warthunder.com/unit/mi_35m",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/mi_35m_ico.svg"
+  },
+  {
+    "name": "Mi-28N",
+    "nation": "ussr",
+    "type": "Attack helicopter",
+    "br": 11.0,
+    "url": "https://wiki.warthunder.com/unit/mi_28n",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/mi_28n_ico.svg"
+  },
+  {
+    "name": "Mi-28NM",
+    "nation": "ussr",
+    "type": "Attack helicopter",
+    "br": 12.0,
+    "url": "https://wiki.warthunder.com/unit/mi_28nm",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/mi_28nm_ico.svg"
+  },
+  {
+    "name": "Mi-8TV",
+    "nation": "ussr",
+    "type": "Attack helicopter",
+    "br": 8.3,
+    "url": "https://wiki.warthunder.com/unit/mi_8tv",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/mi_8tv_ico.svg"
+  },
+  {
+    "name": "Mi-8AMTSh",
+    "nation": "ussr",
+    "type": "Attack helicopter",
+    "br": 9.7,
+    "url": "https://wiki.warthunder.com/unit/mi_8amtsh",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/mi_8amtsh_ico.svg"
+  },
+  {
+    "name": "Superhind",
+    "nation": "britain",
+    "type": "Attack helicopter",
+    "br": 10.3,
+    "url": "https://wiki.warthunder.com/unit/super_hind_mk3",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/super_hind_mk3_ico.svg"
+  },
+  {
+    "name": "▄Mi-35M",
+    "nation": "china",
+    "type": "Attack helicopter",
+    "br": 10.7,
+    "url": "https://wiki.warthunder.com/unit/mi_35m_pakistan",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/mi_35m_pakistan_ico.svg"
+  },
+  {
+    "name": "Mi-8AMTSh-VN",
+    "nation": "ussr",
+    "type": "Attack helicopter",
+    "br": 11.0,
+    "url": "https://wiki.warthunder.com/unit/mi_8amtsh_vn",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/mi_8amtsh_vn_ico.svg"
+  },
+  {
+    "name": "EC-665 Tiger HAC",
+    "nation": "france",
+    "type": "Attack helicopter",
+    "br": 12.3,
+    "url": "https://wiki.warthunder.com/unit/tiger_hac_france",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/tiger_hac_france_ico.svg"
+  },
+  {
+    "name": "▄Tigre HAD-E",
+    "nation": "germany",
+    "type": "Attack helicopter",
+    "br": 11.0,
+    "url": "https://wiki.warthunder.com/unit/tiger_had_spain",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/tiger_had_spain_ico.svg"
+  },
+  {
+    "name": "Z-10ME",
+    "nation": "china",
+    "type": "Attack helicopter",
+    "br": 12.0,
+    "url": "https://wiki.warthunder.com/unit/z_10me",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/z_10me_ico.svg"
+  },
+  {
+    "name": "Z-10A",
+    "nation": "china",
+    "type": "Attack helicopter",
+    "br": 11.7,
+    "url": "https://wiki.warthunder.com/unit/z_10a",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/z_10a_ico.svg"
+  },
+  {
+    "name": "RAH-66",
+    "nation": "usa",
+    "type": "Attack helicopter",
+    "br": 11.3,
+    "url": "https://wiki.warthunder.com/unit/rah_66",
+    "icon": "https://static.encyclopedia.warthunder.com/icons/rah_66_ico.svg"
+  }
+]
