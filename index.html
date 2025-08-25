@@ -584,6 +584,11 @@
   brMax.oninput = () => { brMax.value = snapToStep(parseFloat(brMax.value)); brMaxVal.textContent = formatBR(parseFloat(brMax.value)); };
 
   function pickVehicle(){
+    // Get selected nations
+    const nationCheckboxes = Array.from(document.querySelectorAll('.filters .filter-group')[0].querySelectorAll('input[type=checkbox]'));
+    const selectedNations = nationCheckboxes.filter(c => c.checked).map(c => c.value);
+
+    // Get selected types
     const selectedTypes = [];
     if (document.getElementById('chkTanks').checked) selectedTypes.push('Tank');
     if (document.getElementById('chkPlanes').checked) selectedTypes.push('Plane');
@@ -591,9 +596,25 @@
     if (document.getElementById('chkCoastal').checked) selectedTypes.push('Coastal Fleet');
     if (document.getElementById('chkBluewater').checked) selectedTypes.push('Bluewater Fleet');
 
-    const pool=vehicles.filter(v => selectedTypes.includes(v.type));
-    if(pool.length===0){document.getElementById('vehicleName').textContent='No vehicles available';return;}
-    const v=pool[Math.floor(Math.random()*pool.length)];
+    // Get BR range from sliders
+    const minBR = parseFloat(document.getElementById('brMin').value);
+    const maxBR = parseFloat(document.getElementById('brMax').value);
+
+    // Filter vehicles by selected nations, types, and BR range
+    const pool = vehicles.filter(v =>
+      selectedNations.includes(v.nation) &&
+      selectedTypes.includes(v.type) &&
+      v.br >= minBR &&
+      v.br <= maxBR
+    );
+
+    if(pool.length === 0){
+      document.getElementById('vehicleName').textContent = 'No vehicles available';
+      document.getElementById('vehicleIcon').style.display = "none";
+      document.getElementById('lineupContainer').innerHTML = "";
+      return;
+    }
+    const v = pool[Math.floor(Math.random() * pool.length)];
     showSingle(v);
   }
 
@@ -615,51 +636,74 @@
     const minBR = parseFloat(brMin.value);
     const maxBR = parseFloat(brMax.value);
 
-    const selectedNations = Array.from(document.querySelectorAll('.filters input[type=checkbox]'))
-      .filter(c => c.checked && !['Plane','Tank','Helicopter','Coastal Fleet','Bluewater Fleet'].includes(c.value))
-      .map(c => c.value);
+    // Only select nation checkboxes, not type checkboxes
+    // FIX: Use the correct filter-group for nations (the first .filter-group)
+    const nationCheckboxes = Array.from(document.querySelectorAll('.filters .filter-group')[0].querySelectorAll('input[type=checkbox]'));
+    const selectedNations = nationCheckboxes.filter(c => c.checked).map(c => c.value);
+
+    if (selectedNations.length === 0) {
+      nameEl.innerHTML = '<span style="color: #ff6b6b;">No nations selected.</span>';
+      lineupBox.innerHTML = "";
+      return;
+    }
 
     if (vehicles.length === 0) {
       nameEl.innerHTML = '<span class="loading">Loading vehicle data...</span>';
       return;
     }
 
+    // Only use vehicles from selected nations
+    const filteredVehicles = vehicles.filter(v => selectedNations.includes(v.nation));
+
+    // Only use types that are enabled in the type filter
+    const selectedTypes = [];
+    if (document.getElementById('chkTanks').checked) selectedTypes.push('Tank');
+    if (document.getElementById('chkPlanes').checked) selectedTypes.push('Plane');
+    if (document.getElementById('chkHelis').checked) selectedTypes.push('Helicopter');
+    if (document.getElementById('chkCoastal').checked) selectedTypes.push('Coastal Fleet');
+    if (document.getElementById('chkBluewater').checked) selectedTypes.push('Bluewater Fleet');
+
+    // Pick a random nation from the selected ones
     const nation = selectedNations[Math.floor(Math.random() * selectedNations.length)];
 
-    const brs = [...new Set(vehicles
-      .filter(v => v.nation === nation && v.br >= minBR && v.br <= maxBR && ["Tank","Plane","Helicopter"].includes(v.type))
+    // Only use vehicles from the chosen nation and selected types
+    const nationVehicles = filteredVehicles.filter(v => v.nation === nation && selectedTypes.includes(v.type));
+
+    const brs = [...new Set(nationVehicles
+      .filter(v => v.br >= minBR && v.br <= maxBR)
       .map(v => v.br)
     )];
 
     if (brs.length === 0) {
       nameEl.innerHTML = `<span style="color: #ff6b6b;">No vehicles available for ${nation.toUpperCase()} in this BR range.</span>`;
+      lineupBox.innerHTML = "";
       return;
     }
 
     const chosenBR = brs[Math.floor(Math.random() * brs.length)];
 
-    const pool = vehicles.filter(v =>
-      v.nation === nation &&
+    // Pool vehicles within BR range and selected types
+    const pool = nationVehicles.filter(v =>
       v.br >= chosenBR - 0.3 &&
-      v.br <= chosenBR + 0.3 &&
-      ["Tank","Plane","Helicopter"].includes(v.type)
+      v.br <= chosenBR + 0.3
     );
 
     if (pool.length === 0) {
       nameEl.innerHTML = '<span style="color: #ff6b6b;">No vehicles found for that selection.</span>';
+      lineupBox.innerHTML = "";
       return;
     }
 
     let lineup = [];
 
-    if (allowPlanes) {
+    if (allowPlanes && selectedTypes.includes("Plane")) {
       const planes = pool.filter(v => v.type === "Plane");
       if (planes.length > 0) {
         lineup.push(planes[Math.floor(Math.random() * planes.length)]);
       }
     }
 
-    if (allowHelis && chosenBR >= 8) {
+    if (allowHelis && selectedTypes.includes("Helicopter") && chosenBR >= 8) {
       const helis = pool.filter(v => v.type === "Helicopter");
       if (helis.length > 0) {
         lineup.push(helis[Math.floor(Math.random() * helis.length)]);
@@ -671,6 +715,15 @@
       const t = tanks[Math.floor(Math.random() * tanks.length)];
       if (!lineup.includes(t)) lineup.push(t);
       if (tanks.length <= lineup.length) break;
+    }
+
+    // Fill with other types if needed
+    if (lineup.length < size) {
+      const others = pool.filter(v => !lineup.includes(v));
+      for (let v of others) {
+        if (lineup.length < size) lineup.push(v);
+        else break;
+      }
     }
 
     lineup = lineup.slice(0, size);
