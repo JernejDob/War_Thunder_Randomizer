@@ -5,15 +5,17 @@
     "type": "Boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/fr_vlt2",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vlt2_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vlt2_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "LS 3",
+    "name": "LS 3",
     "nation": "germany",
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/germ_ls_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_ls_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_ls_class_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "S-38",
@@ -21,7 +23,8 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/germ_s38",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_s38_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_s38_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "S-38b",
@@ -29,7 +32,8 @@
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/germ_s38b",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_s38b_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_s38b_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "S-100",
@@ -37,7 +41,8 @@
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/germ_s_100_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_s_100_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_s_100_class_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "S-147",
@@ -45,7 +50,8 @@
     "type": "Boat",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/germ_s_100_s_174_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_s_100_s_174_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_s_100_s_174_class_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "V-990",
@@ -53,7 +59,8 @@
     "type": "Boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/germ_pr_131",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_pr_131_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_pr_131_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "MZ1",
@@ -61,7 +68,8 @@
     "type": "Heavy boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/germ_mz_1",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_mz_1_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_mz_1_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Drache",
@@ -69,7 +77,8 @@
     "type": "Heavy boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/germ_minelayer_drache",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_minelayer_drache_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_minelayer_drache_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Albatros",
@@ -77,15 +86,17 @@
     "type": "Heavy boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/germ_type143_albatros",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_type143_albatros_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_type143_albatros_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Pr. 206",
+    "name": "Pr. 206",
     "nation": "germany",
     "type": "Heavy boat",
     "br": 4.3,
     "url": "https://wiki.warthunder.com/unit/germ_pr_206",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_pr_206_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_pr_206_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "R-41",
@@ -93,7 +104,8 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/germ_rboot_r41",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_rboot_r41_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_rboot_r41_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "R-130",
@@ -101,7 +113,8 @@
     "type": "Boat",
     "br": 2.0,
     "url": "https://wiki.warthunder.com/unit/germ_rboot_r130",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_rboot_r130_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_rboot_r130_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "R-301",
@@ -109,39 +122,44 @@
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/germ_rboot_r301",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_rboot_r301_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_rboot_r301_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "SF40 Heavy",
+    "name": "SF40 Heavy",
     "nation": "germany",
     "type": "Barge",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/germ_sf40_schwere_flakkampffaehre",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_sf40_schwere_flakkampffaehre_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_sf40_schwere_flakkampffaehre_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "SF40 Light",
+    "name": "SF40 Light",
     "nation": "germany",
     "type": "Barge",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/germ_sf40_leichte_flakkampffaehre",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_sf40_leichte_flakkampffaehre_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_sf40_leichte_flakkampffaehre_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "AF D1",
+    "name": "AF D1",
     "nation": "germany",
     "type": "Barge",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/germ_artilleriefahrprahm_typ_d1",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_artilleriefahrprahm_typ_d1_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_artilleriefahrprahm_typ_d1_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "AF D3",
+    "name": "AF D3",
     "nation": "germany",
     "type": "Barge",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/germ_artilleriefahrprahm_typ_d3",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_artilleriefahrprahm_typ_d3_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_artilleriefahrprahm_typ_d3_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "M-17",
@@ -149,7 +167,8 @@
     "type": "Heavy boat",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/germ_escort_typem1935",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_escort_typem1935_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_escort_typem1935_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Jaguar",
@@ -157,7 +176,8 @@
     "type": "Boat",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/germ_type140_jaguar",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_type140_jaguar_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_type140_jaguar_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Köln",
@@ -165,15 +185,17 @@
     "type": "Frigate",
     "br": 4.3,
     "url": "https://wiki.warthunder.com/unit/germ_frigate_koln",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_frigate_koln_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_frigate_koln_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Krischan der Große",
+    "name": "Krischan der Große",
     "nation": "germany",
     "type": "Boat",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/germ_rdm242",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_rdm242_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_rdm242_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Bernau",
@@ -181,15 +203,17 @@
     "type": "Heavy boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/germ_kondor2_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_kondor2_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_kondor2_class_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "LS 4 Esau",
+    "name": "LS 4 Esau",
     "nation": "germany",
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/germ_ls4_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_ls4_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_ls4_class_ico.svg",
+    "status": "premium"
   },
   {
     "name": "KM-5",
@@ -197,15 +221,17 @@
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/germ_km5",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_km5_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_km5_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "S-204 Lang",
+    "name": "S-204 Lang",
     "nation": "germany",
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/germ_s_100_s204_lang",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_s_100_s204_lang_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_s_100_s204_lang_ico.svg",
+    "status": "event"
   },
   {
     "name": "M-802",
@@ -213,15 +239,17 @@
     "type": "Heavy boat",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/germ_escort_typem1943",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_escort_typem1943_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_escort_typem1943_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "Karl Marx",
+    "name": "Karl Marx",
     "nation": "germany",
     "type": "Frigate",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/germ_skr_pr50_karl_marx",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_skr_pr50_karl_marx_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_skr_pr50_karl_marx_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Bussard",
@@ -229,7 +257,8 @@
     "type": "Heavy boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/germ_type143_bussard",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_type143_bussard_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_type143_bussard_ico.svg",
+    "status": "event"
   },
   {
     "name": "S-701",
@@ -237,7 +266,8 @@
     "type": "Boat",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/germ_s_700_s_701",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_s_700_s_701_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_s_700_s_701_ico.svg",
+    "status": "event"
   },
   {
     "name": "Lübeck",
@@ -245,7 +275,8 @@
     "type": "Frigate",
     "br": 4.3,
     "url": "https://wiki.warthunder.com/unit/germ_frigate_koln_lubeck",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_frigate_koln_lubeck_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_frigate_koln_lubeck_ico.svg",
+    "status": "event"
   },
   {
     "name": "VTB-8",
@@ -253,7 +284,8 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/fr_vtb8",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb8_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb8_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "VTB-14",
@@ -261,7 +293,8 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/fr_vtb14",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb14_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb14_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "VTB-19",
@@ -269,7 +302,8 @@
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/fr_type40k_vedette",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_type40k_vedette_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_type40k_vedette_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Arras",
@@ -277,7 +311,8 @@
     "type": "Heavy boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/fr_arras_class_arras",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_arras_class_arras_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_arras_class_arras_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "VLT-1",
@@ -285,15 +320,17 @@
     "type": "Boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/fr_vlt1",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vlt1_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vlt1_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "La Combattante",
+    "name": "La Combattante",
     "nation": "france",
     "type": "Boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/fr_p730_combattante",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_p730_combattante_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_p730_combattante_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "VTB-11",
@@ -301,7 +338,8 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/fr_vtb11",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb11_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb11_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "VTB-13",
@@ -309,7 +347,8 @@
     "type": "Boat",
     "br": 1.3,
     "url": "https://wiki.warthunder.com/unit/fr_vtb13",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb13_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb13_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "MTB-96",
@@ -317,7 +356,8 @@
     "type": "Boat",
     "br": 2.0,
     "url": "https://wiki.warthunder.com/unit/fr_mtb96_vosper",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_mtb96_vosper_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_mtb96_vosper_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "L9059",
@@ -325,15 +365,17 @@
     "type": "Boat",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/fr_lcg_m_l9059",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_lcg_m_l9059_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_lcg_m_l9059_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "La Surprise",
+    "name": "La Surprise",
     "nation": "france",
     "type": "Frigate",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/fr_frigate_croix_de_lorraine_class_la_surprise",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_frigate_croix_de_lorraine_class_la_surprise_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_frigate_croix_de_lorraine_class_la_surprise_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "VTB-9",
@@ -341,7 +383,8 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/fr_vtb9",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb9_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb9_ico.svg",
+    "status": "premium"
   },
   {
     "name": "VTB-12",
@@ -349,7 +392,8 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/fr_vtb12_mod",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb12_mod_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb12_mod_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "VTB-18",
@@ -357,7 +401,8 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/fr_vtb18",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb18_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb18_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Aconit",
@@ -365,7 +410,8 @@
     "type": "Heavy boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/fr_flower_class_aconit",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_flower_class_aconit_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_flower_class_aconit_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Marne",
@@ -373,7 +419,8 @@
     "type": "Heavy boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/fr_marne_class_marne",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_marne_class_marne_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_marne_class_marne_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Schütze",
@@ -381,7 +428,8 @@
     "type": "Boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/germ_schutze_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_schutze_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_schutze_class_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Amiens",
@@ -389,7 +437,8 @@
     "type": "Heavy boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/fr_arras_class_amiens",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_arras_class_amiens_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_arras_class_amiens_ico.svg",
+    "status": "event"
   },
   {
     "name": "VTB-10",
@@ -397,7 +446,8 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/fr_vtb10",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb10_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb10_ico.svg",
+    "status": "premium"
   },
   {
     "name": "VS-10",
@@ -405,7 +455,8 @@
     "type": "Boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/germ_vs10_hydrofoil",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_vs10_hydrofoil_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_vs10_hydrofoil_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Hugin",
@@ -413,7 +464,8 @@
     "type": "Boat",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/germ_type152_hugin",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_type152_hugin_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_type152_hugin_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Pfeil",
@@ -421,7 +473,8 @@
     "type": "Boat",
     "br": 4.3,
     "url": "https://wiki.warthunder.com/unit/germ_type153_pfeil",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_type153_pfeil_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_type153_pfeil_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "VS-8",
@@ -429,23 +482,26 @@
     "type": "Boat",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/germ_vs8_hydrofoil",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_vs8_hydrofoil_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_vs8_hydrofoil_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "MAS 561",
+    "name": "MAS 561",
     "nation": "italy",
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/it_mas_classe500_3_1944",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_mas_classe500_3_1944_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_mas_classe500_3_1944_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "VAS 201",
+    "name": "VAS 201",
     "nation": "italy",
     "type": "Boat",
     "br": 1.3,
     "url": "https://wiki.warthunder.com/unit/it_vas_baglietto_68t_1serie",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_vas_baglietto_68t_1serie_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_vas_baglietto_68t_1serie_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "MS-15",
@@ -453,23 +509,26 @@
     "type": "Boat",
     "br": 1.3,
     "url": "https://wiki.warthunder.com/unit/it_ms15_1a",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_ms15_1a_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_ms15_1a_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Stefano Turr",
+    "name": "Stefano Turr",
     "nation": "italy",
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/it_mas_stefano_turr",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_mas_stefano_turr_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_mas_stefano_turr_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "GIS 811",
+    "name": "GIS 811",
     "nation": "italy",
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/it_a1_vosper",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_a1_vosper_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_a1_vosper_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "MS-472",
@@ -477,7 +536,8 @@
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/it_ms473_2a",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_ms473_2a_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_ms473_2a_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "MC-490",
@@ -485,7 +545,8 @@
     "type": "Boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/it_mc490_folgore",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_mc490_folgore_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_mc490_folgore_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Alano",
@@ -493,23 +554,26 @@
     "type": "Heavy boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/it_alano_9851",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_alano_9851_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_alano_9851_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Saetta P-494",
+    "name": "Saetta P-494",
     "nation": "italy",
     "type": "Heavy boat",
     "br": 4.7,
     "url": "https://wiki.warthunder.com/unit/it_p494_saetta",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_p494_saetta_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_p494_saetta_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "MAS 555",
+    "name": "MAS 555",
     "nation": "italy",
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/it_mas_classe500_3",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_mas_classe500_3_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_mas_classe500_3_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "MS-53",
@@ -517,7 +581,8 @@
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/it_ms53_2a",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_ms53_2a_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_ms53_2a_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "MV-611",
@@ -525,7 +590,8 @@
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/it_ms471_1a",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_ms471_1a_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_ms471_1a_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "MS-473",
@@ -533,15 +599,17 @@
     "type": "Boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/it_ms473_2a_art",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_ms473_2a_art_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_ms473_2a_art_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "RN Gabbiano",
+    "name": "RN Gabbiano",
     "nation": "italy",
     "type": "Heavy boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/it_gabbiano_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_gabbiano_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_gabbiano_class_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Albatros",
@@ -549,15 +617,17 @@
     "type": "Frigate",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/it_albatros_class_f543",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_albatros_class_f543_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_albatros_class_f543_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "MAS 569",
+    "name": "MAS 569",
     "nation": "italy",
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/it_mas_classe500_4",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_mas_classe500_4_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_mas_classe500_4_ico.svg",
+    "status": "premium"
   },
   {
     "name": "MC-485",
@@ -565,7 +635,8 @@
     "type": "Boat",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/it_mc_485",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_mc_485_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_mc_485_ico.svg",
+    "status": "event"
   },
   {
     "name": "Folaga",
@@ -573,7 +644,8 @@
     "type": "Heavy boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/it_gabbiano_class_c16",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_gabbiano_class_c16_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_gabbiano_class_c16_ico.svg",
+    "status": "premium"
   },
   {
     "name": "Sparviero",
@@ -581,7 +653,8 @@
     "type": "Boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/it_p420_sparviero",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_p420_sparviero_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_p420_sparviero_ico.svg",
+    "status": "premium"
   },
   {
     "name": "Alcione",
@@ -589,47 +662,53 @@
     "type": "Frigate",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/it_albatros_class_f544",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_albatros_class_f544_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_albatros_class_f544_ico.svg",
+    "status": "event"
   },
   {
-    "name": "Freccia P-493",
+    "name": "Freccia P-493",
     "nation": "italy",
     "type": "Boat",
     "br": 4.7,
     "url": "https://wiki.warthunder.com/unit/it_p493_freccia",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_p493_freccia_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_p493_freccia_ico.svg",
+    "status": "event"
   },
   {
-    "name": "Type T-14",
+    "name": "Type T-14",
     "nation": "japan",
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/jp_t14_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_t14_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_t14_class_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Type 4 (mod. 2)",
+    "name": "Type 4 (mod. 2)",
     "nation": "japan",
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/jp_karotei_type2",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_karotei_type2_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_karotei_type2_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Ha-Go (mod. 1)",
+    "name": "Ha-Go (mod. 1)",
     "nation": "japan",
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/jp_sehatei_mod1",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_sehatei_mod1_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_sehatei_mod1_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Type K-8 No.13 late",
+    "name": "Type K-8 No.13 late",
     "nation": "japan",
     "type": "Heavy boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/jp_kusen_tei_13_1944",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_kusen_tei_13_1944_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_kusen_tei_13_1944_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Ikazuchi",
@@ -637,7 +716,8 @@
     "type": "Frigate",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/jp_escort_ikazuchi_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_escort_ikazuchi_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_escort_ikazuchi_class_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Syonan",
@@ -645,7 +725,8 @@
     "type": "Frigate",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/jp_escort_hiburi_class_syonan",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_escort_hiburi_class_syonan_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_escort_hiburi_class_syonan_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Chidori",
@@ -653,7 +734,8 @@
     "type": "Frigate",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/jp_destroyer_chidori",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_destroyer_chidori_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_destroyer_chidori_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Soukou-Tei",
@@ -661,31 +743,35 @@
     "type": "Heavy boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/jp_abtei_pr1",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_abtei_pr1_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_abtei_pr1_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Soukou-Tei No.4",
+    "name": "Soukou-Tei No.4",
     "nation": "japan",
     "type": "Heavy boat",
     "br": 1.3,
     "url": "https://wiki.warthunder.com/unit/jp_abtei_pr4",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_abtei_pr4_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_abtei_pr4_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Type K-3 No.1",
+    "name": "Type K-3 No.1",
     "nation": "japan",
     "type": "Heavy boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/jp_no1_ch2",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_no1_ch2_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_no1_ch2_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Type K-7 No.4",
+    "name": "Type K-7 No.4",
     "nation": "japan",
     "type": "Heavy boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/jp_no4_ch8",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_no4_ch8_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_no4_ch8_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Chikugo",
@@ -693,7 +779,8 @@
     "type": "Frigate",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/jp_escort_chikugo_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_escort_chikugo_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_escort_chikugo_class_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Isuzu",
@@ -701,47 +788,53 @@
     "type": "Frigate",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/jp_destroyer_isuzu",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_destroyer_isuzu_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_destroyer_isuzu_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "JDS Ayanami (DD-103)",
+    "name": "JDS Ayanami (DD-103)",
     "nation": "japan",
     "type": "Frigate",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/jp_destroyer_ayanami",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_destroyer_ayanami_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_destroyer_ayanami_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Type T-14 (mod. 1)",
+    "name": "Type T-14 (mod. 1)",
     "nation": "japan",
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/jp_t14_class_mod01",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_t14_class_mod01_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_t14_class_mod01_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "Type K-8 No.13",
+    "name": "Type K-8 No.13",
     "nation": "japan",
     "type": "Heavy boat",
     "br": 2.0,
     "url": "https://wiki.warthunder.com/unit/jp_kusen_tei_13_1942",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_kusen_tei_13_1942_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_kusen_tei_13_1942_ico.svg",
+    "status": "event"
   },
   {
-    "name": "Type 4 (mod. 4)",
+    "name": "Type 4 (mod. 4)",
     "nation": "japan",
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/jp_karotei_type4",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_karotei_type4_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_karotei_type4_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "Type T-51a",
+    "name": "Type T-51a",
     "nation": "japan",
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/jp_t51a",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_t51a_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_t51a_ico.svg",
+    "status": "event"
   },
   {
     "name": "Akebono",
@@ -749,47 +842,53 @@
     "type": "Frigate",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/jp_escort_akebono_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_escort_akebono_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_escort_akebono_class_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "PG 02",
+    "name": "PG 02",
     "nation": "japan",
     "type": "Heavy boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/jp_pg02",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_pg02_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_pg02_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "MAS 441",
+    "name": "MAS 441",
     "nation": "italy",
     "type": "Boat",
     "br": 2.0,
     "url": "https://wiki.warthunder.com/unit/it_mas441",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_mas441_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_mas441_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "MS 444",
+    "name": "MS 444",
     "nation": "italy",
     "type": "Boat",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/it_ms444",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_ms444_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_ms444_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "RN Ghibli",
+    "name": "RN Ghibli",
     "nation": "italy",
     "type": "Frigate",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/it_ciclone_class_ghibli",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_ciclone_class_ghibli_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_ciclone_class_ghibli_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Type T-14 (mod. 2)",
+    "name": "Type T-14 (mod. 2)",
     "nation": "japan",
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/jp_t14_class_mod02",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_t14_class_mod02_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_t14_class_mod02_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Shisaka",
@@ -797,7 +896,8 @@
     "type": "Frigate",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/jp_escort_hiburi_class_shisaka",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_escort_hiburi_class_shisaka_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_escort_hiburi_class_shisaka_ico.svg",
+    "status": "event"
   },
   {
     "name": "MTB-1(1)",
@@ -805,15 +905,17 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/uk_mtb_1series",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_mtb_1series_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_mtb_1series_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Fairmile A (ML100)",
+    "name": "Fairmile A (ML100)",
     "nation": "britain",
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/uk_fairmile_a_ml100",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_a_ml100_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_a_ml100_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "MGB-61",
@@ -821,175 +923,197 @@
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/uk_70ft_mgb",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_70ft_mgb_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_70ft_mgb_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Fairmile B (ML345)",
+    "name": "Fairmile B (ML345)",
     "nation": "britain",
     "type": "Boat",
     "br": 2.0,
     "url": "https://wiki.warthunder.com/unit/uk_fairmile_b_ml345",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_b_ml345_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_b_ml345_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Dark Adventurer",
+    "name": "Dark Adventurer",
     "nation": "britain",
     "type": "Boat",
     "br": 2.0,
     "url": "https://wiki.warthunder.com/unit/uk_dark_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_dark_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_dark_class_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Dark Aggressor",
+    "name": "Dark Aggressor",
     "nation": "britain",
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/uk_dark_class_mtb",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_dark_class_mtb_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_dark_class_mtb_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Fairmile D (617)",
+    "name": "Fairmile D (617)",
     "nation": "britain",
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/uk_fairmile_d_617_632",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_d_617_632_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_d_617_632_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Fairmile D (697)",
+    "name": "Fairmile D (697)",
     "nation": "britain",
     "type": "Boat",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/uk_fairmile_d_697_800",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_d_697_800_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_d_697_800_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "SGB Grey Fox",
+    "name": "SGB Grey Fox",
     "nation": "britain",
     "type": "Boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/uk_sgb_304",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_sgb_304_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_sgb_304_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Brave Borderer",
+    "name": "Brave Borderer",
     "nation": "britain",
     "type": "Boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/uk_brave_borderer",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_brave_borderer_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_brave_borderer_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "HMCS Terra Nova",
+    "name": "HMCS Terra Nova",
     "nation": "britain",
     "type": "Frigate",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/uk_destroyer_restigouche_class_terranova",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_destroyer_restigouche_class_terranova_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_destroyer_restigouche_class_terranova_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "HMS Leopard",
+    "name": "HMS Leopard",
     "nation": "britain",
     "type": "Frigate",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/uk_frigate_leopard",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_frigate_leopard_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_frigate_leopard_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "MTB Vosper",
+    "name": "MTB Vosper",
     "nation": "britain",
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/uk_mtb_vosper_1series",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_mtb_vosper_1series_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_mtb_vosper_1series_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "MTB Vosper(2)",
+    "name": "MTB Vosper(2)",
     "nation": "britain",
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/uk_mtb_vosper_2series",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_mtb_vosper_2series_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_mtb_vosper_2series_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "ML 1383",
+    "name": "ML 1383",
     "nation": "britain",
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/uk_hdml_ml1383",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_hdml_ml1383_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_hdml_ml1383_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "HMS Liscomb",
+    "name": "HMS Liscomb",
     "nation": "britain",
     "type": "Heavy boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/uk_isles_class_trawler",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_isles_class_trawler_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_isles_class_trawler_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "HMCS Brantford",
+    "name": "HMCS Brantford",
     "nation": "britain",
     "type": "Heavy boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/uk_flower_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_flower_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_flower_class_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Fairmile C (312)",
+    "name": "Fairmile C (312)",
     "nation": "britain",
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/uk_fairmile_c",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_c_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_c_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Fairmile H LCS(L)(2)",
+    "name": "Fairmile H LCS(L)(2)",
     "nation": "britain",
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/uk_fairmile_lcs_l_h_mk2",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_lcs_l_h_mk2_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_lcs_l_h_mk2_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Fairmile D (601)",
+    "name": "Fairmile D (601)",
     "nation": "britain",
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/uk_fairmile_d_601_616",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_d_601_616_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_d_601_616_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "HMAS Arrow",
+    "name": "HMAS Arrow",
     "nation": "britain",
     "type": "Heavy boat",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/uk_attack_class_arrow",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_attack_class_arrow_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_attack_class_arrow_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Fairmile C (332)",
+    "name": "Fairmile C (332)",
     "nation": "britain",
     "type": "Boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/uk_fairmile_c_332",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_c_332_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_c_332_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "HMS Peacock",
+    "name": "HMS Peacock",
     "nation": "britain",
     "type": "Heavy boat",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/uk_corvette_peacock",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_corvette_peacock_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_corvette_peacock_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "HMS Blackpool",
+    "name": "HMS Blackpool",
     "nation": "britain",
     "type": "Frigate",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/uk_frigate_whitby_blackpool",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_frigate_whitby_blackpool_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_frigate_whitby_blackpool_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "MTB-1(2)",
@@ -997,7 +1121,8 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/uk_mtb_2series",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_mtb_2series_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_mtb_2series_ico.svg",
+    "status": "premium"
   },
   {
     "name": "MGB-75",
@@ -1005,47 +1130,53 @@
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/uk_71ft_mgb",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_71ft_mgb_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_71ft_mgb_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "HMS Gay Archer",
+    "name": "HMS Gay Archer",
     "nation": "britain",
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/uk_gay_class_archer",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_gay_class_archer_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_gay_class_archer_ico.svg",
+    "status": "event"
   },
   {
-    "name": "Fairmile D (5001)",
+    "name": "Fairmile D (5001)",
     "nation": "britain",
     "type": "Boat",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/uk_fairmile_d_5001_5029",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_d_5001_5029_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_d_5001_5029_ico.svg",
+    "status": "event"
   },
   {
-    "name": "SGB Grey Goose",
+    "name": "SGB Grey Goose",
     "nation": "britain",
     "type": "Boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/uk_sgb_309",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_sgb_309_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_sgb_309_ico.svg",
+    "status": "event"
   },
   {
-    "name": "LÉ Orla",
+    "name": "LÉ Orla",
     "nation": "britain",
     "type": "Heavy boat",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/uk_corvette_orla",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_corvette_orla_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_corvette_orla_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "HMS Whitby",
+    "name": "HMS Whitby",
     "nation": "britain",
     "type": "Frigate",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/uk_frigate_whitby",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_frigate_whitby_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_frigate_whitby_ico.svg",
+    "status": "premium"
   },
   {
     "name": "MTB-422",
@@ -1053,39 +1184,44 @@
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/uk_higgins_78ft_mtb422",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_higgins_78ft_mtb422_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_higgins_78ft_mtb422_ico.svg",
+    "status": "event"
   },
   {
-    "name": "Dark Aggressor TD",
+    "name": "Dark Aggressor TD",
     "nation": "britain",
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/uk_dark_class_mtb_td",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_dark_class_mtb_td_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_dark_class_mtb_td_ico.svg",
+    "status": "event"
   },
   {
-    "name": "HMS Spey",
+    "name": "HMS Spey",
     "nation": "britain",
     "type": "Frigate",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/uk_frigate_river",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_frigate_river_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_frigate_river_ico.svg",
+    "status": "event"
   },
   {
-    "name": "Type 5",
+    "name": "Type 5",
     "nation": "japan",
     "type": "Heavy boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/jp_type5_escortboat",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_type5_escortboat_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_type5_escortboat_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Type T-51b",
+    "name": "Type T-51b",
     "nation": "japan",
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/jp_t51b",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_t51b_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_t51b_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PT-15",
@@ -1093,31 +1229,35 @@
     "type": "Boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/jp_type_11_pt_15",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_type_11_pt_15_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_type_11_pt_15_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Asagao (YTE-01)",
+    "name": "Asagao (YTE-01)",
     "nation": "japan",
     "type": "Heavy boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/jp_yuri_class_asagao",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_yuri_class_asagao_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_yuri_class_asagao_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Type T-1",
+    "name": "Type T-1",
     "nation": "japan",
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/jp_type_t1_1941",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_type_t1_1941_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_type_t1_1941_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Type T-38",
+    "name": "Type T-38",
     "nation": "japan",
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/jp_type38_1944",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_type38_1944_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_type38_1944_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PT-808",
@@ -1125,7 +1265,8 @@
     "type": "Boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/jp_type7_pt808",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_type7_pt808_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_type7_pt808_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "D-3",
@@ -1133,7 +1274,8 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/ussr_d3",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_d3_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_d3_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "BMO",
@@ -1141,39 +1283,44 @@
     "type": "Heavy boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/ussr_bmo",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_bmo_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_bmo_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Pr.1124 early",
+    "name": "Pr.1124 early",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 2.0,
     "url": "https://wiki.warthunder.com/unit/ussr_1124_art",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_1124_art_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_1124_art_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Pr.1124 late",
+    "name": "Pr.1124 late",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/ussr_1124_ack",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_1124_ack_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_1124_ack_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Pr.1124 MLRS",
+    "name": "Pr.1124 MLRS",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 2.0,
     "url": "https://wiki.warthunder.com/unit/ussr_1124_rct",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_1124_rct_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_1124_rct_ico.svg",
+    "status": "event"
   },
   {
-    "name": "HMAS Fremantle",
+    "name": "HMAS Fremantle",
     "nation": "britain",
     "type": "Heavy boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/uk_fremantle_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fremantle_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fremantle_class_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PT-802",
@@ -1181,7 +1328,8 @@
     "type": "Boat",
     "br": 2.0,
     "url": "https://wiki.warthunder.com/unit/jp_type1_pt2",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_type1_pt2_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_type1_pt2_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "MTB-35",
@@ -1189,7 +1337,8 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/uk_mtb35_vosper",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_mtb35_vosper_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_mtb35_vosper_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "MTB-460",
@@ -1197,7 +1346,8 @@
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/uk_71ft_mtb460",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_71ft_mtb460_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_71ft_mtb460_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PT-103",
@@ -1205,7 +1355,8 @@
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/us_elco_80ft_pt_boat",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_80ft_pt_boat_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_80ft_pt_boat_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PT-314",
@@ -1213,7 +1364,8 @@
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/us_elco_80ft_pt_boat_mod01",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_80ft_pt_boat_mod01_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_80ft_pt_boat_mod01_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PT-565",
@@ -1221,7 +1373,8 @@
     "type": "Boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/us_elco_80ft_pt_boat_mod02",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_80ft_pt_boat_mod02_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_80ft_pt_boat_mod02_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PT-20",
@@ -1229,7 +1382,8 @@
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/us_elco_77ft_pt20",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_77ft_pt20_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_77ft_pt20_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PT-59",
@@ -1237,31 +1391,35 @@
     "type": "Boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/us_elco_77ft_pt59",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_77ft_pt59_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_77ft_pt59_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "USS Candid",
+    "name": "USS Candid",
     "nation": "usa",
     "type": "Heavy boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/us_admirable_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_admirable_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_admirable_class_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "USS Asheville",
+    "name": "USS Asheville",
     "nation": "usa",
     "type": "Heavy boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/us_ashville_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_ashville_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_ashville_class_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "USS Cyclone",
+    "name": "USS Cyclone",
     "nation": "usa",
     "type": "Heavy boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/us_cyclone_class_cyclone",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_cyclone_class_cyclone_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_cyclone_class_cyclone_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PT-174",
@@ -1269,23 +1427,26 @@
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/us_elco_80ft_pt174",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_80ft_pt174_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_80ft_pt174_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "Thunderbolt (PT-556)",
+    "name": "Thunderbolt (PT-556)",
     "nation": "usa",
     "type": "Boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/us_elco_80ft_pt_boat_thunderbolt",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_80ft_pt_boat_thunderbolt_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_80ft_pt_boat_thunderbolt_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "USS Douglas",
+    "name": "USS Douglas",
     "nation": "usa",
     "type": "Heavy boat",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/us_ashville_class_douglas",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_ashville_class_douglas_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_ashville_class_douglas_ico.svg",
+    "status": "premium"
   },
   {
     "name": "PT-109",
@@ -1293,7 +1454,8 @@
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/us_elco_80ft_pt109_boat",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_80ft_pt109_boat_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_80ft_pt109_boat_ico.svg",
+    "status": "event"
   },
   {
     "name": "G-5",
@@ -1301,7 +1463,8 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/ussr_g5_mtb",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_g5_mtb_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_g5_mtb_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "MPK-163",
@@ -1309,7 +1472,8 @@
     "type": "Heavy boat",
     "br": 2.0,
     "url": "https://wiki.warthunder.com/unit/ussr_mpk_163",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_163_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_163_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Pr.123-bis",
@@ -1317,7 +1481,8 @@
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/ussr_pr_123bis",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_123bis_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_123bis_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Pr.123K",
@@ -1325,15 +1490,17 @@
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/ussr_pr_123k",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_123k_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_123k_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Pr.1204 late",
+    "name": "Pr.1204 late",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/ussr_pr_1204_late",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_1204_late_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_1204_late_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Pr.183",
@@ -1341,15 +1508,17 @@
     "type": "Boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/ussr_pr_183",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_183_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_183_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Pr. 206",
+    "name": "Pr. 206",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 4.3,
     "url": "https://wiki.warthunder.com/unit/ussr_pr_206",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_206_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_206_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Pr.206-M",
@@ -1357,7 +1526,8 @@
     "type": "Heavy boat",
     "br": 4.3,
     "url": "https://wiki.warthunder.com/unit/ussr_pr_206m",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_206m_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_206m_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "MO-4",
@@ -1365,7 +1535,8 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/ussr_mo_4",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mo_4_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mo_4_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "OD-200",
@@ -1373,15 +1544,17 @@
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/ussr_od_200",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_od_200_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_od_200_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "MPK pr.122A",
+    "name": "MPK pr.122A",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 2.0,
     "url": "https://wiki.warthunder.com/unit/ussr_mpk_122a",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_122a_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_122a_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Groza",
@@ -1389,23 +1562,26 @@
     "type": "Frigate",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/ussr_skr_groza_1943",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_skr_groza_1943_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_skr_groza_1943_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "MPK Pr.201M",
+    "name": "MPK Pr.201M",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/ussr_mpk_201m",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_201m_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_201m_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "MPK Pr.204",
+    "name": "MPK Pr.204",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/ussr_mpk_204",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_204_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_204_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Yenot",
@@ -1413,15 +1589,17 @@
     "type": "Frigate",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/ussr_skr_pr50_jenot",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_skr_pr50_jenot_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_skr_pr50_jenot_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "MPK Pr.1331M",
+    "name": "MPK Pr.1331M",
     "nation": "ussr",
     "type": "Frigate",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/ussr_mpk_pr1331m",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_pr1331m_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_pr1331m_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "SKR-1",
@@ -1429,7 +1607,8 @@
     "type": "Frigate",
     "br": 4.3,
     "url": "https://wiki.warthunder.com/unit/ussr_skr_pr159",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_skr_pr159_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_skr_pr159_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Pr.191",
@@ -1437,7 +1616,8 @@
     "type": "Heavy boat",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/ussr_pr_191",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_191_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_191_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Pr.191M",
@@ -1445,47 +1625,53 @@
     "type": "Heavy boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/ussr_pr_191m",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_191m_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_191m_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "MBK pr.186",
+    "name": "MBK pr.186",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/ussr_mkl_186",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mkl_186_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mkl_186_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "MBK-161 late",
+    "name": "MBK-161 late",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/ussr_mbk_161_1944",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mbk_161_1944_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mbk_161_1944_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "MPK Pr.12412",
+    "name": "MPK Pr.12412",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 4.3,
     "url": "https://wiki.warthunder.com/unit/ussr_mpk_pr12412",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_pr12412_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_pr12412_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "MPK Pr.11451",
+    "name": "MPK Pr.11451",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 4.7,
     "url": "https://wiki.warthunder.com/unit/ussr_mpk_pr11451",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_pr11451_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_pr11451_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "G-5 (ShVAK)",
+    "name": "G-5 (ShVAK)",
     "nation": "ussr",
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/ussr_g5_mtb_shvak",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_g5_mtb_shvak_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_g5_mtb_shvak_ico.svg",
+    "status": "premium"
   },
   {
     "name": "Ya-5M",
@@ -1493,15 +1679,17 @@
     "type": "Boat",
     "br": 1.3,
     "url": "https://wiki.warthunder.com/unit/ussr_ya_5m",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_ya_5m_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_ya_5m_ico.svg",
+    "status": "event"
   },
   {
-    "name": "Pr.123K (A-10bis)",
+    "name": "Pr.123K (A-10bis)",
     "nation": "ussr",
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/ussr_pr_123k_hydrofoils",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_123k_hydrofoils_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_123k_hydrofoils_ico.svg",
+    "status": "premium"
   },
   {
     "name": "Pr.1204",
@@ -1509,31 +1697,35 @@
     "type": "Heavy boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/ussr_pr_1204",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_1204_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_1204_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "Pr.183 BM-21",
+    "name": "Pr.183 BM-21",
     "nation": "ussr",
     "type": "Boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/ussr_pr_183_egypt_bm_21",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_183_egypt_bm_21_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_183_egypt_bm_21_ico.svg",
+    "status": "event"
   },
   {
-    "name": "MBK-161 early",
+    "name": "MBK-161 early",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/ussr_mbk_161_1943",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mbk_161_1943_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mbk_161_1943_ico.svg",
+    "status": "event"
   },
   {
-    "name": "MBK pr.186 (MK 85)",
+    "name": "MBK pr.186 (MK 85)",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/ussr_mkl_186_mk85",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mkl_186_mk85_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mkl_186_mk85_ico.svg",
+    "status": "premium"
   },
   {
     "name": "Rosomacha",
@@ -1541,7 +1733,8 @@
     "type": "Frigate",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/ussr_skr_pr50plo_rosomacha",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_skr_pr50plo_rosomacha_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_skr_pr50plo_rosomacha_ico.svg",
+    "status": "premium"
   },
   {
     "name": "SKR-7",
@@ -1549,7 +1742,8 @@
     "type": "Frigate",
     "br": 4.3,
     "url": "https://wiki.warthunder.com/unit/ussr_skr_pr35",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_skr_pr35_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_skr_pr35_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "TKA-412",
@@ -1557,31 +1751,35 @@
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/ussr_g5_rct",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_g5_rct_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_g5_rct_ico.svg",
+    "status": "event"
   },
   {
-    "name": "MPK Pr.122bis",
+    "name": "MPK Pr.122bis",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/ussr_mpk_122bis",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_122bis_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_122bis_ico.svg",
+    "status": "event"
   },
   {
-    "name": "MPK Pr.201K",
+    "name": "MPK Pr.201K",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/ussr_mpk_201k",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_201k_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_201k_ico.svg",
+    "status": "event"
   },
   {
-    "name": "MPK Pr.12412P",
+    "name": "MPK Pr.12412P",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 4.3,
     "url": "https://wiki.warthunder.com/unit/ussr_mpk_pr12412p",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_pr12412p_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_pr12412p_ico.svg",
+    "status": "premium"
   },
   {
     "name": "Pr.253L",
@@ -1589,7 +1787,8 @@
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/ussr_pr253l",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr253l_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr253l_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "SM-4",
@@ -1597,7 +1796,8 @@
     "type": "Boat",
     "br": 1.3,
     "url": "https://wiki.warthunder.com/unit/ussr_pr_103_sm4",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_103_sm4_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_103_sm4_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PT-6",
@@ -1605,7 +1805,8 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/us_pt6",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pt6_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pt6_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PTF-7",
@@ -1613,7 +1814,8 @@
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/us_nasty_ptf",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_nasty_ptf_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_nasty_ptf_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PT-71",
@@ -1621,15 +1823,17 @@
     "type": "Boat",
     "br": 2.0,
     "url": "https://wiki.warthunder.com/unit/us_higgins_78ft_pt71",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_higgins_78ft_pt71_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_higgins_78ft_pt71_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "USS Tucumcari",
+    "name": "USS Tucumcari",
     "nation": "usa",
     "type": "Boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/us_tucumcari_pgh2",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_tucumcari_pgh2_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_tucumcari_pgh2_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PT-812",
@@ -1637,7 +1841,8 @@
     "type": "Boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/us_pt812",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pt812_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pt812_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PT-810",
@@ -1645,23 +1850,26 @@
     "type": "Boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/us_pt810",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pt810_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pt810_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "USS Hoquiam",
+    "name": "USS Hoquiam",
     "nation": "usa",
     "type": "Frigate",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/us_frigate_tacoma",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_frigate_tacoma_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_frigate_tacoma_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "USS Dealey",
+    "name": "USS Dealey",
     "nation": "usa",
     "type": "Frigate",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/us_frigate_dealey",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_frigate_dealey_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_frigate_dealey_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PC-451",
@@ -1669,7 +1877,8 @@
     "type": "Heavy boat",
     "br": 2.0,
     "url": "https://wiki.warthunder.com/unit/us_pc_451",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pc_451_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pc_451_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "SC-497",
@@ -1677,7 +1886,8 @@
     "type": "Heavy boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/us_sc_497",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_sc_497_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_sc_497_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PT-200",
@@ -1685,7 +1895,8 @@
     "type": "Boat",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/us_higgins_78ft_pt625",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_higgins_78ft_pt625_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_higgins_78ft_pt625_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "LCS(L)(3)",
@@ -1693,23 +1904,26 @@
     "type": "Heavy boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/us_lcs_l_3",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_lcs_l_3_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_lcs_l_3_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "USS Coolbaugh",
+    "name": "USS Coolbaugh",
     "nation": "usa",
     "type": "Frigate",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/us_frigate_buckley_class_coolbaugh",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_frigate_buckley_class_coolbaugh_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_frigate_buckley_class_coolbaugh_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Kim Qui",
+    "name": "Kim Qui",
     "nation": "usa",
     "type": "Heavy boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/us_pgm_59_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pgm_59_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pgm_59_class_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PT-3",
@@ -1717,23 +1931,26 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/us_pt3",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pt3_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pt3_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "Carmi (PC-466)",
+    "name": "Carmi (PC-466)",
     "nation": "usa",
     "type": "Heavy boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/us_pc_466_carmi",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pc_466_carmi_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pc_466_carmi_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "LCM(6) Zippo",
+    "name": "LCM(6) Zippo",
     "nation": "usa",
     "type": "Heavy boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/us_lcm_zippo",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_lcm_zippo_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_lcm_zippo_ico.svg",
+    "status": "event"
   },
   {
     "name": "PT-811",
@@ -1741,7 +1958,8 @@
     "type": "Boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/us_pt811",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pt811_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pt811_ico.svg",
+    "status": "event"
   },
   {
     "name": "PT-658",
@@ -1749,15 +1967,17 @@
     "type": "Boat",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/us_higgins_78ft_pt658",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_higgins_78ft_pt658_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_higgins_78ft_pt658_ico.svg",
+    "status": "event"
   },
   {
-    "name": "USS Flagstaff",
+    "name": "USS Flagstaff",
     "nation": "usa",
     "type": "Boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/us_flagstaff_pgh1",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_flagstaff_pgh1_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_flagstaff_pgh1_ico.svg",
+    "status": "event"
   },
   {
     "name": "PT-95",
@@ -1765,7 +1985,8 @@
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/us_huckins_78ft_pt95",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_huckins_78ft_pt95_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_huckins_78ft_pt95_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "VLT-2",
@@ -1773,15 +1994,17 @@
     "type": "Boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/fr_vlt2",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vlt2_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vlt2_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "LS 3",
+    "name": "LS 3",
     "nation": "germany",
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/germ_ls_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_ls_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_ls_class_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "S-38",
@@ -1789,7 +2012,8 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/germ_s38",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_s38_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_s38_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "S-38b",
@@ -1797,7 +2021,8 @@
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/germ_s38b",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_s38b_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_s38b_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "S-100",
@@ -1805,7 +2030,8 @@
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/germ_s_100_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_s_100_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_s_100_class_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "S-147",
@@ -1813,7 +2039,8 @@
     "type": "Boat",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/germ_s_100_s_174_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_s_100_s_174_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_s_100_s_174_class_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "V-990",
@@ -1821,7 +2048,8 @@
     "type": "Boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/germ_pr_131",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_pr_131_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_pr_131_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "MZ1",
@@ -1829,7 +2057,8 @@
     "type": "Heavy boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/germ_mz_1",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_mz_1_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_mz_1_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Drache",
@@ -1837,7 +2066,8 @@
     "type": "Heavy boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/germ_minelayer_drache",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_minelayer_drache_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_minelayer_drache_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Albatros",
@@ -1845,15 +2075,17 @@
     "type": "Heavy boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/germ_type143_albatros",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_type143_albatros_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_type143_albatros_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Pr. 206",
+    "name": "Pr. 206",
     "nation": "germany",
     "type": "Heavy boat",
     "br": 4.3,
     "url": "https://wiki.warthunder.com/unit/germ_pr_206",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_pr_206_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_pr_206_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "R-41",
@@ -1861,7 +2093,8 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/germ_rboot_r41",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_rboot_r41_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_rboot_r41_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "R-130",
@@ -1869,7 +2102,8 @@
     "type": "Boat",
     "br": 2.0,
     "url": "https://wiki.warthunder.com/unit/germ_rboot_r130",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_rboot_r130_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_rboot_r130_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "R-301",
@@ -1877,39 +2111,44 @@
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/germ_rboot_r301",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_rboot_r301_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_rboot_r301_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "SF40 Heavy",
+    "name": "SF40 Heavy",
     "nation": "germany",
     "type": "Barge",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/germ_sf40_schwere_flakkampffaehre",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_sf40_schwere_flakkampffaehre_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_sf40_schwere_flakkampffaehre_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "SF40 Light",
+    "name": "SF40 Light",
     "nation": "germany",
     "type": "Barge",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/germ_sf40_leichte_flakkampffaehre",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_sf40_leichte_flakkampffaehre_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_sf40_leichte_flakkampffaehre_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "AF D1",
+    "name": "AF D1",
     "nation": "germany",
     "type": "Barge",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/germ_artilleriefahrprahm_typ_d1",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_artilleriefahrprahm_typ_d1_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_artilleriefahrprahm_typ_d1_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "AF D3",
+    "name": "AF D3",
     "nation": "germany",
     "type": "Barge",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/germ_artilleriefahrprahm_typ_d3",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_artilleriefahrprahm_typ_d3_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_artilleriefahrprahm_typ_d3_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "M-17",
@@ -1917,7 +2156,8 @@
     "type": "Heavy boat",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/germ_escort_typem1935",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_escort_typem1935_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_escort_typem1935_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Jaguar",
@@ -1925,7 +2165,8 @@
     "type": "Boat",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/germ_type140_jaguar",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_type140_jaguar_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_type140_jaguar_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Köln",
@@ -1933,15 +2174,17 @@
     "type": "Frigate",
     "br": 4.3,
     "url": "https://wiki.warthunder.com/unit/germ_frigate_koln",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_frigate_koln_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_frigate_koln_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Krischan der Große",
+    "name": "Krischan der Große",
     "nation": "germany",
     "type": "Boat",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/germ_rdm242",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_rdm242_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_rdm242_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Bernau",
@@ -1949,15 +2192,17 @@
     "type": "Heavy boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/germ_kondor2_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_kondor2_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_kondor2_class_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "LS 4 Esau",
+    "name": "LS 4 Esau",
     "nation": "germany",
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/germ_ls4_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_ls4_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_ls4_class_ico.svg",
+    "status": "premium"
   },
   {
     "name": "KM-5",
@@ -1965,15 +2210,17 @@
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/germ_km5",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_km5_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_km5_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "S-204 Lang",
+    "name": "S-204 Lang",
     "nation": "germany",
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/germ_s_100_s204_lang",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_s_100_s204_lang_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_s_100_s204_lang_ico.svg",
+    "status": "event"
   },
   {
     "name": "M-802",
@@ -1981,15 +2228,17 @@
     "type": "Heavy boat",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/germ_escort_typem1943",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_escort_typem1943_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_escort_typem1943_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "Karl Marx",
+    "name": "Karl Marx",
     "nation": "germany",
     "type": "Frigate",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/germ_skr_pr50_karl_marx",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_skr_pr50_karl_marx_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_skr_pr50_karl_marx_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Bussard",
@@ -1997,7 +2246,8 @@
     "type": "Heavy boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/germ_type143_bussard",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_type143_bussard_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_type143_bussard_ico.svg",
+    "status": "event"
   },
   {
     "name": "S-701",
@@ -2005,7 +2255,8 @@
     "type": "Boat",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/germ_s_700_s_701",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_s_700_s_701_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_s_700_s_701_ico.svg",
+    "status": "event"
   },
   {
     "name": "Lübeck",
@@ -2013,7 +2264,8 @@
     "type": "Frigate",
     "br": 4.3,
     "url": "https://wiki.warthunder.com/unit/germ_frigate_koln_lubeck",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_frigate_koln_lubeck_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_frigate_koln_lubeck_ico.svg",
+    "status": "event"
   },
   {
     "name": "VTB-8",
@@ -2021,7 +2273,8 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/fr_vtb8",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb8_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb8_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "VTB-14",
@@ -2029,7 +2282,8 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/fr_vtb14",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb14_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb14_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "VTB-19",
@@ -2037,7 +2291,8 @@
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/fr_type40k_vedette",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_type40k_vedette_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_type40k_vedette_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Arras",
@@ -2045,7 +2300,8 @@
     "type": "Heavy boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/fr_arras_class_arras",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_arras_class_arras_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_arras_class_arras_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "VLT-1",
@@ -2053,15 +2309,17 @@
     "type": "Boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/fr_vlt1",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vlt1_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vlt1_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "La Combattante",
+    "name": "La Combattante",
     "nation": "france",
     "type": "Boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/fr_p730_combattante",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_p730_combattante_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_p730_combattante_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "VTB-11",
@@ -2069,7 +2327,8 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/fr_vtb11",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb11_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb11_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "VTB-13",
@@ -2077,7 +2336,8 @@
     "type": "Boat",
     "br": 1.3,
     "url": "https://wiki.warthunder.com/unit/fr_vtb13",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb13_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb13_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "MTB-96",
@@ -2085,7 +2345,8 @@
     "type": "Boat",
     "br": 2.0,
     "url": "https://wiki.warthunder.com/unit/fr_mtb96_vosper",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_mtb96_vosper_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_mtb96_vosper_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "L9059",
@@ -2093,15 +2354,17 @@
     "type": "Boat",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/fr_lcg_m_l9059",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_lcg_m_l9059_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_lcg_m_l9059_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "La Surprise",
+    "name": "La Surprise",
     "nation": "france",
     "type": "Frigate",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/fr_frigate_croix_de_lorraine_class_la_surprise",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_frigate_croix_de_lorraine_class_la_surprise_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_frigate_croix_de_lorraine_class_la_surprise_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "VTB-9",
@@ -2109,7 +2372,8 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/fr_vtb9",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb9_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb9_ico.svg",
+    "status": "premium"
   },
   {
     "name": "VTB-12",
@@ -2117,7 +2381,8 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/fr_vtb12_mod",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb12_mod_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb12_mod_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "VTB-18",
@@ -2125,7 +2390,8 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/fr_vtb18",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb18_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb18_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Aconit",
@@ -2133,7 +2399,8 @@
     "type": "Heavy boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/fr_flower_class_aconit",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_flower_class_aconit_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_flower_class_aconit_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Marne",
@@ -2141,7 +2408,8 @@
     "type": "Heavy boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/fr_marne_class_marne",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_marne_class_marne_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_marne_class_marne_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Schütze",
@@ -2149,7 +2417,8 @@
     "type": "Boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/germ_schutze_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_schutze_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_schutze_class_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Amiens",
@@ -2157,7 +2426,8 @@
     "type": "Heavy boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/fr_arras_class_amiens",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_arras_class_amiens_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_arras_class_amiens_ico.svg",
+    "status": "event"
   },
   {
     "name": "VTB-10",
@@ -2165,7 +2435,8 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/fr_vtb10",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb10_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/fr_vtb10_ico.svg",
+    "status": "premium"
   },
   {
     "name": "VS-10",
@@ -2173,7 +2444,8 @@
     "type": "Boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/germ_vs10_hydrofoil",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_vs10_hydrofoil_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_vs10_hydrofoil_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Hugin",
@@ -2181,7 +2453,8 @@
     "type": "Boat",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/germ_type152_hugin",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_type152_hugin_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_type152_hugin_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Pfeil",
@@ -2189,7 +2462,8 @@
     "type": "Boat",
     "br": 4.3,
     "url": "https://wiki.warthunder.com/unit/germ_type153_pfeil",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_type153_pfeil_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_type153_pfeil_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "VS-8",
@@ -2197,23 +2471,26 @@
     "type": "Boat",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/germ_vs8_hydrofoil",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_vs8_hydrofoil_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/germ_vs8_hydrofoil_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "MAS 561",
+    "name": "MAS 561",
     "nation": "italy",
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/it_mas_classe500_3_1944",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_mas_classe500_3_1944_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_mas_classe500_3_1944_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "VAS 201",
+    "name": "VAS 201",
     "nation": "italy",
     "type": "Boat",
     "br": 1.3,
     "url": "https://wiki.warthunder.com/unit/it_vas_baglietto_68t_1serie",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_vas_baglietto_68t_1serie_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_vas_baglietto_68t_1serie_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "MS-15",
@@ -2221,23 +2498,26 @@
     "type": "Boat",
     "br": 1.3,
     "url": "https://wiki.warthunder.com/unit/it_ms15_1a",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_ms15_1a_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_ms15_1a_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Stefano Turr",
+    "name": "Stefano Turr",
     "nation": "italy",
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/it_mas_stefano_turr",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_mas_stefano_turr_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_mas_stefano_turr_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "GIS 811",
+    "name": "GIS 811",
     "nation": "italy",
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/it_a1_vosper",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_a1_vosper_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_a1_vosper_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "MS-472",
@@ -2245,7 +2525,8 @@
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/it_ms473_2a",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_ms473_2a_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_ms473_2a_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "MC-490",
@@ -2253,7 +2534,8 @@
     "type": "Boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/it_mc490_folgore",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_mc490_folgore_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_mc490_folgore_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Alano",
@@ -2261,23 +2543,26 @@
     "type": "Heavy boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/it_alano_9851",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_alano_9851_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_alano_9851_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Saetta P-494",
+    "name": "Saetta P-494",
     "nation": "italy",
     "type": "Heavy boat",
     "br": 4.7,
     "url": "https://wiki.warthunder.com/unit/it_p494_saetta",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_p494_saetta_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_p494_saetta_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "MAS 555",
+    "name": "MAS 555",
     "nation": "italy",
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/it_mas_classe500_3",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_mas_classe500_3_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_mas_classe500_3_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "MS-53",
@@ -2285,7 +2570,8 @@
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/it_ms53_2a",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_ms53_2a_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_ms53_2a_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "MV-611",
@@ -2293,7 +2579,8 @@
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/it_ms471_1a",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_ms471_1a_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_ms471_1a_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "MS-473",
@@ -2301,15 +2588,17 @@
     "type": "Boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/it_ms473_2a_art",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_ms473_2a_art_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_ms473_2a_art_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "RN Gabbiano",
+    "name": "RN Gabbiano",
     "nation": "italy",
     "type": "Heavy boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/it_gabbiano_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_gabbiano_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_gabbiano_class_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Albatros",
@@ -2317,15 +2606,17 @@
     "type": "Frigate",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/it_albatros_class_f543",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_albatros_class_f543_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_albatros_class_f543_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "MAS 569",
+    "name": "MAS 569",
     "nation": "italy",
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/it_mas_classe500_4",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_mas_classe500_4_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_mas_classe500_4_ico.svg",
+    "status": "premium"
   },
   {
     "name": "MC-485",
@@ -2333,7 +2624,8 @@
     "type": "Boat",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/it_mc_485",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_mc_485_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_mc_485_ico.svg",
+    "status": "event"
   },
   {
     "name": "Folaga",
@@ -2341,7 +2633,8 @@
     "type": "Heavy boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/it_gabbiano_class_c16",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_gabbiano_class_c16_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_gabbiano_class_c16_ico.svg",
+    "status": "premium"
   },
   {
     "name": "Sparviero",
@@ -2349,7 +2642,8 @@
     "type": "Boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/it_p420_sparviero",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_p420_sparviero_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_p420_sparviero_ico.svg",
+    "status": "premium"
   },
   {
     "name": "Alcione",
@@ -2357,47 +2651,53 @@
     "type": "Frigate",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/it_albatros_class_f544",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_albatros_class_f544_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_albatros_class_f544_ico.svg",
+    "status": "event"
   },
   {
-    "name": "Freccia P-493",
+    "name": "Freccia P-493",
     "nation": "italy",
     "type": "Boat",
     "br": 4.7,
     "url": "https://wiki.warthunder.com/unit/it_p493_freccia",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_p493_freccia_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_p493_freccia_ico.svg",
+    "status": "event"
   },
   {
-    "name": "Type T-14",
+    "name": "Type T-14",
     "nation": "japan",
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/jp_t14_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_t14_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_t14_class_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Type 4 (mod. 2)",
+    "name": "Type 4 (mod. 2)",
     "nation": "japan",
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/jp_karotei_type2",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_karotei_type2_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_karotei_type2_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Ha-Go (mod. 1)",
+    "name": "Ha-Go (mod. 1)",
     "nation": "japan",
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/jp_sehatei_mod1",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_sehatei_mod1_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_sehatei_mod1_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Type K-8 No.13 late",
+    "name": "Type K-8 No.13 late",
     "nation": "japan",
     "type": "Heavy boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/jp_kusen_tei_13_1944",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_kusen_tei_13_1944_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_kusen_tei_13_1944_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Ikazuchi",
@@ -2405,7 +2705,8 @@
     "type": "Frigate",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/jp_escort_ikazuchi_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_escort_ikazuchi_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_escort_ikazuchi_class_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Syonan",
@@ -2413,7 +2714,8 @@
     "type": "Frigate",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/jp_escort_hiburi_class_syonan",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_escort_hiburi_class_syonan_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_escort_hiburi_class_syonan_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Chidori",
@@ -2421,7 +2723,8 @@
     "type": "Frigate",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/jp_destroyer_chidori",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_destroyer_chidori_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_destroyer_chidori_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Soukou-Tei",
@@ -2429,31 +2732,35 @@
     "type": "Heavy boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/jp_abtei_pr1",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_abtei_pr1_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_abtei_pr1_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Soukou-Tei No.4",
+    "name": "Soukou-Tei No.4",
     "nation": "japan",
     "type": "Heavy boat",
     "br": 1.3,
     "url": "https://wiki.warthunder.com/unit/jp_abtei_pr4",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_abtei_pr4_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_abtei_pr4_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Type K-3 No.1",
+    "name": "Type K-3 No.1",
     "nation": "japan",
     "type": "Heavy boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/jp_no1_ch2",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_no1_ch2_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_no1_ch2_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Type K-7 No.4",
+    "name": "Type K-7 No.4",
     "nation": "japan",
     "type": "Heavy boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/jp_no4_ch8",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_no4_ch8_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_no4_ch8_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Chikugo",
@@ -2461,7 +2768,8 @@
     "type": "Frigate",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/jp_escort_chikugo_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_escort_chikugo_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_escort_chikugo_class_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Isuzu",
@@ -2469,47 +2777,53 @@
     "type": "Frigate",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/jp_destroyer_isuzu",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_destroyer_isuzu_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_destroyer_isuzu_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "JDS Ayanami (DD-103)",
+    "name": "JDS Ayanami (DD-103)",
     "nation": "japan",
     "type": "Frigate",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/jp_destroyer_ayanami",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_destroyer_ayanami_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_destroyer_ayanami_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Type T-14 (mod. 1)",
+    "name": "Type T-14 (mod. 1)",
     "nation": "japan",
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/jp_t14_class_mod01",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_t14_class_mod01_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_t14_class_mod01_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "Type K-8 No.13",
+    "name": "Type K-8 No.13",
     "nation": "japan",
     "type": "Heavy boat",
     "br": 2.0,
     "url": "https://wiki.warthunder.com/unit/jp_kusen_tei_13_1942",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_kusen_tei_13_1942_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_kusen_tei_13_1942_ico.svg",
+    "status": "event"
   },
   {
-    "name": "Type 4 (mod. 4)",
+    "name": "Type 4 (mod. 4)",
     "nation": "japan",
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/jp_karotei_type4",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_karotei_type4_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_karotei_type4_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "Type T-51a",
+    "name": "Type T-51a",
     "nation": "japan",
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/jp_t51a",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_t51a_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_t51a_ico.svg",
+    "status": "event"
   },
   {
     "name": "Akebono",
@@ -2517,47 +2831,53 @@
     "type": "Frigate",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/jp_escort_akebono_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_escort_akebono_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_escort_akebono_class_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "PG 02",
+    "name": "PG 02",
     "nation": "japan",
     "type": "Heavy boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/jp_pg02",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_pg02_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_pg02_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "MAS 441",
+    "name": "MAS 441",
     "nation": "italy",
     "type": "Boat",
     "br": 2.0,
     "url": "https://wiki.warthunder.com/unit/it_mas441",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_mas441_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_mas441_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "MS 444",
+    "name": "MS 444",
     "nation": "italy",
     "type": "Boat",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/it_ms444",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_ms444_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_ms444_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "RN Ghibli",
+    "name": "RN Ghibli",
     "nation": "italy",
     "type": "Frigate",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/it_ciclone_class_ghibli",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/it_ciclone_class_ghibli_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/it_ciclone_class_ghibli_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Type T-14 (mod. 2)",
+    "name": "Type T-14 (mod. 2)",
     "nation": "japan",
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/jp_t14_class_mod02",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_t14_class_mod02_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_t14_class_mod02_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Shisaka",
@@ -2565,7 +2885,8 @@
     "type": "Frigate",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/jp_escort_hiburi_class_shisaka",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_escort_hiburi_class_shisaka_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_escort_hiburi_class_shisaka_ico.svg",
+    "status": "event"
   },
   {
     "name": "MTB-1(1)",
@@ -2573,15 +2894,17 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/uk_mtb_1series",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_mtb_1series_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_mtb_1series_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Fairmile A (ML100)",
+    "name": "Fairmile A (ML100)",
     "nation": "britain",
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/uk_fairmile_a_ml100",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_a_ml100_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_a_ml100_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "MGB-61",
@@ -2589,175 +2912,197 @@
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/uk_70ft_mgb",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_70ft_mgb_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_70ft_mgb_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Fairmile B (ML345)",
+    "name": "Fairmile B (ML345)",
     "nation": "britain",
     "type": "Boat",
     "br": 2.0,
     "url": "https://wiki.warthunder.com/unit/uk_fairmile_b_ml345",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_b_ml345_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_b_ml345_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Dark Adventurer",
+    "name": "Dark Adventurer",
     "nation": "britain",
     "type": "Boat",
     "br": 2.0,
     "url": "https://wiki.warthunder.com/unit/uk_dark_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_dark_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_dark_class_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Dark Aggressor",
+    "name": "Dark Aggressor",
     "nation": "britain",
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/uk_dark_class_mtb",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_dark_class_mtb_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_dark_class_mtb_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Fairmile D (617)",
+    "name": "Fairmile D (617)",
     "nation": "britain",
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/uk_fairmile_d_617_632",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_d_617_632_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_d_617_632_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Fairmile D (697)",
+    "name": "Fairmile D (697)",
     "nation": "britain",
     "type": "Boat",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/uk_fairmile_d_697_800",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_d_697_800_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_d_697_800_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "SGB Grey Fox",
+    "name": "SGB Grey Fox",
     "nation": "britain",
     "type": "Boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/uk_sgb_304",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_sgb_304_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_sgb_304_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Brave Borderer",
+    "name": "Brave Borderer",
     "nation": "britain",
     "type": "Boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/uk_brave_borderer",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_brave_borderer_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_brave_borderer_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "HMCS Terra Nova",
+    "name": "HMCS Terra Nova",
     "nation": "britain",
     "type": "Frigate",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/uk_destroyer_restigouche_class_terranova",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_destroyer_restigouche_class_terranova_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_destroyer_restigouche_class_terranova_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "HMS Leopard",
+    "name": "HMS Leopard",
     "nation": "britain",
     "type": "Frigate",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/uk_frigate_leopard",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_frigate_leopard_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_frigate_leopard_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "MTB Vosper",
+    "name": "MTB Vosper",
     "nation": "britain",
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/uk_mtb_vosper_1series",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_mtb_vosper_1series_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_mtb_vosper_1series_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "MTB Vosper(2)",
+    "name": "MTB Vosper(2)",
     "nation": "britain",
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/uk_mtb_vosper_2series",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_mtb_vosper_2series_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_mtb_vosper_2series_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "ML 1383",
+    "name": "ML 1383",
     "nation": "britain",
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/uk_hdml_ml1383",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_hdml_ml1383_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_hdml_ml1383_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "HMS Liscomb",
+    "name": "HMS Liscomb",
     "nation": "britain",
     "type": "Heavy boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/uk_isles_class_trawler",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_isles_class_trawler_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_isles_class_trawler_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "HMCS Brantford",
+    "name": "HMCS Brantford",
     "nation": "britain",
     "type": "Heavy boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/uk_flower_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_flower_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_flower_class_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Fairmile C (312)",
+    "name": "Fairmile C (312)",
     "nation": "britain",
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/uk_fairmile_c",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_c_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_c_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Fairmile H LCS(L)(2)",
+    "name": "Fairmile H LCS(L)(2)",
     "nation": "britain",
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/uk_fairmile_lcs_l_h_mk2",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_lcs_l_h_mk2_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_lcs_l_h_mk2_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Fairmile D (601)",
+    "name": "Fairmile D (601)",
     "nation": "britain",
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/uk_fairmile_d_601_616",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_d_601_616_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_d_601_616_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "HMAS Arrow",
+    "name": "HMAS Arrow",
     "nation": "britain",
     "type": "Heavy boat",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/uk_attack_class_arrow",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_attack_class_arrow_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_attack_class_arrow_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Fairmile C (332)",
+    "name": "Fairmile C (332)",
     "nation": "britain",
     "type": "Boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/uk_fairmile_c_332",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_c_332_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_c_332_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "HMS Peacock",
+    "name": "HMS Peacock",
     "nation": "britain",
     "type": "Heavy boat",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/uk_corvette_peacock",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_corvette_peacock_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_corvette_peacock_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "HMS Blackpool",
+    "name": "HMS Blackpool",
     "nation": "britain",
     "type": "Frigate",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/uk_frigate_whitby_blackpool",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_frigate_whitby_blackpool_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_frigate_whitby_blackpool_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "MTB-1(2)",
@@ -2765,7 +3110,8 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/uk_mtb_2series",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_mtb_2series_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_mtb_2series_ico.svg",
+    "status": "premium"
   },
   {
     "name": "MGB-75",
@@ -2773,47 +3119,53 @@
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/uk_71ft_mgb",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_71ft_mgb_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_71ft_mgb_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "HMS Gay Archer",
+    "name": "HMS Gay Archer",
     "nation": "britain",
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/uk_gay_class_archer",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_gay_class_archer_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_gay_class_archer_ico.svg",
+    "status": "event"
   },
   {
-    "name": "Fairmile D (5001)",
+    "name": "Fairmile D (5001)",
     "nation": "britain",
     "type": "Boat",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/uk_fairmile_d_5001_5029",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_d_5001_5029_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fairmile_d_5001_5029_ico.svg",
+    "status": "event"
   },
   {
-    "name": "SGB Grey Goose",
+    "name": "SGB Grey Goose",
     "nation": "britain",
     "type": "Boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/uk_sgb_309",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_sgb_309_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_sgb_309_ico.svg",
+    "status": "event"
   },
   {
-    "name": "LÉ Orla",
+    "name": "LÉ Orla",
     "nation": "britain",
     "type": "Heavy boat",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/uk_corvette_orla",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_corvette_orla_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_corvette_orla_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "HMS Whitby",
+    "name": "HMS Whitby",
     "nation": "britain",
     "type": "Frigate",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/uk_frigate_whitby",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_frigate_whitby_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_frigate_whitby_ico.svg",
+    "status": "premium"
   },
   {
     "name": "MTB-422",
@@ -2821,39 +3173,44 @@
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/uk_higgins_78ft_mtb422",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_higgins_78ft_mtb422_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_higgins_78ft_mtb422_ico.svg",
+    "status": "event"
   },
   {
-    "name": "Dark Aggressor TD",
+    "name": "Dark Aggressor TD",
     "nation": "britain",
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/uk_dark_class_mtb_td",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_dark_class_mtb_td_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_dark_class_mtb_td_ico.svg",
+    "status": "event"
   },
   {
-    "name": "HMS Spey",
+    "name": "HMS Spey",
     "nation": "britain",
     "type": "Frigate",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/uk_frigate_river",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_frigate_river_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_frigate_river_ico.svg",
+    "status": "event"
   },
   {
-    "name": "Type 5",
+    "name": "Type 5",
     "nation": "japan",
     "type": "Heavy boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/jp_type5_escortboat",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_type5_escortboat_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_type5_escortboat_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Type T-51b",
+    "name": "Type T-51b",
     "nation": "japan",
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/jp_t51b",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_t51b_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_t51b_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PT-15",
@@ -2861,31 +3218,35 @@
     "type": "Boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/jp_type_11_pt_15",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_type_11_pt_15_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_type_11_pt_15_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Asagao (YTE-01)",
+    "name": "Asagao (YTE-01)",
     "nation": "japan",
     "type": "Heavy boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/jp_yuri_class_asagao",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_yuri_class_asagao_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_yuri_class_asagao_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Type T-1",
+    "name": "Type T-1",
     "nation": "japan",
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/jp_type_t1_1941",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_type_t1_1941_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_type_t1_1941_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Type T-38",
+    "name": "Type T-38",
     "nation": "japan",
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/jp_type38_1944",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_type38_1944_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_type38_1944_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PT-808",
@@ -2893,7 +3254,8 @@
     "type": "Boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/jp_type7_pt808",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_type7_pt808_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_type7_pt808_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "D-3",
@@ -2901,7 +3263,8 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/ussr_d3",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_d3_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_d3_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "BMO",
@@ -2909,39 +3272,44 @@
     "type": "Heavy boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/ussr_bmo",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_bmo_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_bmo_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Pr.1124 early",
+    "name": "Pr.1124 early",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 2.0,
     "url": "https://wiki.warthunder.com/unit/ussr_1124_art",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_1124_art_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_1124_art_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Pr.1124 late",
+    "name": "Pr.1124 late",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/ussr_1124_ack",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_1124_ack_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_1124_ack_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Pr.1124 MLRS",
+    "name": "Pr.1124 MLRS",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 2.0,
     "url": "https://wiki.warthunder.com/unit/ussr_1124_rct",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_1124_rct_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_1124_rct_ico.svg",
+    "status": "event"
   },
   {
-    "name": "HMAS Fremantle",
+    "name": "HMAS Fremantle",
     "nation": "britain",
     "type": "Heavy boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/uk_fremantle_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fremantle_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_fremantle_class_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PT-802",
@@ -2949,7 +3317,8 @@
     "type": "Boat",
     "br": 2.0,
     "url": "https://wiki.warthunder.com/unit/jp_type1_pt2",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_type1_pt2_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/jp_type1_pt2_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "MTB-35",
@@ -2957,7 +3326,8 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/uk_mtb35_vosper",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_mtb35_vosper_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_mtb35_vosper_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "MTB-460",
@@ -2965,7 +3335,8 @@
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/uk_71ft_mtb460",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_71ft_mtb460_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/uk_71ft_mtb460_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PT-103",
@@ -2973,7 +3344,8 @@
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/us_elco_80ft_pt_boat",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_80ft_pt_boat_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_80ft_pt_boat_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PT-314",
@@ -2981,7 +3353,8 @@
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/us_elco_80ft_pt_boat_mod01",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_80ft_pt_boat_mod01_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_80ft_pt_boat_mod01_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PT-565",
@@ -2989,7 +3362,8 @@
     "type": "Boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/us_elco_80ft_pt_boat_mod02",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_80ft_pt_boat_mod02_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_80ft_pt_boat_mod02_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PT-20",
@@ -2997,7 +3371,8 @@
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/us_elco_77ft_pt20",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_77ft_pt20_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_77ft_pt20_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PT-59",
@@ -3005,31 +3380,35 @@
     "type": "Boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/us_elco_77ft_pt59",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_77ft_pt59_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_77ft_pt59_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "USS Candid",
+    "name": "USS Candid",
     "nation": "usa",
     "type": "Heavy boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/us_admirable_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_admirable_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_admirable_class_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "USS Asheville",
+    "name": "USS Asheville",
     "nation": "usa",
     "type": "Heavy boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/us_ashville_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_ashville_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_ashville_class_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "USS Cyclone",
+    "name": "USS Cyclone",
     "nation": "usa",
     "type": "Heavy boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/us_cyclone_class_cyclone",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_cyclone_class_cyclone_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_cyclone_class_cyclone_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PT-174",
@@ -3037,23 +3416,26 @@
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/us_elco_80ft_pt174",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_80ft_pt174_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_80ft_pt174_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "Thunderbolt (PT-556)",
+    "name": "Thunderbolt (PT-556)",
     "nation": "usa",
     "type": "Boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/us_elco_80ft_pt_boat_thunderbolt",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_80ft_pt_boat_thunderbolt_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_80ft_pt_boat_thunderbolt_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "USS Douglas",
+    "name": "USS Douglas",
     "nation": "usa",
     "type": "Heavy boat",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/us_ashville_class_douglas",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_ashville_class_douglas_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_ashville_class_douglas_ico.svg",
+    "status": "premium"
   },
   {
     "name": "PT-109",
@@ -3061,7 +3443,8 @@
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/us_elco_80ft_pt109_boat",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_80ft_pt109_boat_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_elco_80ft_pt109_boat_ico.svg",
+    "status": "event"
   },
   {
     "name": "G-5",
@@ -3069,7 +3452,8 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/ussr_g5_mtb",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_g5_mtb_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_g5_mtb_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "MPK-163",
@@ -3077,7 +3461,8 @@
     "type": "Heavy boat",
     "br": 2.0,
     "url": "https://wiki.warthunder.com/unit/ussr_mpk_163",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_163_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_163_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Pr.123-bis",
@@ -3085,7 +3470,8 @@
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/ussr_pr_123bis",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_123bis_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_123bis_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Pr.123K",
@@ -3093,15 +3479,17 @@
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/ussr_pr_123k",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_123k_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_123k_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Pr.1204 late",
+    "name": "Pr.1204 late",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/ussr_pr_1204_late",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_1204_late_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_1204_late_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Pr.183",
@@ -3109,15 +3497,17 @@
     "type": "Boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/ussr_pr_183",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_183_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_183_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Pr. 206",
+    "name": "Pr. 206",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 4.3,
     "url": "https://wiki.warthunder.com/unit/ussr_pr_206",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_206_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_206_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Pr.206-M",
@@ -3125,7 +3515,8 @@
     "type": "Heavy boat",
     "br": 4.3,
     "url": "https://wiki.warthunder.com/unit/ussr_pr_206m",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_206m_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_206m_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "MO-4",
@@ -3133,7 +3524,8 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/ussr_mo_4",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mo_4_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mo_4_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "OD-200",
@@ -3141,15 +3533,17 @@
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/ussr_od_200",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_od_200_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_od_200_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "MPK pr.122A",
+    "name": "MPK pr.122A",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 2.0,
     "url": "https://wiki.warthunder.com/unit/ussr_mpk_122a",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_122a_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_122a_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Groza",
@@ -3157,23 +3551,26 @@
     "type": "Frigate",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/ussr_skr_groza_1943",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_skr_groza_1943_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_skr_groza_1943_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "MPK Pr.201M",
+    "name": "MPK Pr.201M",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/ussr_mpk_201m",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_201m_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_201m_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "MPK Pr.204",
+    "name": "MPK Pr.204",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/ussr_mpk_204",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_204_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_204_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Yenot",
@@ -3181,15 +3578,17 @@
     "type": "Frigate",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/ussr_skr_pr50_jenot",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_skr_pr50_jenot_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_skr_pr50_jenot_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "MPK Pr.1331M",
+    "name": "MPK Pr.1331M",
     "nation": "ussr",
     "type": "Frigate",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/ussr_mpk_pr1331m",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_pr1331m_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_pr1331m_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "SKR-1",
@@ -3197,7 +3596,8 @@
     "type": "Frigate",
     "br": 4.3,
     "url": "https://wiki.warthunder.com/unit/ussr_skr_pr159",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_skr_pr159_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_skr_pr159_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Pr.191",
@@ -3205,7 +3605,8 @@
     "type": "Heavy boat",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/ussr_pr_191",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_191_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_191_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "Pr.191M",
@@ -3213,47 +3614,53 @@
     "type": "Heavy boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/ussr_pr_191m",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_191m_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_191m_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "MBK pr.186",
+    "name": "MBK pr.186",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/ussr_mkl_186",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mkl_186_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mkl_186_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "MBK-161 late",
+    "name": "MBK-161 late",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/ussr_mbk_161_1944",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mbk_161_1944_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mbk_161_1944_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "MPK Pr.12412",
+    "name": "MPK Pr.12412",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 4.3,
     "url": "https://wiki.warthunder.com/unit/ussr_mpk_pr12412",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_pr12412_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_pr12412_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "MPK Pr.11451",
+    "name": "MPK Pr.11451",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 4.7,
     "url": "https://wiki.warthunder.com/unit/ussr_mpk_pr11451",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_pr11451_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_pr11451_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "G-5 (ShVAK)",
+    "name": "G-5 (ShVAK)",
     "nation": "ussr",
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/ussr_g5_mtb_shvak",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_g5_mtb_shvak_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_g5_mtb_shvak_ico.svg",
+    "status": "premium"
   },
   {
     "name": "Ya-5M",
@@ -3261,15 +3668,17 @@
     "type": "Boat",
     "br": 1.3,
     "url": "https://wiki.warthunder.com/unit/ussr_ya_5m",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_ya_5m_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_ya_5m_ico.svg",
+    "status": "event"
   },
   {
-    "name": "Pr.123K (A-10bis)",
+    "name": "Pr.123K (A-10bis)",
     "nation": "ussr",
     "type": "Boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/ussr_pr_123k_hydrofoils",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_123k_hydrofoils_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_123k_hydrofoils_ico.svg",
+    "status": "premium"
   },
   {
     "name": "Pr.1204",
@@ -3277,31 +3686,35 @@
     "type": "Heavy boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/ussr_pr_1204",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_1204_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_1204_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "Pr.183 BM-21",
+    "name": "Pr.183 BM-21",
     "nation": "ussr",
     "type": "Boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/ussr_pr_183_egypt_bm_21",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_183_egypt_bm_21_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_183_egypt_bm_21_ico.svg",
+    "status": "event"
   },
   {
-    "name": "MBK-161 early",
+    "name": "MBK-161 early",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/ussr_mbk_161_1943",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mbk_161_1943_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mbk_161_1943_ico.svg",
+    "status": "event"
   },
   {
-    "name": "MBK pr.186 (MK 85)",
+    "name": "MBK pr.186 (MK 85)",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/ussr_mkl_186_mk85",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mkl_186_mk85_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mkl_186_mk85_ico.svg",
+    "status": "premium"
   },
   {
     "name": "Rosomacha",
@@ -3309,7 +3722,8 @@
     "type": "Frigate",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/ussr_skr_pr50plo_rosomacha",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_skr_pr50plo_rosomacha_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_skr_pr50plo_rosomacha_ico.svg",
+    "status": "premium"
   },
   {
     "name": "SKR-7",
@@ -3317,7 +3731,8 @@
     "type": "Frigate",
     "br": 4.3,
     "url": "https://wiki.warthunder.com/unit/ussr_skr_pr35",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_skr_pr35_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_skr_pr35_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "TKA-412",
@@ -3325,31 +3740,35 @@
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/ussr_g5_rct",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_g5_rct_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_g5_rct_ico.svg",
+    "status": "event"
   },
   {
-    "name": "MPK Pr.122bis",
+    "name": "MPK Pr.122bis",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/ussr_mpk_122bis",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_122bis_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_122bis_ico.svg",
+    "status": "event"
   },
   {
-    "name": "MPK Pr.201K",
+    "name": "MPK Pr.201K",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/ussr_mpk_201k",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_201k_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_201k_ico.svg",
+    "status": "event"
   },
   {
-    "name": "MPK Pr.12412P",
+    "name": "MPK Pr.12412P",
     "nation": "ussr",
     "type": "Heavy boat",
     "br": 4.3,
     "url": "https://wiki.warthunder.com/unit/ussr_mpk_pr12412p",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_pr12412p_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_mpk_pr12412p_ico.svg",
+    "status": "premium"
   },
   {
     "name": "Pr.253L",
@@ -3357,7 +3776,8 @@
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/ussr_pr253l",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr253l_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr253l_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "SM-4",
@@ -3365,7 +3785,8 @@
     "type": "Boat",
     "br": 1.3,
     "url": "https://wiki.warthunder.com/unit/ussr_pr_103_sm4",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_103_sm4_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/ussr_pr_103_sm4_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PT-6",
@@ -3373,7 +3794,8 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/us_pt6",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pt6_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pt6_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PTF-7",
@@ -3381,7 +3803,8 @@
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/us_nasty_ptf",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_nasty_ptf_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_nasty_ptf_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PT-71",
@@ -3389,15 +3812,17 @@
     "type": "Boat",
     "br": 2.0,
     "url": "https://wiki.warthunder.com/unit/us_higgins_78ft_pt71",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_higgins_78ft_pt71_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_higgins_78ft_pt71_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "USS Tucumcari",
+    "name": "USS Tucumcari",
     "nation": "usa",
     "type": "Boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/us_tucumcari_pgh2",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_tucumcari_pgh2_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_tucumcari_pgh2_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PT-812",
@@ -3405,7 +3830,8 @@
     "type": "Boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/us_pt812",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pt812_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pt812_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PT-810",
@@ -3413,23 +3839,26 @@
     "type": "Boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/us_pt810",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pt810_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pt810_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "USS Hoquiam",
+    "name": "USS Hoquiam",
     "nation": "usa",
     "type": "Frigate",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/us_frigate_tacoma",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_frigate_tacoma_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_frigate_tacoma_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "USS Dealey",
+    "name": "USS Dealey",
     "nation": "usa",
     "type": "Frigate",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/us_frigate_dealey",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_frigate_dealey_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_frigate_dealey_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PC-451",
@@ -3437,7 +3866,8 @@
     "type": "Heavy boat",
     "br": 2.0,
     "url": "https://wiki.warthunder.com/unit/us_pc_451",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pc_451_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pc_451_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "SC-497",
@@ -3445,7 +3875,8 @@
     "type": "Heavy boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/us_sc_497",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_sc_497_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_sc_497_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PT-200",
@@ -3453,7 +3884,8 @@
     "type": "Boat",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/us_higgins_78ft_pt625",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_higgins_78ft_pt625_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_higgins_78ft_pt625_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "LCS(L)(3)",
@@ -3461,23 +3893,26 @@
     "type": "Heavy boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/us_lcs_l_3",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_lcs_l_3_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_lcs_l_3_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "USS Coolbaugh",
+    "name": "USS Coolbaugh",
     "nation": "usa",
     "type": "Frigate",
     "br": 4.0,
     "url": "https://wiki.warthunder.com/unit/us_frigate_buckley_class_coolbaugh",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_frigate_buckley_class_coolbaugh_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_frigate_buckley_class_coolbaugh_ico.svg",
+    "status": "tech_tree"
   },
   {
-    "name": "Kim Qui",
+    "name": "Kim Qui",
     "nation": "usa",
     "type": "Heavy boat",
     "br": 3.3,
     "url": "https://wiki.warthunder.com/unit/us_pgm_59_class",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pgm_59_class_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pgm_59_class_ico.svg",
+    "status": "tech_tree"
   },
   {
     "name": "PT-3",
@@ -3485,23 +3920,26 @@
     "type": "Boat",
     "br": 1.0,
     "url": "https://wiki.warthunder.com/unit/us_pt3",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pt3_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pt3_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "Carmi (PC-466)",
+    "name": "Carmi (PC-466)",
     "nation": "usa",
     "type": "Heavy boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/us_pc_466_carmi",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pc_466_carmi_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pc_466_carmi_ico.svg",
+    "status": "premium"
   },
   {
-    "name": "LCM(6) Zippo",
+    "name": "LCM(6) Zippo",
     "nation": "usa",
     "type": "Heavy boat",
     "br": 2.3,
     "url": "https://wiki.warthunder.com/unit/us_lcm_zippo",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_lcm_zippo_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_lcm_zippo_ico.svg",
+    "status": "event"
   },
   {
     "name": "PT-811",
@@ -3509,7 +3947,8 @@
     "type": "Boat",
     "br": 3.7,
     "url": "https://wiki.warthunder.com/unit/us_pt811",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pt811_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_pt811_ico.svg",
+    "status": "event"
   },
   {
     "name": "PT-658",
@@ -3517,15 +3956,17 @@
     "type": "Boat",
     "br": 2.7,
     "url": "https://wiki.warthunder.com/unit/us_higgins_78ft_pt658",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_higgins_78ft_pt658_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_higgins_78ft_pt658_ico.svg",
+    "status": "event"
   },
   {
-    "name": "USS Flagstaff",
+    "name": "USS Flagstaff",
     "nation": "usa",
     "type": "Boat",
     "br": 3.0,
     "url": "https://wiki.warthunder.com/unit/us_flagstaff_pgh1",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_flagstaff_pgh1_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_flagstaff_pgh1_ico.svg",
+    "status": "event"
   },
   {
     "name": "PT-95",
@@ -3533,6 +3974,7 @@
     "type": "Boat",
     "br": 1.7,
     "url": "https://wiki.warthunder.com/unit/us_huckins_78ft_pt95",
-    "icon": "https://static.encyclopedia.warthunder.com/icons/us_huckins_78ft_pt95_ico.svg"
+    "icon": "https://static.encyclopedia.warthunder.com/icons/us_huckins_78ft_pt95_ico.svg",
+    "status": "tech_tree"
   }
 ]
