@@ -474,23 +474,23 @@
         <div id="lineupContainer" class="lineup"></div>
       </div>
 
-      <div class="sidebar">
-        <h3>Lineup Options</h3>
-        <div class="size-control">
-          <span>Lineup size:</span>
-          <input type="range" id="lineupSize" min="3" max="10" value="5">
-          <span class="size-value" id="lineupSizeVal">5</span>
-        </div>
-
-        <h3>Allow in lineup</h3>
-        <label><input type="checkbox" id="allowPlanes" checked> Planes</label>
-        <label><input type="checkbox" id="allowHelis" checked> Helicopters</label>
-
-        <button id="lineupGo">Generate Lineup</button>
-        <hr style="border: 1px solid rgba(79, 195, 247, 0.2); margin: 20px 0;">
-        <button id="pickBtn">Pick Random Vehicle</button>
-      </div>
+  <div class="sidebar">
+    <h3>Lineup Options</h3>
+    <div class="size-control">
+      <span>Lineup size:</span>
+      <input type="range" id="lineupSize" min="3" max="10" value="5">
+      <span class="size-value" id="lineupSizeVal">5</span>
     </div>
+
+    <h3>Allow in lineup</h3>
+    <label><input type="checkbox" id="allowPlanes" checked> Planes</label>
+    <label><input type="checkbox" id="allowHelis" checked> Helicopters</label>
+    <label><input type="checkbox" id="allowPremiumEvent" checked> Premium / Event vehicles</label>
+
+    <button id="lineupGo">Generate Lineup</button>
+    <hr style="border: 1px solid rgba(79, 195, 247, 0.2); margin: 20px 0;">
+    <button id="pickBtn">Pick Random Vehicle</button>
+  </div>
 
     <div class="filters">
       <h3>Filter Nations</h3>
@@ -629,6 +629,7 @@
     const size = parseInt(document.getElementById('lineupSize').value);
     const allowPlanes = document.getElementById('allowPlanes').checked;
     const allowHelis = document.getElementById('allowHelis').checked;
+    const allowPremiumEvent = document.getElementById('allowPremiumEvent').checked;
     const lineupBox = document.getElementById('lineupContainer');
     const nameEl = document.getElementById('vehicleName');
     document.getElementById('vehicleIcon').style.display = "none";
@@ -637,7 +638,6 @@
     const maxBR = parseFloat(brMax.value);
 
     // Only select nation checkboxes, not type checkboxes
-    // FIX: Use the correct filter-group for nations (the first .filter-group)
     const nationCheckboxes = Array.from(document.querySelectorAll('.filters .filter-group')[0].querySelectorAll('input[type=checkbox]'));
     const selectedNations = nationCheckboxes.filter(c => c.checked).map(c => c.value);
 
@@ -652,8 +652,11 @@
       return;
     }
 
-    // Only use vehicles from selected nations
-    const filteredVehicles = vehicles.filter(v => selectedNations.includes(v.nation));
+    // Only use vehicles from selected nations and premium/event filter
+    const filteredVehicles = vehicles.filter(v =>
+      selectedNations.includes(v.nation) &&
+      (allowPremiumEvent || (v.status !== "premium" && v.status !== "event"))
+    );
 
     // Only use types that are enabled in the type filter
     const selectedTypes = [];
@@ -696,25 +699,29 @@
 
     let lineup = [];
 
-    if (allowPlanes && selectedTypes.includes("Plane")) {
-      const planes = pool.filter(v => v.type === "Plane");
-      if (planes.length > 0) {
-        lineup.push(planes[Math.floor(Math.random() * planes.length)]);
-      }
-    }
-
-    if (allowHelis && selectedTypes.includes("Helicopter") && chosenBR >= 8) {
-      const helis = pool.filter(v => v.type === "Helicopter");
-      if (helis.length > 0) {
-        lineup.push(helis[Math.floor(Math.random() * helis.length)]);
-      }
-    }
-
+    // Always have tanks as primary
     const tanks = pool.filter(v => v.type === "Tank");
-    while (lineup.length < size && tanks.length > 0) {
-      const t = tanks[Math.floor(Math.random() * tanks.length)];
-      if (!lineup.includes(t)) lineup.push(t);
-      if (tanks.length <= lineup.length) break;
+    let tankCount = Math.min(size, tanks.length);
+    let usedTankIdx = new Set();
+    while (lineup.length < tankCount) {
+      let idx = Math.floor(Math.random() * tanks.length);
+      if (!usedTankIdx.has(idx)) {
+        lineup.push(tanks[idx]);
+        usedTankIdx.add(idx);
+      }
+      if (usedTankIdx.size >= tanks.length) break;
+    }
+
+    // Add one plane if allowed and available
+    if (allowPlanes && pool.some(v => v.type === "Plane")) {
+      const planes = pool.filter(v => v.type === "Plane");
+      if (planes.length > 0) lineup.push(planes[Math.floor(Math.random() * planes.length)]);
+    }
+
+    // Add one heli if allowed and available
+    if (allowHelis && pool.some(v => v.type === "Helicopter")) {
+      const helis = pool.filter(v => v.type === "Helicopter");
+      if (helis.length > 0) lineup.push(helis[Math.floor(Math.random() * helis.length)]);
     }
 
     // Fill with other types if needed
@@ -753,4 +760,4 @@
 </script>
 </body>
 </html>
-// TODO: Fix the generate lineup, uncheck planes and helicopters, correct the displayed icon and lineup size vary and fix all planes in lineup
+
