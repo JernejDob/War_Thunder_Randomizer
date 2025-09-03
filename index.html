@@ -485,7 +485,8 @@
     <h3>Allow in lineup</h3>
     <label><input type="checkbox" id="allowPlanes" checked> Planes</label>
     <label><input type="checkbox" id="allowHelis" checked> Helicopters</label>
-    <label><input type="checkbox" id="allowPremiumEvent" checked> Premium / Event vehicles</label>
+    <label><input type="checkbox" id="allowPremium" checked> Premium vehicles</label>
+    <label><input type="checkbox" id="allowEvent" checked> Event vehicles</label>
 
     <button id="lineupGo">Generate Lineup</button>
     <hr style="border: 1px solid rgba(79, 195, 247, 0.2); margin: 20px 0;">
@@ -532,6 +533,8 @@
 
 <script>
   let vehicles = [];
+  let cachedNationPool = {}; // Cache for nation vehicle pools
+  let currentLineup = []; // Store current lineup for vehicle switching
 
   function loadJsonSafe(url){
     return fetch(url).then(r => r.text()).then(t => JSON.parse(t.replace(/\bNaN\b/g,'null')));
@@ -629,13 +632,18 @@
     const size = parseInt(document.getElementById('lineupSize').value);
     const allowPlanes = document.getElementById('allowPlanes').checked;
     const allowHelis = document.getElementById('allowHelis').checked;
-    const allowPremiumEvent = document.getElementById('allowPremiumEvent').checked;
+    const allowPremium = document.getElementById('allowPremium').checked;
+    const allowEvent = document.getElementById('allowEvent').checked;
     const lineupBox = document.getElementById('lineupContainer');
     const nameEl = document.getElementById('vehicleName');
     document.getElementById('vehicleIcon').style.display = "none";
 
     const minBR = parseFloat(brMin.value);
     const maxBR = parseFloat(brMax.value);
+    
+    // Ground vehicles max out at 12.0, air vehicles can go up to 14.0
+    const groundMaxBR = Math.min(maxBR, 12.0);
+    const airMaxBR = maxBR;
 
     // Only select nation checkboxes, not type checkboxes
     const nationCheckboxes = Array.from(document.querySelectorAll('.filters .filter-group')[0].querySelectorAll('input[type=checkbox]'));
@@ -655,7 +663,8 @@
     // Only use vehicles from selected nations and premium/event filter
     const filteredVehicles = vehicles.filter(v =>
       selectedNations.includes(v.nation) &&
-      (allowPremiumEvent || (v.status !== "premium" && v.status !== "event"))
+      (allowPremium || v.status !== "premium") &&
+      (allowEvent || v.status !== "event")
     );
 
     // Only use types that are enabled in the type filter
@@ -672,10 +681,16 @@
     // Only use vehicles from the chosen nation and selected types
     const nationVehicles = filteredVehicles.filter(v => v.nation === nation && selectedTypes.includes(v.type));
 
-    const brs = [...new Set(nationVehicles
-      .filter(v => v.br >= minBR && v.br <= maxBR)
+    // Get available BRs for ground vehicles (tanks, coastal, bluewater) - limited to 12.0
+    const groundTypes = ['Tank', 'Coastal Fleet', 'Bluewater Fleet'];
+    const groundVehicles = nationVehicles.filter(v => groundTypes.includes(v.type));
+    const groundBRs = [...new Set(groundVehicles
+      .filter(v => v.br >= minBR && v.br <= groundMaxBR)
       .map(v => v.br)
     )];
+
+    // Use ground BRs as the primary BR selection since lineups should be ground-focused
+    const brs = groundBRs;
 
     if (brs.length === 0) {
       nameEl.innerHTML = `<span style="color: #ff6b6b;">No vehicles available for ${nation.toUpperCase()} in this BR range.</span>`;
@@ -685,11 +700,34 @@
 
     const chosenBR = brs[Math.floor(Math.random() * brs.length)];
 
-    // Pool vehicles within BR range and selected types
-    const pool = nationVehicles.filter(v =>
+    // Create separate pools for different vehicle types with appropriate BR limits
+    // For ground vehicles, only include tanks (no ships)
+    const groundPool = nationVehicles.filter(v =>
+      v.type === "Tank" &&
       v.br >= chosenBR - 0.3 &&
       v.br <= chosenBR + 0.3
     );
+    
+    const airPool = nationVehicles.filter(v =>
+      (v.type === 'Plane' || v.type === 'Helicopter') &&
+      v.br >= chosenBR - 0.3 &&
+      v.br <= Math.min(chosenBR + 0.3, airMaxBR)
+    );
+    
+    // Combine pools for caching
+    const pool = [...groundPool, ...airPool];
+
+    // Cache the vehicle pool for this nation/BR combination
+    const cacheKey = `${nation}_${chosenBR}_${allowPlanes}_${allowHelis}_${allowPremium}_${allowEvent}`;
+    cachedNationPool[cacheKey] = {
+      pool: pool,
+      nation: nation,
+      chosenBR: chosenBR,
+      allowPlanes: allowPlanes,
+      allowHelis: allowHelis,
+      allowPremium: allowPremium,
+      allowEvent: allowEvent
+    };
 
     if (pool.length === 0) {
       nameEl.innerHTML = '<span style="color: #ff6b6b;">No vehicles found for that selection.</span>';
@@ -699,41 +737,68 @@
 
     let lineup = [];
 
-    // Always have tanks as primary
-    const tanks = pool.filter(v => v.type === "Tank");
-    let tankCount = Math.min(size, tanks.length);
-    let usedTankIdx = new Set();
-    while (lineup.length < tankCount) {
-      let idx = Math.floor(Math.random() * tanks.length);
-      if (!usedTankIdx.has(idx)) {
-        lineup.push(tanks[idx]);
-        usedTankIdx.add(idx);
+    // Use only tanks as the primary lineup components (no ships)
+    const tanks = groundPool.filter(v => v.type === "Tank");
+    
+    // If the chosen BR is above 12.0, restrict tanks to 12.0 or 11.7
+    let tanksToUse = tanks;
+    if (chosenBR > 12.0) {
+      tanksToUse = tanks.filter(v => v.br <= 12.0 && v.br >= 11.7);
+      if (tanksToUse.length === 0) {
+        // If no 11.7-12.0 tanks available, use any tanks
+        tanksToUse = tanks;
       }
-      if (usedTankIdx.size >= tanks.length) break;
+    }
+    
+    // Fill most of the lineup with tanks
+    let groundSlotsNeeded = Math.max(1, size - (allowPlanes ? 1 : 0) - (allowHelis ? 1 : 0));
+    groundSlotsNeeded = Math.min(groundSlotsNeeded, tanksToUse.length);
+    
+    let usedVehicles = new Set();
+    
+    // Add tanks first
+    while (lineup.length < groundSlotsNeeded && tanksToUse.length > 0) {
+      let idx = Math.floor(Math.random() * tanksToUse.length);
+      let vehicle = tanksToUse[idx];
+      if (!usedVehicles.has(vehicle.name)) {
+        lineup.push(vehicle);
+        usedVehicles.add(vehicle.name);
+      }
+      tanksToUse.splice(idx, 1);
     }
 
     // Add one plane if allowed and available
-    if (allowPlanes && pool.some(v => v.type === "Plane")) {
-      const planes = pool.filter(v => v.type === "Plane");
-      if (planes.length > 0) lineup.push(planes[Math.floor(Math.random() * planes.length)]);
+    if (allowPlanes && lineup.length < size) {
+      const planes = airPool.filter(v => v.type === "Plane" && !usedVehicles.has(v.name));
+      if (planes.length > 0) {
+        const plane = planes[Math.floor(Math.random() * planes.length)];
+        lineup.push(plane);
+        usedVehicles.add(plane.name);
+      }
     }
 
     // Add one heli if allowed and available
-    if (allowHelis && pool.some(v => v.type === "Helicopter")) {
-      const helis = pool.filter(v => v.type === "Helicopter");
-      if (helis.length > 0) lineup.push(helis[Math.floor(Math.random() * helis.length)]);
+    if (allowHelis && lineup.length < size) {
+      const helis = airPool.filter(v => v.type === "Helicopter" && !usedVehicles.has(v.name));
+      if (helis.length > 0) {
+        const heli = helis[Math.floor(Math.random() * helis.length)];
+        lineup.push(heli);
+        usedVehicles.add(heli.name);
+      }
     }
 
-    // Fill with other types if needed
+    // Fill remaining slots with only tanks (no ships)
     if (lineup.length < size) {
-      const others = pool.filter(v => !lineup.includes(v));
-      for (let v of others) {
-        if (lineup.length < size) lineup.push(v);
-        else break;
+      const remainingTanks = pool.filter(v => v.type === "Tank" && !usedVehicles.has(v.name));
+      while (lineup.length < size && remainingTanks.length > 0) {
+        let idx = Math.floor(Math.random() * remainingTanks.length);
+        lineup.push(remainingTanks[idx]);
+        remainingTanks.splice(idx, 1);
       }
     }
 
     lineup = lineup.slice(0, size);
+    currentLineup = [...lineup]; // Store current lineup for switching
 
     nameEl.innerHTML = `Lineup for <strong style="color: #4fc3f7;">${nation.toUpperCase()}</strong> at BR <strong style="color: #4fc3f7;">${formatBR(chosenBR)}</strong>`;
     lineupBox.innerHTML = "";
@@ -741,6 +806,9 @@
       const div = document.createElement('div');
       div.className = 'lineup-item';
       div.style.animationDelay = `${index * 100}ms`;
+      div.style.cursor = 'pointer';
+      div.title = 'Click to switch vehicle';
+      div.onclick = () => switchVehicle(index, cacheKey);
       div.innerHTML = `
         <img src="${v.icon}" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\\'http://www.w3.org/2000/svg\\' width=\\'48\\' height=\\'48\\' viewBox=\\'0 0 48 48\\'%3E%3Crect width=\\'48\\' height=\\'48\\' fill=\\'%23444\\'/%3E%3Ctext x=\\'24\\' y=\\'28\\' text-anchor=\\'middle\\' fill=\\'white\\' font-size=\\'10\\'%3E${v.type}%3C/text%3E%3C/svg%3E'">
         <div>
@@ -750,6 +818,67 @@
       `;
       lineupBox.appendChild(div);
     });
+  }
+
+  function switchVehicle(vehicleIndex, cacheKey) {
+    if (!cachedNationPool[cacheKey] || !currentLineup[vehicleIndex]) {
+      console.log('No cached pool or vehicle found');
+      return;
+    }
+
+    const cache = cachedNationPool[cacheKey];
+    const currentVehicle = currentLineup[vehicleIndex];
+    const targetBR = currentVehicle.br;
+    const targetNation = currentVehicle.nation;
+    const allowPlanes = cache.allowPlanes;
+    const allowHelis = cache.allowHelis;
+
+    // Determine what types of vehicles can be used for switching
+    // Only allow tanks for ground vehicles (no ships)
+    let allowedTypes = ['Tank']; 
+    if (allowPlanes && currentVehicle.type === 'Plane') allowedTypes = ['Plane'];
+    if (allowHelis && currentVehicle.type === 'Helicopter') allowedTypes = ['Helicopter'];
+
+    // Find available vehicles with similar criteria (BR within ±0.3-0.4, same nation, allowed types, not already in lineup)
+    const availableVehicles = cache.pool.filter(v => 
+      allowedTypes.includes(v.type) &&
+      v.nation === targetNation &&
+      Math.abs(v.br - targetBR) <= 0.4 &&
+      // If BR is above 12.0 and type is Tank, only use tanks with BR 11.7 or 12.0
+      (v.type !== 'Tank' || cache.chosenBR <= 12.0 || (v.br >= 11.7 && v.br <= 12.0)) &&
+      !currentLineup.some(lineupVehicle => lineupVehicle.name === v.name) // Not already in lineup
+    );
+
+    if (availableVehicles.length === 0) {
+      console.log('No alternative vehicles found');
+      return;
+    }
+
+    // Pick a random vehicle from available ones
+    const newVehicle = availableVehicles[Math.floor(Math.random() * availableVehicles.length)];
+    
+    // Update the lineup
+    currentLineup[vehicleIndex] = newVehicle;
+    
+    // Update the display
+    const lineupBox = document.getElementById('lineupContainer');
+    const vehicleDiv = lineupBox.children[vehicleIndex];
+    
+    if (vehicleDiv) {
+      vehicleDiv.innerHTML = `
+        <img src="${newVehicle.icon}" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\\'http://www.w3.org/2000/svg\\' width=\\'48\\' height=\\'48\\' viewBox=\\'0 0 48 48\\'%3E%3Crect width=\\'48\\' height=\\'48\\' fill=\\'%23444\\'/%3E%3Ctext x=\\'24\\' y=\\'28\\' text-anchor=\\'middle\\' fill=\\'white\\' font-size=\\'10\\'%3E${newVehicle.type}%3C/text%3E%3C/svg%3E'">
+        <div>
+          <div class="title">${newVehicle.name}</div>
+          <div class="muted">${newVehicle.type} • BR ${formatBR(newVehicle.br)}</div>
+        </div>
+      `;
+      
+      // Add a brief highlight effect
+      vehicleDiv.style.background = 'linear-gradient(135deg, rgba(79, 195, 247, 0.3) 0%, rgba(79, 195, 247, 0.1) 100%)';
+      setTimeout(() => {
+        vehicleDiv.style.background = 'linear-gradient(135deg, rgba(23, 23, 23, 0.9) 0%, rgba(45, 45, 45, 0.9) 100%)';
+      }, 500);
+    }
   }
 
   document.getElementById('pickBtn').onclick=pickVehicle;
